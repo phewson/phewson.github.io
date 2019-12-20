@@ -15,3 +15,5 @@ Uno de mis pasatiempos favoritos es el kayak.   He intentado kayak en aguas brav
 
 
 Pero amo el mar y amo remar en los estuarios. El mar siempre es diferente, cada vez que vas al mismo lugar.
+
+![image]({{ page.img | relative_url }})

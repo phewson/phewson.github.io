@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Glasgow
+feature-img: "assets/img/pexels/2-person-on-boat-sailing-in-clear-water-during-sunset-158045.jpg"
 img: "assets/img/portfolio/secc-961001_1920.jpg"
 date: December 2019
 tags: [Escocia]
