@@ -1,9 +1,9 @@
 --- 
 layout: page
-title : Portfolio 
+title : Portafolio 
 permalink: /portfolio/
-subtitle: "Projects I am working on" 
-feature-img: "assets/img/pexels/computer.jpeg"
+subtitle: "Cosas importantes" 
+feature-img: "assets/img/portfolio/panorama-2391345_1920.jpg"
 tags: [Archive]
 ---
 
