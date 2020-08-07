@@ -1,0 +1,122 @@
+baseurl = "/"
+title = "Actionable Insights"
+author = "Dr Paul Hewson"
+googleAnalytics = ""
+defaultContentLanguage = "en"
+paginate = 5
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+theme = "hugo-terrassa-theme"
+
+[params]
+    description = "Wibble wobble"
+    favicon = "wfavicon.ico"
+    logo = ""
+
+[params.hero]
+    textColor = "" # Empty for default color
+
+[params.cta] # Call To Action
+    show = true
+    cta = "Contact"
+    link = "contact" # Relative URL
+
+[params.separator] # Separators between sections on the home page
+    show = false
+
+[params.fa] # Font Awesome options
+    version = "5.7.2"
+    integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+
+[params.form] # Contact form
+    netlify = true
+    action = "https://formspree.io/texhewson@gmail.com"
+    method = "POST"
+    inputNameName = "name"
+    inputNameLabel = "Name"
+    inputNamePlaceholder = "Your name"
+    inputEmailName = "email"
+    inputEmailLabel = "Email"
+    inputEmailPlaceholder = "Your email"
+    inputMsgName = "message"
+    inputMsgLabel = "Write something"
+    inputMsgLength = 750
+    inputSubmitValue = "Send"
+
+[params.posts]
+    showAuthor = true
+    showDate = true
+    showTags = true
+    dateFormat = "Monday,2 Jan, 2006"
+
+[params.contact] # Contact info
+    email = "texhewson@gmail.com"
+    phone = ""
+    skype = "pjhewson"
+    address = "Exeter, UK"
+
+[params.social]
+    twitter = "https://twitter.com/texhewson"
+    facebook = ""
+    github = "https://github.com/phewson"
+    gitlab = ""
+    codepen = ""
+    instagram = ""
+    pinterest = ""
+    youtube = ""
+    linkedin = "https://www.linkedin.com/in/pahewson/"
+    weibo = ""
+    mastodon = ""
+    tumblr = ""
+    flickr = ""
+    "500px" = ""
+
+
+[params.copy] # Copyright
+    copy = "" # Empty for default content
+
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = false
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = false
+        simple = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = true
+        simple = false
+    [privacy.vimeo]
+        disable = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
+
+[params.languageSwitcher]
+    show = true
+
+[languages]
+    [languages.en]
+        languageName = "en"
+        weight = 1
+        contentDir = "content/en"
+      [languages.es]
+        languageName = "es"
+        weight = 2
+        contentDir = "content/es"
+        title = "Procesable conocimientos"
+        description = "Ciencia de datos moderna"
+        [languages.es.params]
+          [languages.es.params.form] # Translate contact form fields
+            inputNameLabel = "Name"
+            inputNamePlaceholder = "Nombre"
+            inputEmailLabel = "E-mail"
+            inputEmailPlaceholder = "Dirección de correo electrónico"
+            inputMsgLabel = "Escribe tu mensaje"
+            inputSubmitValue = "Enviar"
+            [languages.es.params.cta] # Translate Call To Action
+                show = true
+                cta = "Contacto"
+                link = "es/contacto/" # Relative URL

@@ -1,5 +1,9 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*

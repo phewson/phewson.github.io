@@ -1,0 +1,13 @@
+base
+DBI
+RPostgreSQL
+rpostgis
+ggplot2
+dplyr
+lubridate
+zoo
+xts
+PerformanceAnalytics
+TTR
+quantmod
+tidyquant

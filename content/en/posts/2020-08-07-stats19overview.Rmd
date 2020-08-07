@@ -1,0 +1,121 @@
+---
+title: Reported Road Injuries in GB
+author: Paul Hewson
+date: "2020-08-07T20:34:51"
+description: "Overview of blog"
+draft: false
+images: []
+publishDate: "2020-08-07T20:20:20"
+tags:
+- insights
+- road collisions
+- official statistics
+- stats19 data
+
+---
+
+```{r, echo=FALSE}
+stats_ramp <- c("red", "orange", "lightblue")
+```
+
+In the event of a road collision involving at least one vehicle and one injury, there is a requirement in the UK to report to the police within 30 days. The data are called "STATs19" after the form on which the data are collected, and are [made available](https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data) as "Open Data" for anyone to analyse.
+
+This immediately raises a number of points:
+
+1. What is a "road" collision (do car parks, driveways, private roads count)?
+2. What is an "injury"? More specifically, injury severity is coded by the police, with no medical input, as Fatal, Serious or Slight.   What is the difference between "Serious" and "Slight" and how robust is this coding system. Fatal means anyone who dies within 30 days from their injuries.
+3. What is a vehicle (bicycles are included, but what about scooters - powered and un-powered)?  More importantly, how well is this understood by those with a duty to report (the public) and those with a duty to record (the police)
+4. What is the police role when an injury collision is reported? Are they looking to see whether any offences have been committed or are they carrying out an in-depth investigation as to what factors may have lead to the collision? There are more detailed investigations for fatal and potentially fatal collisions, but the findings from these (e.g., coroners information on blood alcohol) are not necessarily passed on to the STATs19 data.
+
+In other words, when we analyse these STATs19 data we are not analysing road collisions. We are analysing an administrative process; police records of collisions which were reported to them. There is a huge gulf between the real world and these records. This does not imply malfeance; it is an inevitable result of any attempt to quantify the real world.
+
+
+```{r, label="since79", echo=FALSE, results="hide", warning=FALSE, error=FALSE, cache=TRUE}
+library(rpostgis)
+library(ggplot2)
+library(dplyr)
+library(tidyquant)
+conn <- dbConnect(
+    drv = "PostgreSQL", host = "192.168.1.78", dbname = "official",
+    user = "vagrant", port = 15432, password="vagrant")
+    
+    
+queryText = "with barry as (
+    select obs_date::date as yw, sex_of_casualty as sex, 
+           age_band_of_casualty as age,            
+           casualty_severity as severity, casualty_class as class 
+      from dft.stats19_casualties c 
+ left join dft.stats19_accidents a 
+        on c.accident_index = a.accident_index) 
+        select count(*), yw, sex, age, severity, class 
+          from barry 
+      group by yw, sex, age, severity, class 
+      order by 2, 3, 4;"
+
+res <- dbSendQuery(conn, queryText)
+summary_stats <- dbFetch(res)
+dbClearResult(res)
+
+
+# summary_stats$yw <- strptime(paste(summary_stats$yw, "1", sep="-"), "%Y-%U-%w")
+
+summary_stats$severity <- factor(summary_stats$severity)
+sev_only <- na.omit(summary_stats) %>%
+  group_by(yw, severity) %>%
+  summarise(total=sum(count))
+  
+sev_only$yw <- as.Date(sev_only$yw, "%Y-%m-%d")  
+  ggplot(sev_only, aes(y=total, x=yw, group=severity)) +
+  geom_line(aes(color=severity), show.legend = FALSE) + 
+  # geom_point() +
+  scale_x_date(date_labels = "%m-%Y") +
+  facet_wrap(~ severity, scale="free_y", dir="v") +
+  theme_linedraw() +
+  labs(title = "Reported road casualties",
+       subtitle = "(Source: STATS19)",
+       caption = "Road casualties reported to the police in the GB",
+       tag = "Figure 1",
+       x = "Date",
+       y = "Count") +
+    scale_colour_manual(values = stats_ramp) + 
+    scale_y_continuous(labels = scales::comma)
+```
+
+A few things are clear from Figure 1. 
+
+1. There has been a general decline in the number of casualties over the four decades (with one exception, we will zoom on Serious collisions in Figure 2).
+2. There is day by day variation in the number of casualties (agains, when we zoom in on Figure 2 it becomes very clear that there are annual seasonal trends that seem fairly regular).
+3. But interestingly, when we zoom in on serious casualties, we can see that the underlying trend seems to change in 2013; there seems to have been an increase in reported serious casualties overall since 2013.
+
+
+```{r, label="zoom", echo=FALSE, results="hide", warning=FALSE, error=FALSE, cache=TRUE}
+sev_only %>%
+    filter(severity == "Serious") %>%
+  ggplot(aes(y=total, x=yw, group=severity)) +
+  geom_line(aes(color=severity), show.legend = FALSE) + 
+  # geom_point() +
+  scale_x_date(date_labels = "%m-%Y") +
+  facet_wrap(~ severity, scale="free_y", dir="v") +
+  theme_linedraw() +
+  labs(title = "Reported road casualties",
+       subtitle = "(Source: STATS19)",
+       caption = "Road casualties reported to the police in the GB",
+       tag = "Figure 2",
+       x = "Date",
+       y = "Count") +
+    scale_colour_manual(values = stats_ramp[2]) + 
+    scale_y_continuous(labels = scales::comma) + 
+    coord_x_date(xlim = c("2009-01-01", "2018-12-31"), ylim=c(0, 150))
+```
+
+So, an obvious question is what is happening and why.   A decrease in casualties sounds like a good thing; however if this is happening because less people are walking and cycling this is not a good thing - the health disbenefits from an inactive lifestyle might be more important than the lifes saved through injury reduction.  It does however seem likely that road design standards have gradually improved since 1979 and certainly car safety has improved - from compulsory seat belt wearing through to air bags and safer cars.  All of which sounds entirely reasonable, but begs the question: why has the number of seriously injured casualties been increasing since 2013. And there are many possible explanations:
+
+1. Due to increased automobile safety, less people are being killed in car crashes being seriously injured instead
+2. There was a decision made in 2013 to increase the quality processes around reporting injury severity, consequently many injuries that were previously reported as slight are now coded as serious
+3. As a result of austerity many more people are lift sharing (instead of taking a bus or train) and the number of casualties per collision has increased in cars.
+4. More people are reporting injury collisions
+5. There has been an increase in the number of people seriously injured as there has been an increase in the number of "vulnerable" road users (pedestrians and cyclists)
+6. With an aging population, we have people in cars who are more likely to incur a serious injury than a younger person who would only incur a slight injury
+7. Other: I am sure there are many other possibilities that could be considered.
+
+And there we are. The data can't tell us anything actionable. There is no clear insight we can develop from these data, as presented here.  We could rule some suggestions in or out with closer examination of the data. But some suggestions seem very difficult to explore. In part, this is always a problem with observational data, especially when those data are a byproduct of an administrative system.  But the aim of this blog is to revise and explore these questions.
