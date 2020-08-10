@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-08-07T20:34:51+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-08-07T20:34:51+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/chalar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/nosotros/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>/sections/insight/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/sections/insight/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sections/insight/"
+                />
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/contacto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>/sections/modern/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/sections/modern/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sections/modern/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/insights/</loc>
+    <lastmod>2020-08-07T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/official-statistics/</loc>
+    <lastmod>2020-08-07T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020-08-07-stats19overview/</loc>
+    <lastmod>2020-08-07T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/road-collisions/</loc>
+    <lastmod>2020-08-07T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/stats19-data/</loc>
+    <lastmod>2020-08-07T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-08-07T20:34:51+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/aims/</loc>
+    <lastmod>2020-08-06T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data/</loc>
+    <lastmod>2020-08-06T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020-08-06-data_insights/</loc>
+    <lastmod>2020-08-06T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/statistics/</loc>
+    <lastmod>2020-08-06T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/sections/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/sections/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sections/"
+                />
+  </url>
+  
+</urlset>

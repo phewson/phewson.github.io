@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Actionable Insights</title>
+    <link>/posts/</link>
+    <description>Recent content in Blog on Actionable Insights</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 07 Aug 2020 20:34:51 +0000</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reported Road Injuries in GB</title>
+      <link>/posts/2020-08-07-stats19overview/</link>
+      <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
+      
+      <guid>/posts/2020-08-07-stats19overview/</guid>
+      <description>In the event of a road collision involving at least one vehicle and one injury, there is a requirement in the UK to report to the police within 30 days. The data are called “STATs19” after the form on which the data are collected, and are made available as “Open Data” for anyone to analyse.
+This immediately raises a number of points:
+What is a “road” collision (do car parks, driveways, private roads count)?</description>
+    </item>
+    
+    <item>
+      <title>Insights from Data</title>
+      <link>/posts/2020-08-06-data_insights/</link>
+      <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
+      
+      <guid>/posts/2020-08-06-data_insights/</guid>
+      <description>Having worked as an academic, as a Data Scientist, as a Business Intelligence Specialist as well as doing a lot of consulting I have learnt a lot about the way we use data, and the way people perceive &amp;ldquo;statistics&amp;rdquo; (whatever that word really means).
+Sometimes, a problem is so straightforward it only requires technical input (data processing) and it&amp;rsquo;s solved. More often though, a lot more interpretation is needed. Often, the problem is not so much about the &amp;ldquo;statistics&amp;rdquo; but about the study design.</description>
+    </item>
+    
+  </channel>
+</rss>
