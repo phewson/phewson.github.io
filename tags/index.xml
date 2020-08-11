@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Actionable Insights</title>
-    <link>/tags/</link>
+    <link>/phewson.github.io/tags/</link>
     <description>Recent content in Tags on Actionable Insights</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 07 Aug 2020 20:34:51 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/phewson.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>insights</title>
-      <link>/tags/insights/</link>
+      <link>/phewson.github.io/tags/insights/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/insights/</guid>
+      <guid>/phewson.github.io/tags/insights/</guid>
       <description></description>
     </item>
     
     <item>
       <title>official statistics</title>
-      <link>/tags/official-statistics/</link>
+      <link>/phewson.github.io/tags/official-statistics/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/official-statistics/</guid>
+      <guid>/phewson.github.io/tags/official-statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>road collisions</title>
-      <link>/tags/road-collisions/</link>
+      <link>/phewson.github.io/tags/road-collisions/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/road-collisions/</guid>
+      <guid>/phewson.github.io/tags/road-collisions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stats19 data</title>
-      <link>/tags/stats19-data/</link>
+      <link>/phewson.github.io/tags/stats19-data/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/stats19-data/</guid>
+      <guid>/phewson.github.io/tags/stats19-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aims</title>
-      <link>/tags/aims/</link>
+      <link>/phewson.github.io/tags/aims/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/aims/</guid>
+      <guid>/phewson.github.io/tags/aims/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data</title>
-      <link>/tags/data/</link>
+      <link>/phewson.github.io/tags/data/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/data/</guid>
+      <guid>/phewson.github.io/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>statistics</title>
-      <link>/tags/statistics/</link>
+      <link>/phewson.github.io/tags/statistics/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/statistics/</guid>
+      <guid>/phewson.github.io/tags/statistics/</guid>
       <description></description>
     </item>
     
