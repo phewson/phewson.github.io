@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Actionable Insights</title>
-    <link>/insightsforaction.uk/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Actionable Insights</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 07 Aug 2020 20:34:51 +0000</lastBuildDate>
     
-	<atom:link href="/insightsforaction.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>insights</title>
-      <link>/insightsforaction.uk/tags/insights/</link>
+      <link>/tags/insights/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/insightsforaction.uk/tags/insights/</guid>
+      <guid>/tags/insights/</guid>
       <description></description>
     </item>
     
     <item>
       <title>official statistics</title>
-      <link>/insightsforaction.uk/tags/official-statistics/</link>
+      <link>/tags/official-statistics/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/insightsforaction.uk/tags/official-statistics/</guid>
+      <guid>/tags/official-statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>road collisions</title>
-      <link>/insightsforaction.uk/tags/road-collisions/</link>
+      <link>/tags/road-collisions/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/insightsforaction.uk/tags/road-collisions/</guid>
+      <guid>/tags/road-collisions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stats19 data</title>
-      <link>/insightsforaction.uk/tags/stats19-data/</link>
+      <link>/tags/stats19-data/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/insightsforaction.uk/tags/stats19-data/</guid>
+      <guid>/tags/stats19-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aims</title>
-      <link>/insightsforaction.uk/tags/aims/</link>
+      <link>/tags/aims/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/insightsforaction.uk/tags/aims/</guid>
+      <guid>/tags/aims/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data</title>
-      <link>/insightsforaction.uk/tags/data/</link>
+      <link>/tags/data/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/insightsforaction.uk/tags/data/</guid>
+      <guid>/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>statistics</title>
-      <link>/insightsforaction.uk/tags/statistics/</link>
+      <link>/tags/statistics/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/insightsforaction.uk/tags/statistics/</guid>
+      <guid>/tags/statistics/</guid>
       <description></description>
     </item>
     
