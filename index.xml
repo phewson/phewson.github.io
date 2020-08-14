@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Actionable Insights</title>
-    <link>/phewson.github.io/</link>
+    <link>/insightsforaction.uk/</link>
     <description>Recent content in Home on Actionable Insights</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 07 Aug 2020 20:34:51 +0000</lastBuildDate>
     
-	<atom:link href="/phewson.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/insightsforaction.uk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>/phewson.github.io/about/</link>
+      <link>/insightsforaction.uk/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/phewson.github.io/about/</guid>
+      <guid>/insightsforaction.uk/about/</guid>
       <description>Dr Paul Hewson PhD CStat CSci Paul has had a wide range of roles across private and public sector. As an academic, he was awarded a highly prestigious National Teaching Fellowship as a result of his commitment to communicating statistical thinking. He has done a wide variety of consulting work and most recently has worked as a Senior Data Scientist in a start-up and now works as a Business Intelligence Specialist.</description>
     </item>
     
     <item>
       <title>Actionable Insight</title>
-      <link>/phewson.github.io/sections/insight/</link>
+      <link>/insightsforaction.uk/sections/insight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/phewson.github.io/sections/insight/</guid>
+      <guid>/insightsforaction.uk/sections/insight/</guid>
       <description>Nowadays, we rarely ask the question &amp;ldquo;do we have data&amp;rdquo;. Often we have lots of data and the first barrier we hit may force us to instead ask &amp;ldquo;do we have the right data?&amp;rdquo; Even when the answer to this question is NO, we often need to be able to do the best we can with the available data. It has become so easy to collect vast quantities of electronic data as a byproduct of other processes that we expect data to be on tap and free.</description>
     </item>
     
     <item>
       <title>Modern Data Science</title>
-      <link>/phewson.github.io/sections/modern/</link>
+      <link>/insightsforaction.uk/sections/modern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/phewson.github.io/sections/modern/</guid>
+      <guid>/insightsforaction.uk/sections/modern/</guid>
       <description>There are two key things to say about modern Data Science.
 Continuous Improvement / Continuous Delivery The first concerns &amp;ldquo;Continous Integration/Continuous Delivery&amp;rdquo; (CI/CD); a modern software development practice. The advantages of scripted analyses (reproducibility, testing, auditability) are well established; it&amp;rsquo;s a small leap to seeing these scripts as simple pieces of software and realising they need their entire architecture specified and tested continuously. Indeed I have published in Annals of Operations Research on the pitfalls of spreadsheets for data analysis.</description>
     </item>
     
     <item>
       <title>Reported Road Injuries in GB</title>
-      <link>/phewson.github.io/posts/2020-08-07-stats19overview/</link>
+      <link>/insightsforaction.uk/posts/2020-08-07-stats19overview/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/phewson.github.io/posts/2020-08-07-stats19overview/</guid>
+      <guid>/insightsforaction.uk/posts/2020-08-07-stats19overview/</guid>
       <description>In the event of a road collision involving at least one vehicle and one injury, there is a requirement in the UK to report to the police within 30 days. The data are called “STATs19” after the form on which the data are collected, and are made available as “Open Data” for anyone to analyse.
 This immediately raises a number of points:
 What is a “road” collision (do car parks, driveways, private roads count)?</description>
@@ -51,10 +51,10 @@ What is a “road” collision (do car parks, driveways, private roads count)?</
     
     <item>
       <title>Insights from Data</title>
-      <link>/phewson.github.io/posts/2020-08-06-data_insights/</link>
+      <link>/insightsforaction.uk/posts/2020-08-06-data_insights/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/phewson.github.io/posts/2020-08-06-data_insights/</guid>
+      <guid>/insightsforaction.uk/posts/2020-08-06-data_insights/</guid>
       <description>Having worked as an academic, as a Data Scientist, as a Business Intelligence Specialist as well as doing a lot of consulting I have learnt a lot about the way we use data, and the way people perceive &amp;ldquo;statistics&amp;rdquo; (whatever that word really means).
 Sometimes, a problem is so straightforward it only requires technical input (data processing) and it&amp;rsquo;s solved. More often though, a lot more interpretation is needed. Often, the problem is not so much about the &amp;ldquo;statistics&amp;rdquo; but about the study design.</description>
     </item>
