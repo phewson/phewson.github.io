@@ -4,7 +4,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-08-07T20:34:51+00:00</lastmod>
+    <lastmod>2020-08-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -29,6 +29,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tech/</loc>
+    <lastmod>2020-08-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tech/"
                 />
   </url>
   
@@ -89,6 +104,96 @@
   </url>
   
   <url>
+    <loc>/tags/blogdown/</loc>
+    <lastmod>2020-08-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tags/blogdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/blogdown/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2020-08-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/hugo/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2020-08-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tags/r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/r/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/static-website/</loc>
+    <lastmod>2020-08-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tags/static-website/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/static-website/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tech/2020-08-18-hugo_blogdown/</loc>
+    <lastmod>2020-08-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tech/2020-08-18-hugo_blogdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tech/2020-08-18-hugo_blogdown/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-08-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>/tags/insights/</loc>
     <lastmod>2020-08-07T20:34:51+00:00</lastmod>
   </url>
@@ -111,21 +216,6 @@
   <url>
     <loc>/tags/stats19-data/</loc>
     <lastmod>2020-08-07T20:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-08-07T20:34:51+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
-                />
   </url>
   
   <url>
