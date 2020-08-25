@@ -5,10 +5,46 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cycling</title>
+      <link>/tags/cycling/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cycling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Government Surveys</title>
+      <link>/tags/government-surveys/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/government-surveys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Data</title>
+      <link>/tags/public-data/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/public-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secondary Analysis</title>
+      <link>/tags/secondary-analysis/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/secondary-analysis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Blogdown</title>
@@ -106,6 +142,60 @@
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
       <guid>/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematical models</title>
+      <link>/tags/mathematical-models/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mathematical-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model criticism</title>
+      <link>/tags/model-criticism/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/model-criticism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model validation</title>
+      <link>/tags/model-validation/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/model-validation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical models</title>
+      <link>/tags/statistical-models/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/statistical-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics learning</title>
+      <link>/tags/statistics-learning/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/statistics-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trebuchets</title>
+      <link>/tags/trebuchets/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/trebuchets/</guid>
       <description></description>
     </item>
     

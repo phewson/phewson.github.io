@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, noarchive" />
+	<title>Insights for Action - Mathematical models and statistical models</title>
+	<link rel="icon" href="//branding/favicon.ico" />
+	<meta name="description" content="" />
+
+	
+
+	<meta name="generator" content="Hugo 0.72.0" />
+
+	
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mathematical models and statistical models"/>
+<meta name="twitter:description" content="Mathematical models and statistical models"/>
+
+	<meta property="og:title" content="Mathematical models and statistical models" />
+<meta property="og:description" content="Mathematical models and statistical models" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2018-08-28_math_or_stat/" />
+<meta property="article:published_time" content="2020-08-01T12:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-06T00:00:00+00:00" />
+
+
+	<meta property="og:locale" content="en" />
+	
+
+	
+	
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/bundle.min.css">
+</head>
+<body><header class="header  has-LangNav">
+    <div class="header__title">
+        <a href="/" class="header__title__link" alt="Home">
+            
+            Insights for Action
+            
+        </a>
+    </div>
+
+    <nav class="menu" aria-label="menu">
+    <ul class="menu__items" aria-label="menu">
+        
+        
+        <li class="menu__items__item" aria-label="Home">
+            <a href="/" class="menu__items__item__link "
+                alt="Home" role="menuitem">
+                Home
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="Data stories">
+            <a href="/posts/" class="menu__items__item__link "
+                alt="Data stories" role="menuitem">
+                Data stories
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="Tech Stack">
+            <a href="/tech/" class="menu__items__item__link "
+                alt="Tech Stack" role="menuitem">
+                Tech Stack
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="About">
+            <a href="/about/" class="menu__items__item__link "
+                alt="About" role="menuitem">
+                About
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="Contact">
+            <a href="/contact/" class="menu__items__item__link "
+                alt="Contact" role="menuitem">
+                Contact
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+    <nav class="hamburger-menu" aria-label="mobile-menu">
+    <div class="toggle">
+        <input type="checkbox" class="hamburger__toggle" id="hamburgerToggle" name="hamburger toggle" aria-label="Hamburguer menu">
+        <label class="hamburger__toggle__icon" for="hamburgerToggle">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="hamburger__items" aria-label="mobile-menu">
+            
+            <li class="hamburger__items__item" aria-label="Home">
+                <a href="/" class="hamburger__items__item__link" alt="Home" role="menuitem">
+                    Home
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="Data stories">
+                <a href="/posts/" class="hamburger__items__item__link" alt="Data stories" role="menuitem">
+                    Data stories
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="Tech Stack">
+                <a href="/tech/" class="hamburger__items__item__link" alt="Tech Stack" role="menuitem">
+                    Tech Stack
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="About">
+                <a href="/about/" class="hamburger__items__item__link" alt="About" role="menuitem">
+                    About
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="Contact">
+                <a href="/contact/" class="hamburger__items__item__link" alt="Contact" role="menuitem">
+                    Contact
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+    
+    <nav class="LangNav">
+
+
+    
+            
+                <span class="active language">en</span>
+            
+</nav>
+
+    
+</header>
+
+<article class="post">
+    <header class="post__header">
+        <h1 class="post__title">Mathematical models and statistical models</h1>
+        
+        <p class="post__subtitle">Mathematical models and statistical models</p>
+        
+        
+        
+        <p class="post__date date">
+            Thursday, 6 Aug, 2020 By Paul Hewson.
+        </p>
+        
+        
+        <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+    </header>
+
+    
+    <main class="post__body">
+      
+
+
+<p>I suppose I started thinking about this really hard in the early days of the COVID-19 pandemic. I’m not sure it’s something we articulate well; the difference between a mathematical model. A mathematical model is meant to capture the science of a phenomenon in mathematical terms. A statistical model is meant to “fit” data; but doesn’t necessarily explain the science.</p>
+<p><strong>Ordinary Linear Regression (a Taylor approximation)</strong></p>
+<p>The figure below illustrates some fictional bivariate data (blue dots) with a “line of best fit” (red). This is the basic building block of more realistic statistical modelling.</p>
+<p><img src="/en/posts/2018-08-28_math_or_stat_files/figure-html/ols-1.png" width="672" /></p>
+<p><a href="https://www.stats.ox.ac.uk/pub/MASS3/Exegeses.pdf">Bill Venables</a> has pointed out that we can think of a standard linear regression as a Taylor approximation to the science. Assuming <span class="math inline">\(Y\)</span> is a random response variable, <span class="math inline">\(\boldsymbol(x) = (x_1, \ldots x_p )\)</span> is a vector of <span class="math inline">\(p\)</span> potentially explanatory variables and <span class="math inline">\(Z\)</span> is a standard random normal variable. A conventional linear regression model is specified as:</p>
+<p><span class="math display">\[Y \approx \beta_0 + \sum_{i=1}^p \beta_j (x_i - \bar{x}_{i}) + \sigma Z\]</span></p>
+<p>If we write a first order Taylor approximation we get:</p>
+<p><span class="math display">\[Y \approx f(\bar{x}_0,0)+\sum_{i=1}^p(\bar{x}_0,0)(x_i-x_0) +f^{p+1}(\bar{x}_0,0)Z\]</span></p>
+<p>where the terms correspond. Note that we have assumed mean-centering; but in the absence of mean centering the additional terms would be wrapped into the intercept. We could extend this by adding first order interactions and single variable quadratics resulting in a second order Taylor approximation. So really, when we fit a statistical model, we are claiming that in the real world we have some function that relates one set of variables to the other:</p>
+<p><span class="math inline">\(Y = f(x, Z)\)</span></p>
+<p>As we don’t have the functional form of <span class="math inline">\(f(\cdot)\)</span>, we claim we can still learn from a local approximation. Note the big caveat, locally approximate. Conversely, a mathematical model is meant to capture the science.</p>
+<p><strong>Logistic growth model</strong></p>
+<p>One simple example of a mathematical model is the Logistic growth model. In the early stages it models expontial growth, but this slows as the population reaches the carrying capacity of its environment. At least that’s the science claimed by the model. Let <span class="math inline">\(N\)</span> denote the size of a population and <span class="math inline">\(t\)</span> denote time. I want to know how the size of the population changes with time, which we can write as <span class="math inline">\(\frac{dP}{dt}\)</span> (change in population size by change in time). The standard logistic growth model says that this rate of growth is equal to:</p>
+<p><span class="math inline">\(\frac{dP}{dt} = rP\left( 1 - \frac{P}{K} \right)\)</span></p>
+<p>where <span class="math inline">\(r\)</span> is the growth rate and <span class="math inline">\(K\)</span> is the carrying capacity. The idea is that represents some fundamental state of nature. If I have an organism (a mould) and an environment (some left over Pizza) the mould will have an intrinsic rate of growth <span class="math inline">\(r\)</span> in that environment and the Pizza will support a population of size <span class="math inline">\(K\)</span>. If we think a little about that formulae, at the start of our growth phase, <span class="math inline">\(P\)</span> will be small relative to <span class="math inline">\(K\)</span> so <span class="math inline">\(\frac{P}{K}\)</span> will be small (close to zero) and so the term inside the bracket will be close to <span class="math inline">\(1\)</span>. This tells us that the growth, the change in Population by time will be close to <span class="math inline">\(rP\)</span>. As the population gets close to the carrying capacity then <span class="math inline">\(\frac{P}{K}\)</span> will be close to <span class="math inline">\(1\)</span>. So the term inside the brackets will the close to <span class="math inline">\(0\)</span> and the growth rate will be <span class="math inline">\(r \times P \times\)</span> small value, i.e., it will be small. This is meant to describe a fundamental state of nature.</p>
+<p><img src="/en/posts/2018-08-28_math_or_stat_files/figure-html/logistic-1.png" width="672" /></p>
+<p><strong>Assumptions</strong></p>
+<p>So one <strong>massive</strong> and under-rated part of either paradigm of modelling, statistical or mathematical, is that both require us to make a large number of assumptions. If we have structured the math model correctly, it can make statements that are universally correct. If we have structured the statistical model in an acceptable way, we can make statements about relationships between observed variables. Both approaches to modelling have their place. But both models rely on <strong>assumptions</strong>. Neither model is innately <strong>true</strong>. Therefore the assumptions should be challenged and checked rigorously. I think this blog is an attempt to start thinking about assumption checking in models.</p>
+<p><strong>Transport modelling</strong></p>
+<p>So the two examples given above are clearly toy examples. But these issues; the reliance on assumptions apply very much in models that are used in real life. Here is one attempt to explain some of the problems with the mathematical (economic) models used in transport modelling.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/-Q1rTdmGI3k" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+      
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+width: 32px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.gplus:hover > svg {fill: #dd4b39;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.gplus > svg {height: 17px; margin-top: 9px; position: relative; left: 1px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+</style>
+
+<span style="color: silver;">Share on: </span><div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=\/posts\/2018-08-28_math_or_stat\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=\/posts\/2018-08-28_math_or_stat\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=\/posts\/2018-08-28_math_or_stat\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+
+<div class="gplus" title="Share this on Google Plus" onclick="window.open('https://plus.google.com/share?url=\/posts\/2018-08-28_math_or_stat\/');"><svg viewBox="0 0 2304 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1437 913q0 208-87 370.5t-248 254-369 91.5q-149 0-285-58t-234-156-156-234-58-285 58-285 156-234 234-156 285-58q286 0 491 192l-199 191q-117-113-292-113-123 0-227.5 62t-165.5 168.5-61 232.5 61 232.5 165.5 168.5 227.5 62q83 0 152.5-23t114.5-57.5 78.5-78.5 49-83 21.5-74h-416v-252h692q12 63 12 122zm867-122v210h-209v209h-210v-209h-209v-210h209v-209h210v209h209z"/></svg></div>
+<div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=\/posts\/2018-08-28_math_or_stat\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+</div>
+
+    </main>
+    
+
+    
+    <footer class="post__footer">
+        
+<ul class="tags">
+    
+    
+    <li class="tags__tag">
+        <a href="/tags/Hugo/" class="tag__link" alt="Hugo.">
+            #Hugo
+        </a>
+    </li>
+    
+    
+    <li class="tags__tag">
+        <a href="/tags/Static%20Website/" class="tag__link" alt="Static Website.">
+            #Static Website
+        </a>
+    </li>
+    
+    
+    <li class="tags__tag">
+        <a href="/tags/R/" class="tag__link" alt="R.">
+            #R
+        </a>
+    </li>
+    
+    
+    <li class="tags__tag">
+        <a href="/tags/Blogdown/" class="tag__link" alt="Blogdown.">
+            #Blogdown
+        </a>
+    </li>
+    
+</ul>
+
+
+    </footer>
+    
+</article>
+<footer class="footer">
+    
+    
+    
+
+    
+    <div class="footer__social">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://github.com/phewson" class="footer__social__link" alt="github" target="_blank" aria-label="https://github.com/phewson" rel="noopener">
+            <span>
+                <i class="fab fa-github"></i>
+            </span>
+        </a>
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://www.linkedin.com/in/pahewson/" class="footer__social__link" alt="linkedin" target="_blank" aria-label="https://www.linkedin.com/in/pahewson/" rel="noopener">
+            <span>
+                <i class="fab fa-linkedin"></i>
+            </span>
+        </a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/texhewson" class="footer__social__link" alt="twitter" target="_blank" aria-label="https://twitter.com/texhewson" rel="noopener">
+            <span>
+                <i class="fab fa-twitter"></i>
+            </span>
+        </a>
+        
+        
+        
+        
+        
+        
+    </div>
+    
+    
+
+    <address class="footer__contact">
+        
+        <p class="footer__contact__item">
+            <span><i class="far fa-envelope"></i></span>
+            <a href="mailto:texhewson@gmail.com" class="footer__contact__link" alt="Email">
+                texhewson@gmail.com
+            </a>
+        </p>
+        
+
+        
+
+        
+        <p class="footer__contact__item">
+            <span><i class="fab fa-skype"></i></span>
+            <a href="skype:pjhewson" class="footer__contact__link" alt="Skype">
+                pjhewson
+            </a>
+        </p>
+        
+
+        
+        <p class="footer__contact__item">
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            Exeter, UK
+        </p>
+        
+    </address>
+
+    <div class="copy">
+        
+        <p>© 2020 - Insights for Action</p>
+        
+    </div>
+
+    
+
+
+
+
+<script src="/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script
+	defer
+	src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5&#43;&#43;eIfzYmTgBBmXYdhvxPc&#43;XcFEk&#43;zJwDgWbP"
+	crossorigin="anonymous"
+></script>
+
+
+</footer></body>
+
+</html>

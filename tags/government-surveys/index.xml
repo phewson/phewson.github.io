@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Government Surveys on Insights for Action</title>
+    <link>/tags/government-surveys/</link>
+    <description>Recent content in Government Surveys on Insights for Action</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/government-surveys/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Sources and Cycling</title>
+      <link>/posts/2020-09-03_data_sources_on_cyling/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-09-03_data_sources_on_cyling/</guid>
+      <description>One bugbear of mine is that we have a lot of data on cycling, but never use it. In the UK, we have:
+ Travel to work data (Census, 2011). National Travel Survey (Ongoing and updated regularly) Active Lives Survey / Active People Survey (Ongoing and updated regularly) Other official surveys ask for information on cycling (this blog is really a placeholder for me to continue to list these). Local government has a lot of cycle loops in a lot of places, but seemingly there is no standard way to expose these on API to anyone who might be interested.</description>
+    </item>
+    
+  </channel>
+</rss>

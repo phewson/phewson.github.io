@@ -5,7 +5,7 @@
     <link>/</link>
     <description>Recent content in Home on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -39,6 +39,16 @@ Continuous Improvement / Continuous Delivery The first concerns &amp;ldquo;Conti
     </item>
     
     <item>
+      <title>Data Sources and Cycling</title>
+      <link>/posts/2020-09-03_data_sources_on_cyling/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-09-03_data_sources_on_cyling/</guid>
+      <description>One bugbear of mine is that we have a lot of data on cycling, but never use it. In the UK, we have:
+ Travel to work data (Census, 2011). National Travel Survey (Ongoing and updated regularly) Active Lives Survey / Active People Survey (Ongoing and updated regularly) Other official surveys ask for information on cycling (this blog is really a placeholder for me to continue to list these). Local government has a lot of cycle loops in a lot of places, but seemingly there is no standard way to expose these on API to anyone who might be interested.</description>
+    </item>
+    
+    <item>
       <title>Static Websites with Hugo and R-Blogdown</title>
       <link>/tech/2020-08-18-hugo_blogdown/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
@@ -66,6 +76,24 @@ What is a “road” collision (do car parks, driveways, private roads count)?</
       <guid>/posts/2020-08-06-data_insights/</guid>
       <description>Having worked as an academic, as a Data Scientist, as a Business Intelligence Specialist as well as doing a lot of consulting I have learnt a lot about the way we use data, and the way people perceive &amp;ldquo;statistics&amp;rdquo; (whatever that word really means).
 Sometimes, a problem is so straightforward it only requires technical input (data processing) and it&amp;rsquo;s solved. More often though, a lot more interpretation is needed. Often, the problem is not so much about the &amp;ldquo;statistics&amp;rdquo; but about the study design.</description>
+    </item>
+    
+    <item>
+      <title>Mathematical models and statistical models</title>
+      <link>/posts/2020-08-12_math_or_stat/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-08-12_math_or_stat/</guid>
+      <description>I suppose I started thinking about this really hard in the early days of the COVID-19 pandemic. I’m not sure it’s something we articulate well; the difference between a mathematical model. A mathematical model is meant to capture the science of a phenomenon in mathematical terms. A statistical model is meant to “fit” data and account for the uncertainty; but doesn’t necessarily explain the science. And there are certainly plenty of examples where you’re fitting a statistical model to estimate the parameters of a mathematical model.</description>
+    </item>
+    
+    <item>
+      <title>The right tech for the job</title>
+      <link>/tech/2020-07-05_the_right_tech/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tech/2020-07-05_the_right_tech/</guid>
+      <description>This is old work now, but I learnt a lot getting involved in it. We seem to have designed a school curriculum with the sole intended outcome of putting students off statistics for life. I assume that wasn&amp;rsquo;t done on purpose, but that is the effect. There seems to be a particular emphasis on teaching things that are easily assessed (can you do this calculation) and no real exploration of meaning.</description>
     </item>
     
   </channel>

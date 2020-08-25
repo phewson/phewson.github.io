@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trebuchets on Insights for Action</title>
+    <link>/tags/trebuchets/</link>
+    <description>Recent content in Trebuchets on Insights for Action</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/trebuchets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The right tech for the job</title>
+      <link>/tech/2020-07-05_the_right_tech/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tech/2020-07-05_the_right_tech/</guid>
+      <description>This is old work now, but I learnt a lot getting involved in it. We seem to have designed a school curriculum with the sole intended outcome of putting students off statistics for life. I assume that wasn&amp;rsquo;t done on purpose, but that is the effect. There seems to be a particular emphasis on teaching things that are easily assessed (can you do this calculation) and no real exploration of meaning.</description>
+    </item>
+    
+  </channel>
+</rss>
