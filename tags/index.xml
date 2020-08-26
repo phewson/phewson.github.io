@@ -1,50 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Insights for Action</title>
     <link>/tags/</link>
     <description>Recent content in Tags on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Cycling</title>
-      <link>/tags/cycling/</link>
-      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/cycling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Government Surveys</title>
-      <link>/tags/government-surveys/</link>
-      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/government-surveys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Public Data</title>
-      <link>/tags/public-data/</link>
-      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/public-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Secondary Analysis</title>
-      <link>/tags/secondary-analysis/</link>
-      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/secondary-analysis/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Blogdown</title>
