@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech Stack on Insights for Action</title>
-    <link>/tech/</link>
+    <link>https://insightsforaction.uk/tech/</link>
     <description>Recent content in Tech Stack on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insightsforaction.uk/tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Static Websites with Hugo and R-Blogdown</title>
-      <link>/tech/2020-08-18-hugo_blogdown/</link>
+      <link>https://insightsforaction.uk/tech/2020-08-18-hugo_blogdown/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tech/2020-08-18-hugo_blogdown/</guid>
+      <guid>https://insightsforaction.uk/tech/2020-08-18-hugo_blogdown/</guid>
       <description>The current iteration of this website is a static website based on Hugo. In my opinion, there is a lot to like about static websites. I have previously used Jekyll and once upon a time coded html manually. However, modern static website generators allow a wonderful presentation. The currently styling is based upon the Terrassa theme; for me it scored highly for accessibility and mobile friendliness. The bigger issue for me though is to do data and version controlling.</description>
     </item>
     
     <item>
       <title>The right tech for the job</title>
-      <link>/tech/2020-07-05_the_right_tech/</link>
+      <link>https://insightsforaction.uk/tech/2020-07-05_the_right_tech/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tech/2020-07-05_the_right_tech/</guid>
+      <guid>https://insightsforaction.uk/tech/2020-07-05_the_right_tech/</guid>
       <description>This is old work now, but I learnt a lot getting involved in it. We seem to have designed a school curriculum with the sole intended outcome of putting students off statistics for life. I assume that wasn&amp;rsquo;t done on purpose, but that is the effect. There seems to be a particular emphasis on teaching things that are easily assessed (can you do this calculation) and no real exploration of meaning.</description>
     </item>
     

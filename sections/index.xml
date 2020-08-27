@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sections on Insights for Action</title>
-    <link>/sections/</link>
+    <link>https://insightsforaction.uk/sections/</link>
     <description>Recent content in Sections on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="/sections/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insightsforaction.uk/sections/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Actionable Insight</title>
-      <link>/sections/insight/</link>
+      <link>https://insightsforaction.uk/sections/insight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/sections/insight/</guid>
+      <guid>https://insightsforaction.uk/sections/insight/</guid>
       <description>Nowadays, we rarely ask the question &amp;ldquo;do we have data&amp;rdquo;. Often we have lots of data and the first barrier we hit may force us to instead ask &amp;ldquo;do we have the right data?&amp;rdquo; Even when the answer to this question is NO, we often need to be able to do the best we can with the available data. It has become so easy to collect vast quantities of electronic data as a byproduct of other processes that we expect data to be on tap and free.</description>
     </item>
     
     <item>
       <title>Modern Data Science</title>
-      <link>/sections/modern/</link>
+      <link>https://insightsforaction.uk/sections/modern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/sections/modern/</guid>
+      <guid>https://insightsforaction.uk/sections/modern/</guid>
       <description>There are two key things to say about modern Data Science.
 Continuous Improvement / Continuous Delivery The first concerns &amp;ldquo;Continous Integration/Continuous Delivery&amp;rdquo; (CI/CD); a modern software development practice. The advantages of scripted analyses (reproducibility, testing, auditability) are well established; it&amp;rsquo;s a small leap to seeing these scripts as simple pieces of software and realising they need their entire architecture specified and tested continuously. Indeed I have published in Annals of Operations Research on the pitfalls of spreadsheets for data analysis.</description>
     </item>

@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Insights for Action</title>
-    <link>/</link>
+    <link>https://insightsforaction.uk/</link>
     <description>Recent content in Home on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insightsforaction.uk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://insightsforaction.uk/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://insightsforaction.uk/about/</guid>
       <description>Dr Paul Hewson PhD CStat CSci Paul has had a wide range of roles across private and public sector. As an academic, he was awarded a highly prestigious National Teaching Fellowship as a result of his commitment to communicating statistical thinking. He has done a wide variety of consulting work and most recently has worked as a Senior Data Scientist in a start-up and now works as a Business Intelligence Specialist.</description>
     </item>
     
     <item>
       <title>Actionable Insight</title>
-      <link>/sections/insight/</link>
+      <link>https://insightsforaction.uk/sections/insight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/sections/insight/</guid>
+      <guid>https://insightsforaction.uk/sections/insight/</guid>
       <description>Nowadays, we rarely ask the question &amp;ldquo;do we have data&amp;rdquo;. Often we have lots of data and the first barrier we hit may force us to instead ask &amp;ldquo;do we have the right data?&amp;rdquo; Even when the answer to this question is NO, we often need to be able to do the best we can with the available data. It has become so easy to collect vast quantities of electronic data as a byproduct of other processes that we expect data to be on tap and free.</description>
     </item>
     
     <item>
       <title>Modern Data Science</title>
-      <link>/sections/modern/</link>
+      <link>https://insightsforaction.uk/sections/modern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/sections/modern/</guid>
+      <guid>https://insightsforaction.uk/sections/modern/</guid>
       <description>There are two key things to say about modern Data Science.
 Continuous Improvement / Continuous Delivery The first concerns &amp;ldquo;Continous Integration/Continuous Delivery&amp;rdquo; (CI/CD); a modern software development practice. The advantages of scripted analyses (reproducibility, testing, auditability) are well established; it&amp;rsquo;s a small leap to seeing these scripts as simple pieces of software and realising they need their entire architecture specified and tested continuously. Indeed I have published in Annals of Operations Research on the pitfalls of spreadsheets for data analysis.</description>
     </item>
     
     <item>
       <title>Static Websites with Hugo and R-Blogdown</title>
-      <link>/tech/2020-08-18-hugo_blogdown/</link>
+      <link>https://insightsforaction.uk/tech/2020-08-18-hugo_blogdown/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tech/2020-08-18-hugo_blogdown/</guid>
+      <guid>https://insightsforaction.uk/tech/2020-08-18-hugo_blogdown/</guid>
       <description>The current iteration of this website is a static website based on Hugo. In my opinion, there is a lot to like about static websites. I have previously used Jekyll and once upon a time coded html manually. However, modern static website generators allow a wonderful presentation. The currently styling is based upon the Terrassa theme; for me it scored highly for accessibility and mobile friendliness. The bigger issue for me though is to do data and version controlling.</description>
     </item>
     
     <item>
       <title>Reported Road Injuries in GB</title>
-      <link>/posts/2020-08-07-stats19overview/</link>
+      <link>https://insightsforaction.uk/posts/2020-08-07-stats19overview/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/posts/2020-08-07-stats19overview/</guid>
+      <guid>https://insightsforaction.uk/posts/2020-08-07-stats19overview/</guid>
       <description>In the event of a road collision involving at least one vehicle and one injury, there is a requirement in the UK to report to the police within 30 days. The data are called “STATs19” after the form on which the data are collected, and are made available as “Open Data” for anyone to analyse.
 This immediately raises a number of points:
 What is a “road” collision (do car parks, driveways, private roads count)?</description>
@@ -60,29 +60,29 @@ What is a “road” collision (do car parks, driveways, private roads count)?</
     
     <item>
       <title>Insights from Data</title>
-      <link>/posts/2020-08-06-data_insights/</link>
+      <link>https://insightsforaction.uk/posts/2020-08-06-data_insights/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/posts/2020-08-06-data_insights/</guid>
+      <guid>https://insightsforaction.uk/posts/2020-08-06-data_insights/</guid>
       <description>Having worked as an academic, as a Data Scientist, as a Business Intelligence Specialist as well as doing a lot of consulting I have learnt a lot about the way we use data, and the way people perceive &amp;ldquo;statistics&amp;rdquo; (whatever that word really means).
 Sometimes, a problem is so straightforward it only requires technical input (data processing) and it&amp;rsquo;s solved. More often though, a lot more interpretation is needed. Often, the problem is not so much about the &amp;ldquo;statistics&amp;rdquo; but about the study design.</description>
     </item>
     
     <item>
       <title>Mathematical models and statistical models</title>
-      <link>/posts/2020-08-12_math_or_stat/</link>
+      <link>https://insightsforaction.uk/posts/2020-08-12_math_or_stat/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020-08-12_math_or_stat/</guid>
+      <guid>https://insightsforaction.uk/posts/2020-08-12_math_or_stat/</guid>
       <description>I suppose I started thinking about this really hard in the early days of the COVID-19 pandemic. I’m not sure it’s something we articulate well; the difference between a mathematical model. A mathematical model is meant to capture the science of a phenomenon in mathematical terms. A statistical model is meant to “fit” data and account for the uncertainty; but doesn’t necessarily explain the science. And there are certainly plenty of examples where you’re fitting a statistical model to estimate the parameters of a mathematical model.</description>
     </item>
     
     <item>
       <title>The right tech for the job</title>
-      <link>/tech/2020-07-05_the_right_tech/</link>
+      <link>https://insightsforaction.uk/tech/2020-07-05_the_right_tech/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tech/2020-07-05_the_right_tech/</guid>
+      <guid>https://insightsforaction.uk/tech/2020-07-05_the_right_tech/</guid>
       <description>This is old work now, but I learnt a lot getting involved in it. We seem to have designed a school curriculum with the sole intended outcome of putting students off statistics for life. I assume that wasn&amp;rsquo;t done on purpose, but that is the effect. There seems to be a particular emphasis on teaching things that are easily assessed (can you do this calculation) and no real exploration of meaning.</description>
     </item>
     

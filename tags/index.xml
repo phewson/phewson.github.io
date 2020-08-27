@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Insights for Action</title>
-    <link>/tags/</link>
+    <link>https://insightsforaction.uk/tags/</link>
     <description>Recent content in Tags on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insightsforaction.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blogdown</title>
-      <link>/tags/blogdown/</link>
+      <link>https://insightsforaction.uk/tags/blogdown/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/blogdown/</guid>
+      <guid>https://insightsforaction.uk/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>/tags/hugo/</link>
+      <link>https://insightsforaction.uk/tags/hugo/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>https://insightsforaction.uk/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://insightsforaction.uk/tags/r/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r/</guid>
+      <guid>https://insightsforaction.uk/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Static Website</title>
-      <link>/tags/static-website/</link>
+      <link>https://insightsforaction.uk/tags/static-website/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/static-website/</guid>
+      <guid>https://insightsforaction.uk/tags/static-website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>insights</title>
-      <link>/tags/insights/</link>
+      <link>https://insightsforaction.uk/tags/insights/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/insights/</guid>
+      <guid>https://insightsforaction.uk/tags/insights/</guid>
       <description></description>
     </item>
     
     <item>
       <title>official statistics</title>
-      <link>/tags/official-statistics/</link>
+      <link>https://insightsforaction.uk/tags/official-statistics/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/official-statistics/</guid>
+      <guid>https://insightsforaction.uk/tags/official-statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>road collisions</title>
-      <link>/tags/road-collisions/</link>
+      <link>https://insightsforaction.uk/tags/road-collisions/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/road-collisions/</guid>
+      <guid>https://insightsforaction.uk/tags/road-collisions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stats19 data</title>
-      <link>/tags/stats19-data/</link>
+      <link>https://insightsforaction.uk/tags/stats19-data/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/stats19-data/</guid>
+      <guid>https://insightsforaction.uk/tags/stats19-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aims</title>
-      <link>/tags/aims/</link>
+      <link>https://insightsforaction.uk/tags/aims/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/aims/</guid>
+      <guid>https://insightsforaction.uk/tags/aims/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data</title>
-      <link>/tags/data/</link>
+      <link>https://insightsforaction.uk/tags/data/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/data/</guid>
+      <guid>https://insightsforaction.uk/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>statistics</title>
-      <link>/tags/statistics/</link>
+      <link>https://insightsforaction.uk/tags/statistics/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/tags/statistics/</guid>
+      <guid>https://insightsforaction.uk/tags/statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mathematical models</title>
-      <link>/tags/mathematical-models/</link>
+      <link>https://insightsforaction.uk/tags/mathematical-models/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mathematical-models/</guid>
+      <guid>https://insightsforaction.uk/tags/mathematical-models/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Model criticism</title>
-      <link>/tags/model-criticism/</link>
+      <link>https://insightsforaction.uk/tags/model-criticism/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/model-criticism/</guid>
+      <guid>https://insightsforaction.uk/tags/model-criticism/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Model validation</title>
-      <link>/tags/model-validation/</link>
+      <link>https://insightsforaction.uk/tags/model-validation/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/model-validation/</guid>
+      <guid>https://insightsforaction.uk/tags/model-validation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistical models</title>
-      <link>/tags/statistical-models/</link>
+      <link>https://insightsforaction.uk/tags/statistical-models/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/statistical-models/</guid>
+      <guid>https://insightsforaction.uk/tags/statistical-models/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistics learning</title>
-      <link>/tags/statistics-learning/</link>
+      <link>https://insightsforaction.uk/tags/statistics-learning/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/statistics-learning/</guid>
+      <guid>https://insightsforaction.uk/tags/statistics-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trebuchets</title>
-      <link>/tags/trebuchets/</link>
+      <link>https://insightsforaction.uk/tags/trebuchets/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/trebuchets/</guid>
+      <guid>https://insightsforaction.uk/tags/trebuchets/</guid>
       <description></description>
     </item>
     

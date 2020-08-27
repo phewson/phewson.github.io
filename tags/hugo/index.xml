@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Insights for Action</title>
-    <link>/tags/hugo/</link>
+    <link>https://insightsforaction.uk/tags/hugo/</link>
     <description>Recent content in Hugo on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insightsforaction.uk/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Static Websites with Hugo and R-Blogdown</title>
-      <link>/tech/2020-08-18-hugo_blogdown/</link>
+      <link>https://insightsforaction.uk/tech/2020-08-18-hugo_blogdown/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tech/2020-08-18-hugo_blogdown/</guid>
+      <guid>https://insightsforaction.uk/tech/2020-08-18-hugo_blogdown/</guid>
       <description>The current iteration of this website is a static website based on Hugo. In my opinion, there is a lot to like about static websites. I have previously used Jekyll and once upon a time coded html manually. However, modern static website generators allow a wonderful presentation. The currently styling is based upon the Terrassa theme; for me it scored highly for accessibility and mobile friendliness. The bigger issue for me though is to do data and version controlling.</description>
     </item>
     

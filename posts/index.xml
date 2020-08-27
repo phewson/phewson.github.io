@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data stories on Insights for Action</title>
-    <link>/posts/</link>
+    <link>https://insightsforaction.uk/posts/</link>
     <description>Recent content in Data stories on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 07 Aug 2020 20:34:51 +0000</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insightsforaction.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reported Road Injuries in GB</title>
-      <link>/posts/2020-08-07-stats19overview/</link>
+      <link>https://insightsforaction.uk/posts/2020-08-07-stats19overview/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/posts/2020-08-07-stats19overview/</guid>
+      <guid>https://insightsforaction.uk/posts/2020-08-07-stats19overview/</guid>
       <description>In the event of a road collision involving at least one vehicle and one injury, there is a requirement in the UK to report to the police within 30 days. The data are called “STATs19” after the form on which the data are collected, and are made available as “Open Data” for anyone to analyse.
 This immediately raises a number of points:
 What is a “road” collision (do car parks, driveways, private roads count)?</description>
@@ -23,20 +23,20 @@ What is a “road” collision (do car parks, driveways, private roads count)?</
     
     <item>
       <title>Insights from Data</title>
-      <link>/posts/2020-08-06-data_insights/</link>
+      <link>https://insightsforaction.uk/posts/2020-08-06-data_insights/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>/posts/2020-08-06-data_insights/</guid>
+      <guid>https://insightsforaction.uk/posts/2020-08-06-data_insights/</guid>
       <description>Having worked as an academic, as a Data Scientist, as a Business Intelligence Specialist as well as doing a lot of consulting I have learnt a lot about the way we use data, and the way people perceive &amp;ldquo;statistics&amp;rdquo; (whatever that word really means).
 Sometimes, a problem is so straightforward it only requires technical input (data processing) and it&amp;rsquo;s solved. More often though, a lot more interpretation is needed. Often, the problem is not so much about the &amp;ldquo;statistics&amp;rdquo; but about the study design.</description>
     </item>
     
     <item>
       <title>Mathematical models and statistical models</title>
-      <link>/posts/2020-08-12_math_or_stat/</link>
+      <link>https://insightsforaction.uk/posts/2020-08-12_math_or_stat/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020-08-12_math_or_stat/</guid>
+      <guid>https://insightsforaction.uk/posts/2020-08-12_math_or_stat/</guid>
       <description>I suppose I started thinking about this really hard in the early days of the COVID-19 pandemic. I’m not sure it’s something we articulate well; the difference between a mathematical model. A mathematical model is meant to capture the science of a phenomenon in mathematical terms. A statistical model is meant to “fit” data and account for the uncertainty; but doesn’t necessarily explain the science. And there are certainly plenty of examples where you’re fitting a statistical model to estimate the parameters of a mathematical model.</description>
     </item>
     

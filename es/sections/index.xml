@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sections on Procesable conocimientos</title>
-    <link>/es/sections/</link>
+    <link>https://insightsforaction.uk/es/sections/</link>
     <description>Recent content in Sections on Procesable conocimientos</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="/es/sections/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insightsforaction.uk/es/sections/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Procesable conocimientos de los datos</title>
-      <link>/es/sections/insight/</link>
+      <link>https://insightsforaction.uk/es/sections/insight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/es/sections/insight/</guid>
+      <guid>https://insightsforaction.uk/es/sections/insight/</guid>
       <description>La pregunta hoy en día no es &amp;ldquo;¿tenemos datos&amp;rdquo;. A menudo, la primera pregunta es &amp;ldquo;¿tenemos los datos correctos?&amp;rdquo; Incluso si la respuesta a esta pregunta es &amp;ldquo;NO&amp;rdquo;, a menudo necesitamos ser capaces de hacer lo mejor que podamos para responder la pregunta &amp;ldquo;¿qué ideas podemos obtener de esta respuesta&amp;rdquo;?</description>
     </item>
     
     <item>
       <title>Ciencia de datos moderna</title>
-      <link>/es/sections/modern/</link>
+      <link>https://insightsforaction.uk/es/sections/modern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/es/sections/modern/</guid>
+      <guid>https://insightsforaction.uk/es/sections/modern/</guid>
       <description>La ciencia de datos moderna requiere un entorno de TI moderno. Sin embargo, también requiere un conocimiento actualizado de lo que es posible en la ciencia estadística. El campo de la ciencia estadística avanza tan rápidamente como cualquier otra ciencia. Muchos cursos de estadística se basan en técnicas que se inventaron antes de 1930, y la capacitación no se ha actualizado. Dada la disponibilidad de computadoras potentes, ya no se necesitan métodos analíticos convenientes para aproximar una solución.</description>
     </item>
     
