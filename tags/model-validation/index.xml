@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Model validation on Insights for Action</title>
-    <link>/tags/model-validation/</link>
+    <link>https://insightsforaction.uk/tags/model-validation/</link>
     <description>Recent content in Model validation on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 06 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/model-validation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insightsforaction.uk/tags/model-validation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>COVID: Mathematical models and statistical models</title>
-      <link>/posts/2020-08-28_covid/</link>
+      <link>https://insightsforaction.uk/posts/2020-08-28_covid/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020-08-28_covid/</guid>
+      <guid>https://insightsforaction.uk/posts/2020-08-28_covid/</guid>
       <description>One thing the COVID-19 pandemic has achieved is an incredible and widespread interest in numerical descriptions of the outbreak. You can’t go far on social media without encountering an armchair expert on R numbers. Sometimes they call them R-nought but I’m sure they mean R(t). Now we can find errors in their understanding and scoff, or we can use this as an educational opportunity. People are now interested in data, but they are also interested in models.</description>
     </item>
     
     <item>
       <title>Mathematical models and statistical models</title>
-      <link>/posts/2020-08-12_math_or_stat/</link>
+      <link>https://insightsforaction.uk/posts/2020-08-12_math_or_stat/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020-08-12_math_or_stat/</guid>
+      <guid>https://insightsforaction.uk/posts/2020-08-12_math_or_stat/</guid>
       <description>I suppose I started thinking about this really hard in the early days of the COVID-19 pandemic. I’m not sure it’s something we articulate well; the difference between a mathematical model. A mathematical model is meant to capture the science of a phenomenon in mathematical terms. A statistical model is meant to “fit” data and account for the uncertainty; but doesn’t necessarily explain the science. And there are certainly plenty of examples where you’re fitting a statistical model to estimate the parameters of a mathematical model.</description>
     </item>
     

@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GDPR on Insights for Action</title>
-    <link>/tags/gdpr/</link>
+    <link>https://insightsforaction.uk/tags/gdpr/</link>
     <description>Recent content in GDPR on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 02 Sep 2020 10:37:24 +0100</lastBuildDate>
     
-	<atom:link href="/tags/gdpr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insightsforaction.uk/tags/gdpr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Privacy by Design</title>
-      <link>/posts/2020-09-02_privacy_by_design/</link>
+      <link>https://insightsforaction.uk/posts/2020-09-02_privacy_by_design/</link>
       <pubDate>Wed, 02 Sep 2020 10:37:24 +0100</pubDate>
       
-      <guid>/posts/2020-09-02_privacy_by_design/</guid>
+      <guid>https://insightsforaction.uk/posts/2020-09-02_privacy_by_design/</guid>
       <description>Photo Credit: Photo by ThisIsEngineering from Pexels
 Legislation which carries large fines usually provides a good reason for checking out the law. In this case, the driver is the General Data Protection Regulation (GDPR), an EU directive which addresses the fundamental rights and freedoms of natural persons. Natural persons are &amp;ldquo;real&amp;rdquo; people, unlike llegal persons which includes entities like companies. It asserts that natural persons have the right to have their personal data personal data protected.</description>
     </item>

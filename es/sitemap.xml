@@ -1,243 +1,243 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/es/</loc>
+    <loc>https://insightsforaction.uk/es/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://insightsforaction.uk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/"
+                href="https://insightsforaction.uk/es/"
                 />
   </url>
   
   <url>
-    <loc>/es/chalar/</loc>
+    <loc>https://insightsforaction.uk/es/chalar/</loc>
     <lastmod>2020-08-06T20:34:51+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/posts/"
+                href="https://insightsforaction.uk/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/chalar/"
+                href="https://insightsforaction.uk/es/chalar/"
                 />
   </url>
   
   <url>
-    <loc>/es/tech/</loc>
+    <loc>https://insightsforaction.uk/es/tech/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tech/"
+                href="https://insightsforaction.uk/tech/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tech/"
+                href="https://insightsforaction.uk/es/tech/"
                 />
   </url>
   
   <url>
-    <loc>/es/nosotros/</loc>
+    <loc>https://insightsforaction.uk/es/nosotros/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/about/"
+                href="https://insightsforaction.uk/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/nosotros/"
+                href="https://insightsforaction.uk/es/nosotros/"
                 />
   </url>
   
   <url>
-    <loc>/es/contacto/</loc>
+    <loc>https://insightsforaction.uk/es/contacto/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/contact/"
+                href="https://insightsforaction.uk/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/contacto/"
+                href="https://insightsforaction.uk/es/contacto/"
                 />
   </url>
   
   <url>
-    <loc>/es/sections/insight/</loc>
+    <loc>https://insightsforaction.uk/es/sections/insight/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sections/insight/"
+                href="https://insightsforaction.uk/sections/insight/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/sections/insight/"
+                href="https://insightsforaction.uk/es/sections/insight/"
                 />
   </url>
   
   <url>
-    <loc>/es/sections/modern/</loc>
+    <loc>https://insightsforaction.uk/es/sections/modern/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sections/modern/"
+                href="https://insightsforaction.uk/sections/modern/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/sections/modern/"
+                href="https://insightsforaction.uk/es/sections/modern/"
                 />
   </url>
   
   <url>
-    <loc>/es/tags/blogdown/</loc>
+    <loc>https://insightsforaction.uk/es/tags/blogdown/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/blogdown/"
+                href="https://insightsforaction.uk/tags/blogdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tags/blogdown/"
+                href="https://insightsforaction.uk/es/tags/blogdown/"
                 />
   </url>
   
   <url>
-    <loc>/es/tags/hugo/</loc>
+    <loc>https://insightsforaction.uk/es/tags/hugo/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/hugo/"
+                href="https://insightsforaction.uk/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tags/hugo/"
+                href="https://insightsforaction.uk/es/tags/hugo/"
                 />
   </url>
   
   <url>
-    <loc>/es/tags/r/</loc>
+    <loc>https://insightsforaction.uk/es/tags/r/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/r/"
+                href="https://insightsforaction.uk/tags/r/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tags/r/"
+                href="https://insightsforaction.uk/es/tags/r/"
                 />
   </url>
   
   <url>
-    <loc>/es/tech/2020-08-18-hugo_blogdown/</loc>
+    <loc>https://insightsforaction.uk/es/tech/2020-08-18-hugo_blogdown/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tech/2020-08-18-hugo_blogdown/"
+                href="https://insightsforaction.uk/tech/2020-08-18-hugo_blogdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tech/2020-08-18-hugo_blogdown/"
+                href="https://insightsforaction.uk/es/tech/2020-08-18-hugo_blogdown/"
                 />
   </url>
   
   <url>
-    <loc>/es/tags/static-website/</loc>
+    <loc>https://insightsforaction.uk/es/tags/static-website/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/static-website/"
+                href="https://insightsforaction.uk/tags/static-website/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tags/static-website/"
+                href="https://insightsforaction.uk/es/tags/static-website/"
                 />
   </url>
   
   <url>
-    <loc>/es/tags/</loc>
+    <loc>https://insightsforaction.uk/es/tags/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://insightsforaction.uk/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tags/"
+                href="https://insightsforaction.uk/es/tags/"
                 />
   </url>
   
   <url>
-    <loc>/es/tags/albacete/</loc>
+    <loc>https://insightsforaction.uk/es/tags/albacete/</loc>
     <lastmod>2020-08-06T20:34:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/es/tags/alcala-del-jucar/</loc>
+    <loc>https://insightsforaction.uk/es/tags/alcala-del-jucar/</loc>
     <lastmod>2020-08-06T20:34:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/es/posts/2020-08-07-alcala_del_jucar/</loc>
+    <loc>https://insightsforaction.uk/es/posts/2020-08-07-alcala_del_jucar/</loc>
     <lastmod>2020-08-06T20:34:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/es/tags/turismo/</loc>
+    <loc>https://insightsforaction.uk/es/tags/turismo/</loc>
     <lastmod>2020-08-06T20:34:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/es/categories/</loc>
+    <loc>https://insightsforaction.uk/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://insightsforaction.uk/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/categories/"
+                href="https://insightsforaction.uk/es/categories/"
                 />
   </url>
   
   <url>
-    <loc>/es/sections/</loc>
+    <loc>https://insightsforaction.uk/es/sections/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/sections/"
+                href="https://insightsforaction.uk/sections/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/sections/"
+                href="https://insightsforaction.uk/es/sections/"
                 />
   </url>
   

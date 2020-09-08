@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configuration Management on Insights for Action</title>
-    <link>/tags/configuration-management/</link>
+    <link>https://insightsforaction.uk/tags/configuration-management/</link>
     <description>Recent content in Configuration Management on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/configuration-management/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insightsforaction.uk/tags/configuration-management/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Configuration management</title>
-      <link>/tech/2020_09-03_ansible/</link>
+      <link>https://insightsforaction.uk/tech/2020_09-03_ansible/</link>
       <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tech/2020_09-03_ansible/</guid>
+      <guid>https://insightsforaction.uk/tech/2020_09-03_ansible/</guid>
       <description>One thing I have learnt is configuration management. It&amp;rsquo;s an under-rated aspect of reproducible research. I was quickly experimenting with an R package, but needed to install the sf package on my tinkering machine. That in turn required another R package units. And in turn, units needed some header files, as did sf. As it turns out, units package failed with a very nice error message telling me exactly what I had to do.</description>
     </item>
     
