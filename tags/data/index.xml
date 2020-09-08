@@ -1,23 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>data on Insights for Action</title>
-    <link>https://insightsforaction.uk/tags/data/</link>
+    <link>/tags/data/</link>
     <description>Recent content in data on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 06 Aug 2020 20:34:51 +0000</lastBuildDate>
     
-	<atom:link href="https://insightsforaction.uk/tags/data/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/data/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Insights from Data</title>
-      <link>https://insightsforaction.uk/posts/2020-08-06-data_insights/</link>
+      <link>/posts/2020-08-06-data_insights/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/posts/2020-08-06-data_insights/</guid>
-      <description>Having worked as an academic, as a Data Scientist, as a Business Intelligence Specialist as well as doing a lot of consulting I have learnt a lot about the way we use data, and the way people perceive &amp;ldquo;statistics&amp;rdquo; (whatever that word really means).
-Sometimes, a problem is so straightforward it only requires technical input (data processing) and it&amp;rsquo;s solved. More often though, a lot more interpretation is needed. Often, the problem is not so much about the &amp;ldquo;statistics&amp;rdquo; but about the study design.</description>
+      <guid>/posts/2020-08-06-data_insights/</guid>
+      <description>Photo credit: Vojtech Okenka from Pexels
+Having worked as an academic, as a Data Scientist, as a Business Intelligence Specialist as well as doing a lot of consulting I have learnt a lot about the way we use data, and the way people perceive &amp;ldquo;statistics&amp;rdquo; (whatever that word really means).
+Sometimes, a problem is so straightforward it only requires technical input (data processing) and it&amp;rsquo;s solved. More often though, a lot more interpretation is needed.</description>
     </item>
     
   </channel>

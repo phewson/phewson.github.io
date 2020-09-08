@@ -1,75 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Procesable conocimientos</title>
-    <link>https://insightsforaction.uk/es/tags/</link>
+    <link>/es/tags/</link>
     <description>Recent content in Tags on Procesable conocimientos</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://insightsforaction.uk/es/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/es/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blogdown</title>
-      <link>https://insightsforaction.uk/es/tags/blogdown/</link>
+      <link>/es/tags/blogdown/</link>
       <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/es/tags/blogdown/</guid>
+      <guid>/es/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://insightsforaction.uk/es/tags/hugo/</link>
+      <link>/es/tags/hugo/</link>
       <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/es/tags/hugo/</guid>
+      <guid>/es/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://insightsforaction.uk/es/tags/r/</link>
+      <link>/es/tags/r/</link>
       <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/es/tags/r/</guid>
+      <guid>/es/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Static Website</title>
-      <link>https://insightsforaction.uk/es/tags/static-website/</link>
+      <link>/es/tags/static-website/</link>
       <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/es/tags/static-website/</guid>
+      <guid>/es/tags/static-website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Albacete</title>
-      <link>https://insightsforaction.uk/es/tags/albacete/</link>
+      <link>/es/tags/albacete/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/es/tags/albacete/</guid>
+      <guid>/es/tags/albacete/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alcala del Jucar</title>
-      <link>https://insightsforaction.uk/es/tags/alcala-del-jucar/</link>
+      <link>/es/tags/alcala-del-jucar/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/es/tags/alcala-del-jucar/</guid>
+      <guid>/es/tags/alcala-del-jucar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Turismo</title>
-      <link>https://insightsforaction.uk/es/tags/turismo/</link>
+      <link>/es/tags/turismo/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/es/tags/turismo/</guid>
+      <guid>/es/tags/turismo/</guid>
       <description></description>
     </item>
     

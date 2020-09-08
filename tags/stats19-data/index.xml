@@ -1,21 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stats19 data on Insights for Action</title>
-    <link>https://insightsforaction.uk/tags/stats19-data/</link>
+    <link>/tags/stats19-data/</link>
     <description>Recent content in stats19 data on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 07 Aug 2020 20:34:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 20:34:51 +0000</lastBuildDate>
     
-	<atom:link href="https://insightsforaction.uk/tags/stats19-data/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/stats19-data/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>GB Road Fatalities and Life Expectancy</title>
+      <link>/posts/2020-09-07-road_fatalities_life_expectancy/</link>
+      <pubDate>Mon, 07 Sep 2020 20:34:51 +0000</pubDate>
+      
+      <guid>/posts/2020-09-07-road_fatalities_life_expectancy/</guid>
+      <description>In total, over the four decades for which we have data (1979-2018), 147,562 fatalities have been reported to the police. Whilst it is the case that the number of reported fatalities has reduced considerably:
+ In 2018, 1,784 fatalities were reported. This still feels like a substantial tragedy and many argue there is considerable potential to reduce this much further if we took the decisions (such as limiting urban speeds) to make roads safer.</description>
+    </item>
+    
+    <item>
       <title>Reported Road Injuries in GB</title>
-      <link>https://insightsforaction.uk/posts/2020-08-07-stats19overview/</link>
+      <link>/posts/2020-08-07-stats19overview/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/posts/2020-08-07-stats19overview/</guid>
+      <guid>/posts/2020-08-07-stats19overview/</guid>
       <description>In the event of a road collision involving at least one vehicle and one injury, there is a requirement in the UK to report to the police within 30 days. The data are called “STATs19” after the form on which the data are collected, and are made available as “Open Data” for anyone to analyse.
 This immediately raises a number of points:
 What is a “road” collision (do car parks, driveways, private roads count)?</description>

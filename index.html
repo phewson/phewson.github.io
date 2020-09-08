@@ -5,23 +5,23 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="googlebot" content="index, follow, noarchive" />
 	<title>Insights for Action - Home</title>
-	<link rel="icon" href="https://insightsforaction.uk/branding/favicon.ico" />
+	<link rel="icon" href="//branding/favicon.ico" />
 	<meta name="description" content="" />
 
 	
 	
-	<link rel="alternate" hreflang="en" href="https://insightsforaction.uk/" title="en">
+	<link rel="alternate" hreflang="en" href="/" title="en">
 	
-	<link rel="alternate" hreflang="es" href="https://insightsforaction.uk/es/" title="es">
+	<link rel="alternate" hreflang="es" href="/es/" title="es">
 	
 	
 
-	<meta name="generator" content="Hugo 0.57.2" />
+	<meta name="generator" content="Hugo 0.72.0" />
 
 	
 
 	<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://insightsforaction.uk/branding/tuxpi_com_1596640917.jpg"/>
+<meta name="twitter:image" content="/branding/tuxpi_com_1596640917.jpg"/>
 
 <meta name="twitter:title" content="Home"/>
 <meta name="twitter:description" content="How to explore data with a view to acting on the findings"/>
@@ -29,11 +29,9 @@
 	<meta property="og:title" content="Home" />
 <meta property="og:description" content="How to explore data with a view to acting on the findings" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://insightsforaction.uk/" />
-
-<meta property="og:image" content="https://insightsforaction.uk/branding/tuxpi_com_1596640917.jpg" />
-
-<meta property="og:updated_time" content="2020-08-18T00:00:00+00:00" />
+<meta property="og:url" content="/" />
+<meta property="og:image" content="/branding/tuxpi_com_1596640917.jpg" />
+<meta property="og:updated_time" content="2020-09-07T20:34:51+00:00" />
 
 
 	<meta property="og:locale" content="en" />
@@ -54,7 +52,7 @@
 
 
 
-<link rel="stylesheet" href="https://insightsforaction.uk/css/bundle.min.css">
+<link rel="stylesheet" href="/css/bundle.min.css">
 </head>
 <body><header class="header  has-LangNav">
     <div class="header__title">
@@ -166,16 +164,13 @@
 </header>
 
 <main class="hero" 
-    style="background-image: url('https://insightsforaction.ukimages/branding/tuxpi_com_1596640917.jpg');" >
+    style="background-image: url('/images/branding/tuxpi_com_1596640917.jpg');" >
     <div class="hero__caption" >
-        
-
-<h1 id="insights-for-action">Insights for action</h1>
-
+        <h1 id="insights-for-action">Insights for action</h1>
 <h2 id="actionable-insights-from-data"><em>Actionable</em> Insights from Data.</h2>
 
         
-        <a href="https://insightsforaction.ukcontact" class="ripple-btn cta__btn" alt="Contact"
+        <a href="/contact" class="ripple-btn cta__btn" alt="Contact"
     aria-label="Contact">
     Contact
 </a>
@@ -189,8 +184,8 @@
 <section class="section">
     <h1 class="section__title">Actionable Insight</h1>
     <div class="section__content">
-        <p>Nowadays, we rarely ask the question &ldquo;do we have data&rdquo;.  Often we have <strong>lots</strong> of data and the first barrier we hit may force us to instead ask &ldquo;do we have the <strong>right</strong> data?&rdquo;  Even when the answer to this question is <strong>NO</strong>, we often need to be able to do the best we can with the available data.  It has become so easy to collect vast quantities of electronic data as a byproduct of other processes that we expect data to be on tap and free.  It is still the case that well designed and specific data collection can yield better answers than a &ldquo;free&rdquo; data source. However, we still need to be able to combine insights from different data sources; some purposefully collected, some byproducts of another process. This blog will illustrate the caveats and cautions we have to take in order to learn from data.</p>
-
+        <p><img src="/images/branding/logo.png#centre" alt="Insight for Action logo"></p>
+<p>Nowadays, we rarely ask the question &ldquo;do we have data&rdquo;.  Often we have <strong>lots</strong> of data and the first barrier we hit may force us to instead ask &ldquo;do we have the <strong>right</strong> data?&rdquo;  Even when the answer to this question is <strong>NO</strong>, we often need to be able to do the best we can with the available data.  It has become so easy to collect vast quantities of electronic data as a byproduct of other processes that we expect data to be on tap and free.  It is still the case that well designed and specific data collection can yield better answers than a &ldquo;free&rdquo; data source. However, we still need to be able to combine insights from different data sources; some purposefully collected, some byproducts of another process. This blog will illustrate the caveats and cautions we have to take in order to learn from data.</p>
 <p>(I would have used the acronym <strong>AI</strong> for <strong>A</strong>ctionable <strong>I</strong>nsight but that acronym has been taken)</p>
 
     </div>
@@ -205,16 +200,10 @@
 <section class="section">
     <h1 class="section__title">Modern Data Science</h1>
     <div class="section__content">
-        
-
-<p>There are two key things to say about modern Data Science.</p>
-
-<h3 id="continuous-improvement-continuous-delivery">Continuous Improvement / Continuous Delivery</h3>
-
+        <p>There are two key things to say about modern Data Science.</p>
+<h3 id="continuous-improvement--continuous-delivery">Continuous Improvement / Continuous Delivery</h3>
 <p>The first concerns &ldquo;Continous Integration/Continuous Delivery&rdquo; (CI/CD); a modern software development practice. The advantages of scripted analyses (reproducibility, testing, auditability) are well established; it&rsquo;s a small leap to seeing these scripts as simple pieces of software and realising they need their entire architecture specified and tested continuously.  Indeed I have published in <a href="https://link.springer.com/article/10.1007/s10479-013-1475-4">Annals of Operations Research</a> on the pitfalls of spreadsheets for data analysis. Using CI/CD in software projects is a well established way of minimizing technical debt; in data science there is a human tendency to focus on producing beautifully crafted scripts that work well today, without considering all the various stages of analysis of software dependency.  One example, we need to update software versions regularly (bugfixes and needed feature enhancements).</p>
-
 <h3 id="modern-statistical-methods">Modern Statistical Methods</h3>
-
 <p>The second concerns an up to date knowledge of what is possible in statistical science. The field of statistical science is being advanced just as rapidly as any other science. Many statistics courses are based on techniques which were invented before 1930, and training has not been updated. Given the availability of powerful computers, convenient analytical methods are no longer needed to approximate a solution. We can look for the right solution, if we allow a little computer time. Given the price of computer time, this rarely seems like a barrier to using the best methods avvailable.  There is old adage in English &ldquo;if the only tool you have is a hammer, then every problem you see is a nail&rdquo;. This is the problem with statistical training. We are only given the hammer, and a hammer from the 1930s at that.  This blog will provide case studies of using modern methdods to answer real questions. Yes, this does require deeper statistical expertise, but in turn it requires domain specialists to think harder about the problem they want to solve, rather than just &ldquo;hitting it with a hammer&rdquo;</p>
 
     </div>
@@ -320,7 +309,7 @@
 
 
 
-<script src="https://insightsforaction.uk/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
+<script src="/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
 
 
 

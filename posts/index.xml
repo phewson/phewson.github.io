@@ -1,21 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data stories on Insights for Action</title>
-    <link>https://insightsforaction.uk/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Data stories on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 07 Aug 2020 20:34:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 20:34:51 +0000</lastBuildDate>
     
-	<atom:link href="https://insightsforaction.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>GB Road Fatalities and Life Expectancy</title>
+      <link>/posts/2020-09-07-road_fatalities_life_expectancy/</link>
+      <pubDate>Mon, 07 Sep 2020 20:34:51 +0000</pubDate>
+      
+      <guid>/posts/2020-09-07-road_fatalities_life_expectancy/</guid>
+      <description>In total, over the four decades for which we have data (1979-2018), 147,562 fatalities have been reported to the police. Whilst it is the case that the number of reported fatalities has reduced considerably:
+ In 2018, 1,784 fatalities were reported. This still feels like a substantial tragedy and many argue there is considerable potential to reduce this much further if we took the decisions (such as limiting urban speeds) to make roads safer.</description>
+    </item>
+    
+    <item>
+      <title>Data Sources and Cycling</title>
+      <link>/posts/2020-09-03_data_sources_on_cyling/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-09-03_data_sources_on_cyling/</guid>
+      <description>Something I&amp;rsquo;ve been droning on about for a few years concerns our reluctance to use datasets that already exist.
+  Specifically in relation to cycling, we have a lot of data on cycling that is rarely used, and that&amp;rsquo;s without worrying about data that aren&amp;rsquo;t disseminated in a way that lets us use it. Here are some high quality UK based data sources. These come from surveys that are very expensive to conduct:</description>
+    </item>
+    
+    <item>
+      <title>Privacy by Design</title>
+      <link>/posts/2020-09-02_privacy_by_design/</link>
+      <pubDate>Wed, 02 Sep 2020 10:37:24 +0100</pubDate>
+      
+      <guid>/posts/2020-09-02_privacy_by_design/</guid>
+      <description>Photo Credit: Photo by ThisIsEngineering from Pexels
+Legislation which carries large fines usually provides a good reason for checking out the law. In this case, the driver is the General Data Protection Regulation (GDPR), an EU directive which addresses the fundamental rights and freedoms of natural persons. Natural persons are &amp;ldquo;real&amp;rdquo; people, unlike llegal persons which includes entities like companies. It asserts that natural persons have the right to have their personal data personal data protected.</description>
+    </item>
+    
+    <item>
       <title>Reported Road Injuries in GB</title>
-      <link>https://insightsforaction.uk/posts/2020-08-07-stats19overview/</link>
+      <link>/posts/2020-08-07-stats19overview/</link>
       <pubDate>Fri, 07 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/posts/2020-08-07-stats19overview/</guid>
+      <guid>/posts/2020-08-07-stats19overview/</guid>
       <description>In the event of a road collision involving at least one vehicle and one injury, there is a requirement in the UK to report to the police within 30 days. The data are called “STATs19” after the form on which the data are collected, and are made available as “Open Data” for anyone to analyse.
 This immediately raises a number of points:
 What is a “road” collision (do car parks, driveways, private roads count)?</description>
@@ -23,20 +53,30 @@ What is a “road” collision (do car parks, driveways, private roads count)?</
     
     <item>
       <title>Insights from Data</title>
-      <link>https://insightsforaction.uk/posts/2020-08-06-data_insights/</link>
+      <link>/posts/2020-08-06-data_insights/</link>
       <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/posts/2020-08-06-data_insights/</guid>
-      <description>Having worked as an academic, as a Data Scientist, as a Business Intelligence Specialist as well as doing a lot of consulting I have learnt a lot about the way we use data, and the way people perceive &amp;ldquo;statistics&amp;rdquo; (whatever that word really means).
-Sometimes, a problem is so straightforward it only requires technical input (data processing) and it&amp;rsquo;s solved. More often though, a lot more interpretation is needed. Often, the problem is not so much about the &amp;ldquo;statistics&amp;rdquo; but about the study design.</description>
+      <guid>/posts/2020-08-06-data_insights/</guid>
+      <description>Photo credit: Vojtech Okenka from Pexels
+Having worked as an academic, as a Data Scientist, as a Business Intelligence Specialist as well as doing a lot of consulting I have learnt a lot about the way we use data, and the way people perceive &amp;ldquo;statistics&amp;rdquo; (whatever that word really means).
+Sometimes, a problem is so straightforward it only requires technical input (data processing) and it&amp;rsquo;s solved. More often though, a lot more interpretation is needed.</description>
+    </item>
+    
+    <item>
+      <title>COVID: Mathematical models and statistical models</title>
+      <link>/posts/2020-08-28_covid/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-08-28_covid/</guid>
+      <description>One thing the COVID-19 pandemic has achieved is an incredible and widespread interest in numerical descriptions of the outbreak. You can’t go far on social media without encountering an armchair expert on R numbers. Sometimes they call them R-nought but I’m sure they mean R(t). Now we can find errors in their understanding and scoff, or we can use this as an educational opportunity. People are now interested in data, but they are also interested in models.</description>
     </item>
     
     <item>
       <title>Mathematical models and statistical models</title>
-      <link>https://insightsforaction.uk/posts/2020-08-12_math_or_stat/</link>
+      <link>/posts/2020-08-12_math_or_stat/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insightsforaction.uk/posts/2020-08-12_math_or_stat/</guid>
+      <guid>/posts/2020-08-12_math_or_stat/</guid>
       <description>I suppose I started thinking about this really hard in the early days of the COVID-19 pandemic. I’m not sure it’s something we articulate well; the difference between a mathematical model. A mathematical model is meant to capture the science of a phenomenon in mathematical terms. A statistical model is meant to “fit” data and account for the uncertainty; but doesn’t necessarily explain the science. And there are certainly plenty of examples where you’re fitting a statistical model to estimate the parameters of a mathematical model.</description>
     </item>
     

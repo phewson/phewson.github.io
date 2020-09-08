@@ -1,0 +1,65 @@
+---
+title: Reported Road Injuries in GB
+author: Paul Hewson
+date: "2020-08-20"
+description: "Age profile"
+draft: true
+images: []
+publishDate: ""
+tags:
+- insights
+- road collisions
+- official statistics
+- stats19 data
+
+---
+
+```{r, label="since79", echo=FALSE, results="hide", warning=FALSE, error=FALSE, cache>
+library(rpostgis)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(tidyquant)
+conn <- dbConnect(
+    drv = "PostgreSQL", host = "192.168.1.78", dbname = "official",
+    user = "vagrant", port = 15432, password="vagrant")
+
+```
+
+```{r}
+queryText <-  "select count(*) from dft.stats19_casualties where casualty_severity::text = 'Fatal';"
+res <- dbSendQuery(conn, queryText)
+headline <- dbFetch(res)
+dbClearResult(res)
+
+``` 
+ 
+ In 40 years between 1/1/1979 and 31/12/2018 (the most recent four decades of data we have, 147,562 people were reported killed in road collisions on roads of the UK.
+ 
+ 
+ ```{r age_profile}
+queryText = "select count(*), age_band_of_casualty, substr(accident_index, 1, 4) from dft.stats19_casualties where casualty_severity::text = 'Fatal' group by substr(accident_index, 1, 4), age_band_of_casualty order by 2, 3;"
+res <- dbSendQuery(conn, queryText)
+summary_stats <- dbFetch(res)
+dbClearResult(res)
+summary_stats %>%
+    ggplot(aes(x=substr, y = count, group=age_band_of_casualty)) +
+    geom_line() +
+    facet_wrap(~age_band_of_casualty)
+
+ ```
+ 
+ ```{r}
+lexis <- summary_stats %>% spread(substr, count)
+lexis$age_band_of_casualty  <- factor(lexis$age_band_of_casualty, labels = c("0 - 5", "6 - 10",  "11 - 15", "16 - 20", "21 - 25", "26 - 35", "36 - 45", "46 - 55", "56 - 65",   "66 - 75", "Over 75"))
+ 
+lexis <- na.omit(lexis)
+rownames(lexis) <- lexis$age_band_of_casualty
+lexis$age_band_of_casualty <- NULL
+x <- c(1979:2018)
+y <- c(seq(2.5, 22.5, by=5), seq(30, 70, by=10), 85)
+z <- t(as.matrix(lexis))
+filled.contour(x=x, y=y, z=sqrt(z),
+               plot.axes = {axis(1, seq(1979, 2018, by = 1))
+axis(2, y)})
+ ```
