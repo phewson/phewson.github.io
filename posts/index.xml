@@ -1,14 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data stories on Insights for Action</title>
     <link>https://insightsforaction.uk/posts/</link>
     <description>Recent content in Data stories on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Sep 2020 20:34:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2020 10:37:24 +0100</lastBuildDate>
     
 	<atom:link href="https://insightsforaction.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unreasonable effectiveness of data</title>
+      <link>https://insightsforaction.uk/posts/2020-11-16_unreasonable_effectiveness_of_data/</link>
+      <pubDate>Sat, 14 Nov 2020 10:37:24 +0100</pubDate>
+      
+      <guid>https://insightsforaction.uk/posts/2020-11-16_unreasonable_effectiveness_of_data/</guid>
+      <description>Photo by Christina Morillo from Pexels
+In 1960, Eugene Wigner published &amp;ldquo;The unreasonable effectiveness of mathematics in the natural sciences&amp;rdquo;. Many commentators have indeed agreed it is surprising how relatively simple maths can indeed model so much of the natural world. Wigner argued that modelling a given scientific theory can lead to further advances in the theory. He also claimed success in that a mathematical model can make predictions which allow the theory to be empirically tested.</description>
+    </item>
     
     <item>
       <title>GB Road Fatalities and Life Expectancy</title>

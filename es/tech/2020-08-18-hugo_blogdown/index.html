@@ -16,7 +16,7 @@
 	
 	
 
-	<meta name="generator" content="Hugo 0.57.2" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	
 
@@ -182,9 +182,7 @@
     
     <main class="post__body">
       <p>La versión actual de este sitio web es un sitio web estático está construido con <a href="https://gohugo.io">Hugo</a>. En mi opinión, hay muchas cosas que me gustan de los sitios web estáticos. Anteriormente he usado <strong>Jekyll</strong> y una vez codifiqué <em>html</em> manualmente. Sin embargo, los generadores de sitios web estáticos modernos permiten una presentación maravillosa. El estilo actual se basa en el tema <a href="https://themes.gohugo.io/hugo-terrassa-theme/">Terrassa</a>; para mí, lo mas importantes son accesibilidad y compatibilidad con dispositivos móviles. Sin embargo, el problema más importante para mí es controlar los datos y las versiones. Con un sitio web dinámico, no necesariamente conoce los datos a los que está accediendo alguien; se extraen de una base de datos en vivo que, por diseño, puede actualizarse independientemente del sitio web. Con un sitio web estático, la versión de los datos se controla junto con el sitio web. Para algunos sitios web, esa es una mala elección de diseño. Pero quería poder demostrar el análisis de datos sobre datos que podría volver a visitar (porque se han actualizado) o utilizando nuevos métodos. Todo esto puede ser controlado por versiones.</p>
-
 <p>El repositorio &ldquo;source&rdquo; y el repositorio &ldquo;público&rdquo; están alojados en <a href="https://github.com">Github</a>. Las páginas de Github son excelentes para <strong>Jekyll</strong>, tanto que crearán automáticamente sus sitios a partir de los archivos &ldquo;source&rdquo;. Este no es el caso de <strong>Hugo</strong> y actualmente es necesario dividir el sitio en un repositorio de &ldquo;source&rdquo; que contenga un sub-repositorio <em>público</em>. Es este último sub-repositorio el que se envía a las páginas de github. Este repositorio <em>público</em> contiene un archivo <em>.nojekyll</em> para evitar que Github intente crear páginas.</p>
-
 <p>Hay algunos ecosistemas de software que dominan el análisis de datos profesional. Para el modelado y análisis prefiero <a href="https://www.r-project.org">R</a> junto con <a href="https://www.postgresql.org/">PostgreSQL</a>. A menudo necesitamos acceder a una serie de herramientas de manipulación de datos para pasar de datos en bruto desordenados a datos que se pueden analizar, estos pueden incluir Python, awk, sed. El ecosistema <strong>R</strong> es, en mi opinión, mucho más completo en términos de criticar, validar y verificar cualquier modelo que estés haciendo. También es excelente cuando necesita resultados profesionales. Por lo tanto, se utiliza el paquete <strong>R</strong> <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> para este sitio web. La programación &ldquo;literate&rdquo; ha existido durante mucho tiempo, como lo propuso Donald Knuth hace décadas. De hecho, <em>Sweave</em> ha sido una característica <strong>R</strong> estable durante casi 20 años. La programación &ldquo;literate&rdquo; combina el código de análisis con la redacción de informes. <strong>Blogdown</strong> es una extensión que usa (<strong>R</strong>) Markdown de la misma manera para producir archivos <em>.html</em> que se pueden incluir en un blog de <strong>Hugo</strong>. En consecuencia, <strong>R / Blogdown / Hugo</strong> proporciona un entorno para contar historias de datos que se pueden copiar, corregir, enmendar y controlar la versión para proporcionar un historial de auditoría completo.</p>
 
         

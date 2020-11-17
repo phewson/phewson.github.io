@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://insightsforaction.uk/</loc>
-    <lastmod>2020-09-07T20:34:51+00:00</lastmod>
+    <lastmod>2020-11-14T10:37:24+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://insightsforaction.uk/posts/</loc>
-    <lastmod>2020-09-07T20:34:51+00:00</lastmod>
+    <lastmod>2020-11-14T10:37:24+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -104,6 +104,41 @@
   </url>
   
   <url>
+    <loc>https://insightsforaction.uk/tags/bias/</loc>
+    <lastmod>2020-11-14T10:37:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/big-data/</loc>
+    <lastmod>2020-11-14T10:37:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/ethics/</loc>
+    <lastmod>2020-11-14T10:37:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/</loc>
+    <lastmod>2020-11-14T10:37:24+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://insightsforaction.uk/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://insightsforaction.uk/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/posts/2020-11-16_unreasonable_effectiveness_of_data/</loc>
+    <lastmod>2020-11-14T10:37:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://insightsforaction.uk/posts/2020-09-07-road_fatalities_life_expectancy/</loc>
     <lastmod>2020-09-07T20:34:51+00:00</lastmod>
   </url>
@@ -131,21 +166,6 @@
   <url>
     <loc>https://insightsforaction.uk/tags/stats19-data/</loc>
     <lastmod>2020-09-07T20:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insightsforaction.uk/tags/</loc>
-    <lastmod>2020-09-07T20:34:51+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://insightsforaction.uk/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://insightsforaction.uk/tags/"
-                />
   </url>
   
   <url>

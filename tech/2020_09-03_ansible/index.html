@@ -10,7 +10,7 @@
 
 	
 
-	<meta name="generator" content="Hugo 0.57.2" />
+	<meta name="generator" content="Hugo 0.74.3" />
 
 	
 
@@ -168,20 +168,13 @@
     
     <main class="post__body">
       <p>One thing I have learnt is configuration management. It&rsquo;s an under-rated aspect of reproducible research.   I was quickly experimenting with an <strong>R</strong> package, but needed to install the <code>sf</code> package on my tinkering machine.  That in turn required another <strong>R</strong> package <code>units</code>.   And in turn, <code>units</code> needed some header files, as did <code>sf</code>.   As it turns out, <code>units</code> package failed with a very nice error message telling me exactly what I had to do.   And I had very had <em>deja vu</em> dealing with <code>sf</code> because I know I&rsquo;ve handed that before.</p>
-
-<pre><code class="language-bash">sudo apt install libgdal-dev
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt install libgdal-dev
 libudunits2-dev
-</code></pre>
-
-<p>One moral of the story is to remember not to try to do things quickly like this.  The interesting thing is that this used to be the only way I worked.  Cue lots of frustration when one package got updated and broke some other code.</p>
-
+</code></pre></div><p>One moral of the story is to remember not to try to do things quickly like this.  The interesting thing is that this used to be the only way I worked.  Cue lots of frustration when one package got updated and broke some other code.</p>
 <p>It turns out that there is now a CRAN task view dedicated to <a href="https://cran.r-project.org/web/views/ReproducibleResearch.html">repdroducible research</a> which has a section on package reproducibility.   This includes links to packages such as <a href="https://cran.r-project.org/web/packages/rbundler/index.html">R bundler</a> which attempts to tame your package requirements on a project by project basis.</p>
-
 <p>However, since having machines with enough RAM, I&rsquo;ve found it very nice to use Virtual Machines during development. I used to use VirtualBox a long time ago (it let me run Linux on a MacBook).  But you can use it with tools such as Vagrant to provision a virtual machine. And vagrant can in turn call an ansible script to provision this virtual machine.   Voila, tinker away, break everything, start again.</p>
-
-<pre><code class="language-R">install.packages(&quot;XML&quot;, repos = &quot;http://www.omegahat.net/R&quot;)
-</code></pre>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;XML&#34;</span>, repos <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;http://www.omegahat.net/R&#34;</span>)
+</code></pre></div>
         
   
   

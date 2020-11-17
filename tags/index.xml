@@ -1,14 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Insights for Action</title>
     <link>https://insightsforaction.uk/tags/</link>
     <description>Recent content in Tags on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Sep 2020 20:34:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2020 10:37:24 +0100</lastBuildDate>
     
 	<atom:link href="https://insightsforaction.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bias</title>
+      <link>https://insightsforaction.uk/tags/bias/</link>
+      <pubDate>Sat, 14 Nov 2020 10:37:24 +0100</pubDate>
+      
+      <guid>https://insightsforaction.uk/tags/bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Data</title>
+      <link>https://insightsforaction.uk/tags/big-data/</link>
+      <pubDate>Sat, 14 Nov 2020 10:37:24 +0100</pubDate>
+      
+      <guid>https://insightsforaction.uk/tags/big-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethics</title>
+      <link>https://insightsforaction.uk/tags/ethics/</link>
+      <pubDate>Sat, 14 Nov 2020 10:37:24 +0100</pubDate>
+      
+      <guid>https://insightsforaction.uk/tags/ethics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>insights</title>
