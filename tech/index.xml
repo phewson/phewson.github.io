@@ -5,10 +5,20 @@
     <link>https://insightsforaction.uk/tech/</link>
     <description>Recent content in Tech Stack on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2020 10:52:13 +0000</lastBuildDate>
     
 	<atom:link href="https://insightsforaction.uk/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Conflicts between Agile and Data Modelling</title>
+      <link>https://insightsforaction.uk/tech/2020-11-25_agile_and_data_modelling/</link>
+      <pubDate>Tue, 24 Nov 2020 10:52:13 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tech/2020-11-25_agile_and_data_modelling/</guid>
+      <description>Photo by Christina Morillo from Pexels
+Having worked in various Agile and Waterfall environments I have become fascinated by the potential mismatch between Data Modelling and Agile. Searching for some discussion pieces on this, I found an interesting post that reviews a conference discussion. Ultimately, this dates from Enterprise Data World 2015, but does seem to draw on a lot of expertise from enterprise level people who have had to reconcile Data Modelling and Agile.</description>
+    </item>
     
     <item>
       <title>Configuration management</title>

@@ -5,7 +5,7 @@
     <link>https://insightsforaction.uk/</link>
     <description>Recent content in Home on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 14 Nov 2020 10:37:24 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2020 10:52:13 +0000</lastBuildDate>
     
 	<atom:link href="https://insightsforaction.uk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -36,6 +36,16 @@
       <guid>https://insightsforaction.uk/sections/modern/</guid>
       <description>There are two key things to say about modern Data Science.
 Continuous Improvement / Continuous Delivery The first concerns &amp;ldquo;Continous Integration/Continuous Delivery&amp;rdquo; (CI/CD); a modern software development practice. The advantages of scripted analyses (reproducibility, testing, auditability) are well established; it&amp;rsquo;s a small leap to seeing these scripts as simple pieces of software and realising they need their entire architecture specified and tested continuously. Indeed I have published in Annals of Operations Research on the pitfalls of spreadsheets for data analysis.</description>
+    </item>
+    
+    <item>
+      <title>Conflicts between Agile and Data Modelling</title>
+      <link>https://insightsforaction.uk/tech/2020-11-25_agile_and_data_modelling/</link>
+      <pubDate>Tue, 24 Nov 2020 10:52:13 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tech/2020-11-25_agile_and_data_modelling/</guid>
+      <description>Photo by Christina Morillo from Pexels
+Having worked in various Agile and Waterfall environments I have become fascinated by the potential mismatch between Data Modelling and Agile. Searching for some discussion pieces on this, I found an interesting post that reviews a conference discussion. Ultimately, this dates from Enterprise Data World 2015, but does seem to draw on a lot of expertise from enterprise level people who have had to reconcile Data Modelling and Agile.</description>
     </item>
     
     <item>
