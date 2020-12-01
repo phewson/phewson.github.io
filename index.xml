@@ -5,7 +5,7 @@
     <link>https://insightsforaction.uk/</link>
     <description>Recent content in Home on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 Nov 2020 10:52:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Dec 2020 11:26:43 +0000</lastBuildDate>
     
 	<atom:link href="https://insightsforaction.uk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -36,6 +36,16 @@
       <guid>https://insightsforaction.uk/sections/modern/</guid>
       <description>There are two key things to say about modern Data Science.
 Continuous Improvement / Continuous Delivery The first concerns &amp;ldquo;Continous Integration/Continuous Delivery&amp;rdquo; (CI/CD); a modern software development practice. The advantages of scripted analyses (reproducibility, testing, auditability) are well established; it&amp;rsquo;s a small leap to seeing these scripts as simple pieces of software and realising they need their entire architecture specified and tested continuously. Indeed I have published in Annals of Operations Research on the pitfalls of spreadsheets for data analysis.</description>
+    </item>
+    
+    <item>
+      <title>Software capital</title>
+      <link>https://insightsforaction.uk/tech/2020-12_01_api_contracts/</link>
+      <pubDate>Tue, 01 Dec 2020 11:26:43 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tech/2020-12_01_api_contracts/</guid>
+      <description>David Sankel CppCon 2016 presentation &amp;ldquo;Building Software Capital&amp;rdquo;
+Recently, I&amp;rsquo;ve been updating my C++ skills. In the far past, I&amp;rsquo;ve used it to speed up algorithms in scripted languages. However, I have never used it as a standalone programming language. And when I say C++ I think I really mean C, I just happen to compile it with g++. Currently, I have a couple of problems which might change my limited exposure and get me much deeper in C++ code.</description>
     </item>
     
     <item>

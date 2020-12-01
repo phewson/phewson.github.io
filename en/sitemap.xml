@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://insightsforaction.uk/</loc>
-    <lastmod>2020-11-24T10:52:13+00:00</lastmod>
+    <lastmod>2020-12-01T11:26:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -34,7 +34,7 @@
   
   <url>
     <loc>https://insightsforaction.uk/tech/</loc>
-    <lastmod>2020-11-24T10:52:13+00:00</lastmod>
+    <lastmod>2020-12-01T11:26:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -101,6 +101,11 @@
                 hreflang="en"
                 href="https://insightsforaction.uk/sections/modern/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tech/2020-12_01_api_contracts/</loc>
+    <lastmod>2020-12-01T11:26:43+00:00</lastmod>
   </url>
   
   <url>
