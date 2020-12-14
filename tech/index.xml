@@ -5,10 +5,20 @@
     <link>https://insightsforaction.uk/tech/</link>
     <description>Recent content in Tech Stack on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Dec 2020 11:26:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Dec 2020 15:22:41 +0000</lastBuildDate>
     
 	<atom:link href="https://insightsforaction.uk/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Github actions</title>
+      <link>https://insightsforaction.uk/tech/2020-12-14_github_actions/</link>
+      <pubDate>Mon, 14 Dec 2020 15:22:41 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tech/2020-12-14_github_actions/</guid>
+      <description>Photo by Oleg Magni from Pexels
+I know this seems like a tiny problem compared to everything else that has happened in 2020. But I started the year having learnt how to use Travis CI. This meant I could put my hobby projects under some kind of continuous testing. Now, whatever the merits of various workflows that can used for CI, Travis was supported by the R community. It was well integrated into R package development.</description>
+    </item>
     
     <item>
       <title>Software capital</title>
