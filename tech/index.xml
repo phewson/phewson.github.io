@@ -5,10 +5,20 @@
     <link>https://insightsforaction.uk/tech/</link>
     <description>Recent content in Tech Stack on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Dec 2020 15:22:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Dec 2020 15:36:55 +0000</lastBuildDate>
     
 	<atom:link href="https://insightsforaction.uk/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Some ansible woes</title>
+      <link>https://insightsforaction.uk/tech/2020-12-18_ansible_woes/</link>
+      <pubDate>Fri, 18 Dec 2020 15:36:55 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tech/2020-12-18_ansible_woes/</guid>
+      <description>Anonymous from Pinterest
+After some 12 years, I had to set up a new machine for my own use. I bought a reconditioned HP with around 16Gb RAM, 500Gb SSD. It came with a Windows OS, which I was going to wipe out. However, for various reasons (mainly some wonderful animation apps I use in teaching which require Mac or Windows only and need access to the sound system) I decided to keep the Windows host.</description>
+    </item>
     
     <item>
       <title>Github actions</title>

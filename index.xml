@@ -5,7 +5,7 @@
     <link>https://insightsforaction.uk/</link>
     <description>Recent content in Home on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Dec 2020 15:22:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Dec 2020 15:36:55 +0000</lastBuildDate>
     
 	<atom:link href="https://insightsforaction.uk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -36,6 +36,16 @@
       <guid>https://insightsforaction.uk/sections/modern/</guid>
       <description>There are two key things to say about modern Data Science.
 Continuous Improvement / Continuous Delivery The first concerns &amp;ldquo;Continous Integration/Continuous Delivery&amp;rdquo; (CI/CD); a modern software development practice. The advantages of scripted analyses (reproducibility, testing, auditability) are well established; it&amp;rsquo;s a small leap to seeing these scripts as simple pieces of software and realising they need their entire architecture specified and tested continuously. Indeed I have published in Annals of Operations Research on the pitfalls of spreadsheets for data analysis.</description>
+    </item>
+    
+    <item>
+      <title>Some ansible woes</title>
+      <link>https://insightsforaction.uk/tech/2020-12-18_ansible_woes/</link>
+      <pubDate>Fri, 18 Dec 2020 15:36:55 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tech/2020-12-18_ansible_woes/</guid>
+      <description>Anonymous from Pinterest
+After some 12 years, I had to set up a new machine for my own use. I bought a reconditioned HP with around 16Gb RAM, 500Gb SSD. It came with a Windows OS, which I was going to wipe out. However, for various reasons (mainly some wonderful animation apps I use in teaching which require Mac or Windows only and need access to the sound system) I decided to keep the Windows host.</description>
     </item>
     
     <item>
@@ -146,15 +156,6 @@ What is a “road” collision (do car parks, driveways, private roads count)?</
       <description>Photo credit: Vojtech Okenka from Pexels
 Having worked as an academic, as a Data Scientist, as a Business Intelligence Specialist as well as doing a lot of consulting I have learnt a lot about the way we use data, and the way people perceive &amp;ldquo;statistics&amp;rdquo; (whatever that word really means).
 Sometimes, a problem is so straightforward it only requires technical input (data processing) and it&amp;rsquo;s solved. More often though, a lot more interpretation is needed.</description>
-    </item>
-    
-    <item>
-      <title>COVID: Mathematical models and statistical models</title>
-      <link>https://insightsforaction.uk/posts/2020-08-28_covid/</link>
-      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/posts/2020-08-28_covid/</guid>
-      <description>One thing the COVID-19 pandemic has achieved is an incredible and widespread interest in numerical descriptions of the outbreak. You can’t go far on social media without encountering an armchair expert on R numbers. Sometimes they call them R-nought but I’m sure they mean R(t). Now we can find errors in their understanding and scoff, or we can use this as an educational opportunity. People are now interested in data, but they are also interested in models.</description>
     </item>
     
     <item>

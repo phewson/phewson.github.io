@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://insightsforaction.uk/</loc>
-    <lastmod>2020-12-14T15:22:41+00:00</lastmod>
+    <lastmod>2020-12-18T15:36:55+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -34,7 +34,7 @@
   
   <url>
     <loc>https://insightsforaction.uk/tech/</loc>
-    <lastmod>2020-12-14T15:22:41+00:00</lastmod>
+    <lastmod>2020-12-18T15:36:55+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -101,6 +101,11 @@
                 hreflang="en"
                 href="https://insightsforaction.uk/sections/modern/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tech/2020-12-18_ansible_woes/</loc>
+    <lastmod>2020-12-18T15:36:55+00:00</lastmod>
   </url>
   
   <url>
@@ -356,11 +361,6 @@
   <url>
     <loc>https://insightsforaction.uk/tags/statistics/</loc>
     <lastmod>2020-08-06T20:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insightsforaction.uk/posts/2020-08-28_covid/</loc>
-    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
