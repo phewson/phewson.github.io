@@ -5,10 +5,19 @@
     <link>https://insightsforaction.uk/tags/official-statistics/</link>
     <description>Recent content in official statistics on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Sep 2020 20:34:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jan 2021 20:34:51 +0000</lastBuildDate>
     
 	<atom:link href="https://insightsforaction.uk/tags/official-statistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Developing context; the value of historical data</title>
+      <link>https://insightsforaction.uk/posts/2021-01-06_age_period_cohort/</link>
+      <pubDate>Thu, 07 Jan 2021 20:34:51 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/posts/2021-01-06_age_period_cohort/</guid>
+      <description>I believe that data makes little sense without context. Often, we are lacking adequate information on context. When researching disease, knowing the age and sex of the patients is almost always important. When considering road injury research, it is harder to arrive at such an understanding because firstly there are both drivers and casualties to consider, and secondly there may be more than one driver. One of the most substantial weaknesses in the official road safety collision data are that no information is collected on uninjured passengers in any of the vehicles involved.</description>
+    </item>
     
     <item>
       <title>GB Road Fatalities and Life Expectancy</title>

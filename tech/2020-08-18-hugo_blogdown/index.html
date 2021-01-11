@@ -182,8 +182,16 @@
     
     <main class="post__body">
       <p>The current iteration of this website is a static website based on <a href="https://gohugo.io">Hugo</a>. In my opinion, there is a lot to like about static websites. I have previously used <strong>Jekyll</strong> and once upon a time coded <em>html</em> manually.   However, modern static website generators allow a wonderful presentation. The currently styling is based upon the <a href="https://themes.gohugo.io/hugo-terrassa-theme/">Terrassa</a> theme; for me it scored highly for accessibility and mobile friendliness.  The bigger issue for me though is to do data and version controlling. With a dynamic website, you don&rsquo;t necessarily know the data someone is accessing - it is drawn from a live database which by design can be updated independently of the website. With a static website, the data become version controlled along with the website. For some websites, that is a bad design choice. But I wanted to be able to demonstrate data analysis on data that I might revisit (because it has been updated) or using new methods. All this can be version controlled.</p>
-<p>The &ldquo;source&rdquo; repository, and the &ldquo;public&rdquo; repository are hosted on <a href="https://github.com">Github</a>. Github pages are great for <strong>Jekyll</strong>, so much so they will automatically build your sites from the source files.  This is not the case with ** Hugo** and currently it is necessary to split the site into a source repo containing a *public* sub-repo. It is this latter sub-repo which is pushed to the github pages.  This *public* repo contains a *.nojekyll* file to stop Github trying to build pages.</p>
+<p>The &ldquo;source&rdquo; repository, and the &ldquo;public&rdquo; repository are hosted on <a href="https://github.com">Github</a>. Github pages are great for <strong>Jekyll</strong>, so much so they will automatically build your sites from the source files.  This is not the case with <strong>Hugo</strong> and currently it is necessary to split the site into a source repo containing a <em>public</em> sub-repo. It is this latter sub-repo which is pushed to the github pages.  This <em>public</em> repo contains a <em>.nojekyll</em> file to stop Github trying to build pages.</p>
 <p>There are a few software ecosystems which dominate professional data analytics. For modelling and analysis I prefer <a href="https://www.r-project.org">R</a> along with <a href="https://www.postgresql.org/">PostgreSQL</a>.   We often need to access a number of data munging tools to get us from messy raw data to data which can be analysed, these can include Python, awk, sed.  The <strong>R</strong> ecosystem is, in my opinion, much more complete in terms of critising, validating, verifying any modelling you are doing.   It is also great when you need professional output.   The <strong>R</strong> package <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> is therefore used for this website. Literate programming has been around for a long time, Donald Knuth famously proposed this decades ago.  Indeed <em>Sweave</em> has been a stable <strong>R</strong> feature for almost 20 years.  Literate programming combines analysis code with report write up.   <strong>Blogdown</strong> is an extension that uses (<strong>R</strong>) Markdown in the same way to produce <em>.html</em> files which can be included in a <strong>Hugo</strong> blog.  Consequently, <strong>R/Blogdown/Hugo</strong> provides an environment for telling data stories which can copied, corrected, amended and version controlled to provide a full audit history.</p>
+<p>One thing I have found recently (11th January 2021), I needed to add a piece to the <code>yaml</code> at the top of the <code>.Rmd</code> file. I&rsquo;ve forgotten how I arranged to get the <code>.Rmd</code> files rendered before, but it seems it is now necessary to include this information.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">output</span>:
+  <span style="color:#66d9ef">blogdown::html_page</span>:
+    <span style="color:#66d9ef">toc</span>: <span style="color:#66d9ef">true</span>
+    <span style="color:#66d9ef">toc_depth</span>: <span style="color:#ae81ff">1</span>
+    <span style="color:#66d9ef">number_sections</span>: <span style="color:#66d9ef">true</span>
+    <span style="color:#66d9ef">fig_width</span>: <span style="color:#ae81ff">6</span></code></pre></div>
+<p>With this in place, the standard <code>blogdown::serve_site()</code> will run the code in the <code>.Rmd</code> file and render it using <code>pandoc</code> as an <code>html</code> file which can be included in the website.</p>
 
         
   
@@ -371,7 +379,7 @@ text-align: center;
 
     <div class="copy">
         
-        <p>© 2020 - Insights for Action</p>
+        <p>© 2021 - Insights for Action</p>
         
     </div>
 

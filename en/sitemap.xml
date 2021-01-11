@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://insightsforaction.uk/</loc>
-    <lastmod>2020-12-18T15:36:55+00:00</lastmod>
+    <lastmod>2021-01-07T20:34:51+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://insightsforaction.uk/posts/</loc>
-    <lastmod>2020-11-14T10:37:24+01:00</lastmod>
+    <lastmod>2021-01-07T20:34:51+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -104,6 +104,51 @@
   </url>
   
   <url>
+    <loc>https://insightsforaction.uk/tags/age-period-cohort/</loc>
+    <lastmod>2021-01-07T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/posts/2021-01-06_age_period_cohort/</loc>
+    <lastmod>2021-01-07T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/insights/</loc>
+    <lastmod>2021-01-07T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/official-statistics/</loc>
+    <lastmod>2021-01-07T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/road-collisions/</loc>
+    <lastmod>2021-01-07T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/stats19-data/</loc>
+    <lastmod>2021-01-07T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/</loc>
+    <lastmod>2021-01-07T20:34:51+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://insightsforaction.uk/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://insightsforaction.uk/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>https://insightsforaction.uk/tech/2020-12-18_ansible_woes/</loc>
     <lastmod>2020-12-18T15:36:55+00:00</lastmod>
   </url>
@@ -139,21 +184,6 @@
   </url>
   
   <url>
-    <loc>https://insightsforaction.uk/tags/</loc>
-    <lastmod>2020-11-14T10:37:24+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://insightsforaction.uk/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://insightsforaction.uk/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://insightsforaction.uk/posts/2020-11-16_unreasonable_effectiveness_of_data/</loc>
     <lastmod>2020-11-14T10:37:24+01:00</lastmod>
   </url>
@@ -164,27 +194,7 @@
   </url>
   
   <url>
-    <loc>https://insightsforaction.uk/tags/insights/</loc>
-    <lastmod>2020-09-07T20:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://insightsforaction.uk/tags/life-expectancy/</loc>
-    <lastmod>2020-09-07T20:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insightsforaction.uk/tags/official-statistics/</loc>
-    <lastmod>2020-09-07T20:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insightsforaction.uk/tags/road-collisions/</loc>
-    <lastmod>2020-09-07T20:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insightsforaction.uk/tags/stats19-data/</loc>
     <lastmod>2020-09-07T20:34:51+00:00</lastmod>
   </url>
   

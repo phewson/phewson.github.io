@@ -5,7 +5,7 @@
     <link>https://insightsforaction.uk/</link>
     <description>Recent content in Home on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 18 Dec 2020 15:36:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jan 2021 20:34:51 +0000</lastBuildDate>
     
 	<atom:link href="https://insightsforaction.uk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -36,6 +36,15 @@
       <guid>https://insightsforaction.uk/sections/modern/</guid>
       <description>There are two key things to say about modern Data Science.
 Continuous Improvement / Continuous Delivery The first concerns &amp;ldquo;Continous Integration/Continuous Delivery&amp;rdquo; (CI/CD); a modern software development practice. The advantages of scripted analyses (reproducibility, testing, auditability) are well established; it&amp;rsquo;s a small leap to seeing these scripts as simple pieces of software and realising they need their entire architecture specified and tested continuously. Indeed I have published in Annals of Operations Research on the pitfalls of spreadsheets for data analysis.</description>
+    </item>
+    
+    <item>
+      <title>Developing context; the value of historical data</title>
+      <link>https://insightsforaction.uk/posts/2021-01-06_age_period_cohort/</link>
+      <pubDate>Thu, 07 Jan 2021 20:34:51 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/posts/2021-01-06_age_period_cohort/</guid>
+      <description>I believe that data makes little sense without context. Often, we are lacking adequate information on context. When researching disease, knowing the age and sex of the patients is almost always important. When considering road injury research, it is harder to arrive at such an understanding because firstly there are both drivers and casualties to consider, and secondly there may be more than one driver. One of the most substantial weaknesses in the official road safety collision data are that no information is collected on uninjured passengers in any of the vehicles involved.</description>
     </item>
     
     <item>
