@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>postgresql on Insights for Action</title>
+    <link>https://insightsforaction.uk/tags/postgresql/</link>
+    <description>Recent content in postgresql on Insights for Action</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insightsforaction.uk/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Managing migrations with sqitch</title>
+      <link>https://insightsforaction.uk/tech/2021_02-16_sqitch/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tech/2021_02-16_sqitch/</guid>
+      <description>From Pexels Wendy Wei
+I do have one little problem with sqitch. I am so used to typing a letter u after a letter q that I regularly mistype the command as squitch, and then end up staring at the terminal for so long I wonder if I should have typed sqint. Very minor naming issues aside, the project has a website at www.sqitch.org. I&amp;rsquo;ve found it a simple and specific database migration tool which does as much as I want and no more.</description>
+    </item>
+    
+  </channel>
+</rss>

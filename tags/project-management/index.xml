@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Management on Insights for Action</title>
+    <link>https://insightsforaction.uk/tags/project-management/</link>
+    <description>Recent content in Project Management on Insights for Action</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 08 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insightsforaction.uk/tags/project-management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GTD (Getting things done)</title>
+      <link>https://insightsforaction.uk/tech/2021_02-08_gtd/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tech/2021_02-08_gtd/</guid>
+      <description>From Pexels
+David Allen the consultant and author (sadly not Dave Allen the comedian) promotes a management system in his book &amp;ldquo;Getting Things Done: The Art of Stress Free Productivity&amp;rdquo;. In my opinion, there are two key features to this system. The first is learning to use a tracking system rather than carrying things in your head. The second is taking the time to review, prioritize and delete actions from this tracking system.</description>
+    </item>
+    
+  </channel>
+</rss>

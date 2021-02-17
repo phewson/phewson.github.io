@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, noarchive" />
+	<title>Insights for Action - Managing migrations with sqitch</title>
+	<link rel="icon" href="https://insightsforaction.uk/images/branding/favicon.ico" />
+	<meta name="description" content="" />
+
+	
+
+	<meta name="generator" content="Hugo 0.74.3" />
+
+	
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Managing migrations with sqitch"/>
+<meta name="twitter:description" content="Managing database migrations with sqitch"/>
+
+	<meta property="og:title" content="Managing migrations with sqitch" />
+<meta property="og:description" content="Managing database migrations with sqitch" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://insightsforaction.uk/tech/2021_02-16_sqitch/" />
+<meta property="article:published_time" content="2021-02-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-15T00:00:00+00:00" />
+
+
+	<meta property="og:locale" content="en" />
+	
+
+	
+	
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://insightsforaction.uk/css/bundle.min.css">
+</head>
+<body><header class="header  has-LangNav">
+    <div class="header__title">
+        <a href="/" class="header__title__link" alt="Home">
+            
+            Insights for Action
+            
+        </a>
+    </div>
+
+    <nav class="menu" aria-label="menu">
+    <ul class="menu__items" aria-label="menu">
+        
+        
+        <li class="menu__items__item" aria-label="Home">
+            <a href="/" class="menu__items__item__link "
+                alt="Home" role="menuitem">
+                Home
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="Data stories">
+            <a href="/posts/" class="menu__items__item__link "
+                alt="Data stories" role="menuitem">
+                Data stories
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="Tech Stack">
+            <a href="/tech/" class="menu__items__item__link "
+                alt="Tech Stack" role="menuitem">
+                Tech Stack
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="About">
+            <a href="/about/" class="menu__items__item__link "
+                alt="About" role="menuitem">
+                About
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="Contact">
+            <a href="/contact/" class="menu__items__item__link "
+                alt="Contact" role="menuitem">
+                Contact
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+    <nav class="hamburger-menu" aria-label="mobile-menu">
+    <div class="toggle">
+        <input type="checkbox" class="hamburger__toggle" id="hamburgerToggle" name="hamburger toggle" aria-label="Hamburguer menu">
+        <label class="hamburger__toggle__icon" for="hamburgerToggle">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="hamburger__items" aria-label="mobile-menu">
+            
+            <li class="hamburger__items__item" aria-label="Home">
+                <a href="/" class="hamburger__items__item__link" alt="Home" role="menuitem">
+                    Home
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="Data stories">
+                <a href="/posts/" class="hamburger__items__item__link" alt="Data stories" role="menuitem">
+                    Data stories
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="Tech Stack">
+                <a href="/tech/" class="hamburger__items__item__link" alt="Tech Stack" role="menuitem">
+                    Tech Stack
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="About">
+                <a href="/about/" class="hamburger__items__item__link" alt="About" role="menuitem">
+                    About
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="Contact">
+                <a href="/contact/" class="hamburger__items__item__link" alt="Contact" role="menuitem">
+                    Contact
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+    
+    <nav class="LangNav">
+
+
+    
+            
+                <span class="active language">en</span>
+            
+</nav>
+
+    
+</header>
+
+<article class="post">
+    <header class="post__header">
+        <h1 class="post__title">Managing migrations with sqitch</h1>
+        
+        <p class="post__subtitle">Managing database migrations with sqitch</p>
+        
+        
+        
+        <p class="post__date date">
+            Monday, 15 Feb, 2021 By Paul Hewson.
+        </p>
+        
+        
+        <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+    </header>
+
+    
+    <main class="post__body">
+      <p><img src="/en/tech/2021-02-16_sqitch/pexels-wendy-wei-3000260.jpg" alt="Migrating birds">
+<em>From Pexels Wendy Wei</em></p>
+<p>I do have one little problem with <code>sqitch</code>.   I am so used to typing a letter <code>u</code> after a letter <code>q</code> that I regularly mistype the command as <code>squitch</code>, and then end up staring at the terminal for so long I wonder if I should have typed <code>sqint</code>. Very minor naming issues aside, the project has a website at <a href="https://www.sqitch.org">www.sqitch.org</a>.  I&rsquo;ve found it a simple and specific database migration tool which does as much as I want and no more.  It&rsquo;s written in Perl and available directly from Ubuntu repositories with</p>
+<pre><code>sudo apt-get install sqitch
+</code></pre><p><code>sqitch</code> is designed to work very closely with <code>git</code>.   Indeed, as with using <code>git init</code> to create a new repository, executing <code>sqitch init</code> in a git repository will initialize a data managed migration project.  This blog post documents a couple of departures I made from the <a href="https://sqitch.org/docs/manual/sqitchtutorial/">official tutorial</a>.  Optional arguments to the <code>init</code> call give the name of the project, a remote git repository address and the database engine of choice.  A full call to <code>init</code> would therefore contain the following information:</p>
+<pre><code>sqitch init &lt;MY PROJECT&gt; --uri &lt;MY REMOTE GIT REPO&gt; --engine pg
+</code></pre><p>This will generate two local files, <code>sqitch.conf</code> and <code>sqitch.plan</code>. These files need to be kept under version control, along with the <code>sql</code> files that will be generated under three folders, <code>deploy</code>, <code>revert</code> and <code>verify</code>.   The manual recommends adding information on the location of the local <code>psql</code> as well as a user name and email address.</p>
+<pre><code>sqitch config --user engine.pg.client /usr/bin/psql
+sqitch config --user.name 'Paul Hewson'
+sqitch config --user.email '&lt;MY EMAIL ADDRESS&gt;
+</code></pre><p>However, this has the effect of adding a &ldquo;global&rdquo; config file in <code>~/.sqitch/sqitch.conf</code>. I find this annoying partly because I like the idea of keeping dotfiles under <code>~/.config</code>.  More importantly, I prefer keeping all config files for a specific project under the folders for that project and hence under the version control for that project.  I would rather my project git history knew if I had swapped <code>psql</code> locations at some stage.   One change I found I had to make manually was to specify the target databases.  This means adding a section to the local <code>sqitch.conf</code> file.  The name &ldquo;official_surveys&rdquo; becomes a proxy for the full database server specification.  The preamble db:pg indicates that this is a PostgreSQL database. This makes is simple to specify test and production databases as necessary.  Currently, my project is a research project working with nationally commissioned surveys and I only have one working database.  I may in due course decide to run a &ldquo;production&rdquo; database in a container.</p>
+<pre><code>[target &quot;official_surveys&quot;]
+        uri = db:pg://USERNAME@HOSTNAME:PORTNUMBER/DATABASE_NAME
+</code></pre><p>Having set up the project, the first step is to add files locally specifying the DDL required for the first migration.  <code>sqitch add</code> with an optional (short) comment sets up the required <code>sql</code> files locally and makes an adjustment to the <code>sqitch.plan</code>.</p>
+<pre><code>sqitch add first_migration -n 'My first migration'
+</code></pre><p>This generates files in three folders, namely</p>
+<pre><code>deploy/first_migration.sql
+revert/first_migration.sql
+verify/first_migration.sql
+</code></pre><p>Here&rsquo;s where the fun starts.  The next task is to write into these files all the DDL necessary to set up schema, tables, views and functions in the  deploy script, all the corresponding DDL to remove these objects in the revert script. The verify script is intended to provide tests that the database structure is correct. In a complex migration scheme on a live database there are lots of ways this could go wrong.  In my case, I am somewhat misusing this by writing anonymous scripts to ensure that data has been loaded correctly into the tables.  This is an illustration from the National Travel Survey.   Data is supplied in a tab separated value, with the column name <code>HomeIUse_B01ID</code> and the responses are coded as integers, including -8, -9 for missing data values.  This is manipulated into an <code>enum</code> in the target table.  There are therefore several steps where something could go wrong, and so a number of variables are chosen at random and checks are made that the data has been transformed correctly.</p>
+<pre><code>DO $$
+DECLARE
+    home_internet int;
+BEGIN
+   home_internet := (
+       select count(*) 
+         from dft.nts_individual_2002_2019 
+        where internet_frequency_home::text = 'Several times a day'
+        );
+   ASSERT home_internet = 25388;
+END $$;
+</code></pre><p>Running the command</p>
+<pre><code>sqitch verify official_surveys
+</code></pre><p>will execute these functions on the target database.  As noted, this is an abuse of the design intentions of <code>sqitch</code> as the command could be executed along with the deploy script as</p>
+<pre><code>sqitch deploy --verify official_surveys
+</code></pre><p>would both deploy a migration and verify the subsequent database structure.  However, this slight misuse of <code>sqitch</code> serves a purpose at present until I find a way to more closely link data import steps to data verification steps.</p>
+<p>Developing a new migration consists of repeatedly cyling through</p>
+<pre><code>sqitch deploy official_surveys
+</code></pre><p>and</p>
+<pre><code>sqitch revert official_surveys --to @HEAD^ -y
+</code></pre><p>until the migration looks acceptable, fixing any errors which arise.   At that stage, I can import the data and verify the migration and data transformation.   One point of note is that the <code>--to @HEAD^</code> reverts the last migration only (i.e., the migration currently being worked on).  It is possible to use alternatives such as <code>@HEAD^^</code> and <code>@HEAD^3</code> which remove all migrations up to the immediately previous one, and two migrations previous.   <code>@ROOT</code> may be a great England cricketer, but reverting <code>--to @ROOT</code> will remove <strong>all</strong> migrations.  It is possible to be more precise; by issuing:</p>
+<pre><code>sqitch log official_surveys
+</code></pre><p>we obtain a log of all migrations applied to the target database, with the SHA for each migration and can use the SHA codes to limit the reversion.</p>
+<p>Finally, two features I haven&rsquo;t used yet. At a certain point, it is possible to tag a migration using</p>
+<pre><code>sqitch tag v1.0.0 -n 'A useful comment'
+</code></pre><p>and there is also a <code>sqitch bundle</code> command which bundles all the migrations in a <code>bundle</code> folder ready for zipping and distributing.   I can&rsquo;t see my self every using this, as I can only imagine using <code>sqitch</code> from a git repository.</p>
+<p>Anyway, I&rsquo;m finding this an extremely useful utility when developing databases to handle official surveys which are large scale and messy. It is only by working through the surveys you discover features such as a survey boost and then have to make a decision whether to break the table into a main and boost table (because only a smaller sub-sample answered the boost questions and to include these in the main table would include a <strong>lot</strong> of empty rows).  One example of this is the Health Survey for England where there is a specific battery of questions which require input from a nurse and are applied to a smaller subset of the whole.  For this reason, the database migration is closely linked to the data import and verification steps.  I would really like to split them out, partly to increase my skill level is using <a href="https://greatexpectations.io/">Great Expectations</a> a suite of &ldquo;unit&rdquo; style tests intended for data rather than code.</p>
+
+        
+  
+  
+  
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left;
+height: 36px;
+width: 32px;
+float: left;
+text-align: center;
+}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.gplus:hover > svg {fill: #dd4b39;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.gplus > svg {height: 17px; margin-top: 9px; position: relative; left: 1px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+</style>
+
+<span style="color: silver;">Share on: </span><div id="share-buttons">
+
+  <div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https:\/\/insightsforaction.uk\/tech\/2021_02-16_sqitch\/');">
+     <svg class="widget-social__link-icon icon icon-facebook" width="24" height="24" viewBox="0 0 352 352"><path d="m0 32v288c0 17.5 14.5 32 32 32h288c17.5 0 32-14.5 32-32v-288c0-17.5-14.5-32-32-32h-288c-17.5 0-32 14.5-32 32zm320 0v288h-83v-108h41.5l6-48h-47.5v-31c0-14 3.5-23.5 23.5-23.5h26v-43.5c-4.4-.6-19.8-1.5-37.5-1.5-36.9 0-62 22.2-62 63.5v36h-42v48h42v108h-155v-288z"/></svg>
+
+  </div>
+  <div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/intent/tweet?url=https:\/\/insightsforaction.uk\/tech\/2021_02-16_sqitch\/&amp;text=Managing migrations with sqitch');">
+     <svg class="widget-social__link-icon icon icon-twitter" width="24" height="24" viewBox="0 0 384 312"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
+
+  </div>
+  <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/sharing/share-offsite?url=https:\/\/insightsforaction.uk\/tech\/2021_02-16_sqitch\/');">
+    <svg class="widget-social__link-icon icon icon-linkedin" width="24" height="24" viewBox="0 0 352 352"><path d="M0,40v272c0,21.9,18.1,40,40,40h272c21.9,0,40-18.1,40-40V40c0-21.9-18.1-40-40-40H40C18.1,0,0,18.1,0,40z M312,32 c4.6,0,8,3.4,8,8v272c0,4.6-3.4,8-8,8H40c-4.6,0-8-3.4-8-8V40c0-4.6,3.4-8,8-8H312z M59.5,87c0,15.2,12.3,27.5,27.5,27.5 c15.2,0,27.5-12.3,27.5-27.5c0-15.2-12.3-27.5-27.5-27.5C71.8,59.5,59.5,71.8,59.5,87z M187,157h-1v-21h-45v152h47v-75 c0-19.8,3.9-39,28.5-39c24.2,0,24.5,22.4,24.5,40v74h47v-83.5c0-40.9-8.7-72-56.5-72C208.5,132.5,193.3,145.1,187,157z M64,288h47.5 V136H64V288z"/></svg>
+
+  </div>
+  <div class="mail" title="Share this through Email" onclick="window.open('mailto:?subject=Insights for Action - Managing migrations with sqitch.&amp;body=Managing migrations with sqitch, by Insights for Action\nManaging database migrations with sqitch\n\nhttps:\/\/insightsforaction.uk\/tech\/2021_02-16_sqitch\/\n');">
+     <svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 416 288"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
+
+  </div>
+  <div class="whatsapp" title="Share this through Whatsapp" onclick="window.open('whatsapp://send?text=Managing migrations with sqitch, by Insights for Action\nManaging database migrations with sqitch\n\nhttps:\/\/insightsforaction.uk\/tech\/2021_02-16_sqitch\/\n');">
+     <svg class="widget-social__link-icon icon icon-whatsapp" width="24" height="24" viewBox="0 0 24 24"><path d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z"/></svg>
+
+</div>
+
+    </main>
+    
+
+    
+    <footer class="post__footer">
+        
+<ul class="tags">
+    
+    
+    <li class="tags__tag">
+        <a href="https://insightsforaction.uktags/postgresql/" class="tag__link" alt="postgresql.">
+            #postgresql
+        </a>
+    </li>
+    
+    
+    <li class="tags__tag">
+        <a href="https://insightsforaction.uktags/sqitch/" class="tag__link" alt="sqitch.">
+            #sqitch
+        </a>
+    </li>
+    
+    
+    <li class="tags__tag">
+        <a href="https://insightsforaction.uktags/migration/" class="tag__link" alt="migration.">
+            #migration
+        </a>
+    </li>
+    
+    
+    <li class="tags__tag">
+        <a href="https://insightsforaction.uktags/version%20control/" class="tag__link" alt="version control.">
+            #version control
+        </a>
+    </li>
+    
+</ul>
+
+
+    </footer>
+    
+</article>
+<footer class="footer">
+    
+    
+    
+
+    
+    <div class="footer__social">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://github.com/phewson" class="footer__social__link" alt="github" target="_blank" aria-label="https://github.com/phewson" rel="noopener">
+            <span>
+                <i class="fab fa-github"></i>
+            </span>
+        </a>
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://www.linkedin.com/in/pahewson/" class="footer__social__link" alt="linkedin" target="_blank" aria-label="https://www.linkedin.com/in/pahewson/" rel="noopener">
+            <span>
+                <i class="fab fa-linkedin"></i>
+            </span>
+        </a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/texhewson" class="footer__social__link" alt="twitter" target="_blank" aria-label="https://twitter.com/texhewson" rel="noopener">
+            <span>
+                <i class="fab fa-twitter"></i>
+            </span>
+        </a>
+        
+        
+        
+        
+        
+        
+    </div>
+    
+    
+
+    <address class="footer__contact">
+        
+        <p class="footer__contact__item">
+            <span><i class="far fa-envelope"></i></span>
+            <a href="mailto:paul@insightsforaction.uk" class="footer__contact__link" alt="Email">
+                paul@insightsforaction.uk
+            </a>
+        </p>
+        
+
+        
+
+        
+        <p class="footer__contact__item">
+            <span><i class="fab fa-skype"></i></span>
+            <a href="skype:pjhewson" class="footer__contact__link" alt="Skype">
+                pjhewson
+            </a>
+        </p>
+        
+
+        
+        <p class="footer__contact__item">
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            Exeter, UK
+        </p>
+        
+    </address>
+
+    <div class="copy">
+        
+        <p>© 2021 - Insights for Action</p>
+        
+    </div>
+
+    
+
+
+
+
+<script src="https://insightsforaction.uk/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script
+	defer
+	src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5&#43;&#43;eIfzYmTgBBmXYdhvxPc&#43;XcFEk&#43;zJwDgWbP"
+	crossorigin="anonymous"
+></script>
+
+
+</footer></body>
+
+</html>
