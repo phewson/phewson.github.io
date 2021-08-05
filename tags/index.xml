@@ -5,10 +5,46 @@
     <link>https://insightsforaction.uk/tags/</link>
     <description>Recent content in Tags on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Aug 2021 20:34:51 +0000</lastBuildDate>
     
 	<atom:link href="https://insightsforaction.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data ethics and governance</title>
+      <link>https://insightsforaction.uk/tags/data-ethics-and-governance/</link>
+      <pubDate>Wed, 04 Aug 2021 20:34:51 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tags/data-ethics-and-governance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differential privacy</title>
+      <link>https://insightsforaction.uk/tags/differential-privacy/</link>
+      <pubDate>Wed, 04 Aug 2021 20:34:51 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tags/differential-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disclosure control</title>
+      <link>https://insightsforaction.uk/tags/disclosure-control/</link>
+      <pubDate>Wed, 04 Aug 2021 20:34:51 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tags/disclosure-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Data</title>
+      <link>https://insightsforaction.uk/tags/public-data/</link>
+      <pubDate>Wed, 04 Aug 2021 20:34:51 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tags/public-data/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>migration</title>
@@ -205,15 +241,6 @@
       <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://insightsforaction.uk/tags/government-surveys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Public Data</title>
-      <link>https://insightsforaction.uk/tags/public-data/</link>
-      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tags/public-data/</guid>
       <description></description>
     </item>
     

@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://insightsforaction.uk/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-04T20:34:51+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://insightsforaction.uk/posts/</loc>
-    <lastmod>2021-01-20T20:34:51+00:00</lastmod>
+    <lastmod>2021-08-04T20:34:51+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -104,6 +104,46 @@
   </url>
   
   <url>
+    <loc>https://insightsforaction.uk/tags/data-ethics-and-governance/</loc>
+    <lastmod>2021-08-04T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/posts/2021-08-05-disclosure_control_privacy/</loc>
+    <lastmod>2021-08-04T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/differential-privacy/</loc>
+    <lastmod>2021-08-04T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/disclosure-control/</loc>
+    <lastmod>2021-08-04T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/public-data/</loc>
+    <lastmod>2021-08-04T20:34:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insightsforaction.uk/tags/</loc>
+    <lastmod>2021-08-04T20:34:51+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://insightsforaction.uk/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://insightsforaction.uk/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>https://insightsforaction.uk/tech/2021_02-16_sqitch/</loc>
     <lastmod>2021-02-15T00:00:00+00:00</lastmod>
   </url>
@@ -121,21 +161,6 @@
   <url>
     <loc>https://insightsforaction.uk/tags/sqitch/</loc>
     <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insightsforaction.uk/tags/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://insightsforaction.uk/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://insightsforaction.uk/tags/"
-                />
   </url>
   
   <url>
@@ -285,11 +310,6 @@
   
   <url>
     <loc>https://insightsforaction.uk/tags/government-surveys/</loc>
-    <lastmod>2020-09-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insightsforaction.uk/tags/public-data/</loc>
     <lastmod>2020-09-03T00:00:00+00:00</lastmod>
   </url>
   

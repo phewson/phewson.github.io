@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Public Data on Insights for Action</title>
-    <link>https://insightsforaction.uk/tags/public-data/</link>
-    <description>Recent content in Public Data on Insights for Action</description>
+    <title>Disclosure control on Insights for Action</title>
+    <link>https://insightsforaction.uk/tags/disclosure-control/</link>
+    <description>Recent content in Disclosure control on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 04 Aug 2021 20:34:51 +0000</lastBuildDate>
     
-	<atom:link href="https://insightsforaction.uk/tags/public-data/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insightsforaction.uk/tags/disclosure-control/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       <guid>https://insightsforaction.uk/posts/2021-08-05-disclosure_control_privacy/</guid>
       <description>Photo by Pixabay from Pexels
 I&amp;rsquo;ve been reading a lot about how Differential Privacy is the answer to all our privacy concerns. However, having probed the methodology in detail, I&amp;rsquo;m not so sure. Indeed, I think we have a silo problem. Differential Privacy has been developed in a Computer Science framework as a means of balancing the need for altering data to meet privacy requirements with the need to maintain data close enough to their raw state to yield meaningful answers.</description>
-    </item>
-    
-    <item>
-      <title>Data Sources and Cycling</title>
-      <link>https://insightsforaction.uk/posts/2020-09-03_data_sources_on_cyling/</link>
-      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/posts/2020-09-03_data_sources_on_cyling/</guid>
-      <description>Something I&amp;rsquo;ve been droning on about for a few years concerns our reluctance to use datasets that already exist.
-  Specifically in relation to cycling, we have a lot of data on cycling that is rarely used, and that&amp;rsquo;s without worrying about data that aren&amp;rsquo;t disseminated in a way that lets us use it. Here are some high quality UK based data sources. These come from surveys that are very expensive to conduct:</description>
     </item>
     
   </channel>
