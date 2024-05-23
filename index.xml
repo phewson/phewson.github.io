@@ -5,11 +5,7 @@
     <link>https://insightsforaction.uk/</link>
     <description>Recent content in Home on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 04 Aug 2021 20:34:51 +0000</lastBuildDate>
-    
-	<atom:link href="https://insightsforaction.uk/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 23 May 2024 08:04:34 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://insightsforaction.uk/about/</link>
@@ -36,6 +32,16 @@
       <guid>https://insightsforaction.uk/sections/modern/</guid>
       <description>There are two key things to say about modern Data Science.
 Continuous Improvement / Continuous Delivery The first concerns &amp;ldquo;Continous Integration/Continuous Delivery&amp;rdquo; (CI/CD); a modern software development practice. The advantages of scripted analyses (reproducibility, testing, auditability) are well established; it&amp;rsquo;s a small leap to seeing these scripts as simple pieces of software and realising they need their entire architecture specified and tested continuously. Indeed I have published in Annals of Operations Research on the pitfalls of spreadsheets for data analysis.</description>
+    </item>
+    
+    <item>
+      <title>Reflections on the Post Office Horizon Enquiry</title>
+      <link>https://insightsforaction.uk/posts/2024-05-23-post_office_horizon/</link>
+      <pubDate>Thu, 23 May 2024 08:04:34 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/posts/2024-05-23-post_office_horizon/</guid>
+      <description>Photo by Cameron Readius from Pexels
+I won&amp;rsquo;t be the only person who has been reading about the Post Office Horizon scandal ever since Rebecca Thomson wrote about it in May 2009 in Computer Weekly (&amp;ldquo;Bankruptcy, prosecution and disrupted livelihoods – postmasters tell their story&amp;rdquo;) all of which is nicely summed up in Private Eye. And likewise, I&amp;rsquo;ve been a little bemused by serious business leaders being unaware that Post Office were carrying through their own prosecutions (not the Police and Crown Prosecution Service) and even more bemused that senior executive&amp;rsquo;s environmental scanning doesn&amp;rsquo;t include hearing about these media reports.</description>
     </item>
     
     <item>

@@ -10,7 +10,7 @@
 
 	
 
-	<meta name="generator" content="Hugo 0.74.3" />
+	<meta name="generator" content="Hugo 0.92.2" />
 
 	
 
@@ -21,9 +21,10 @@
 	<meta property="og:title" content="Managing migrations with sqitch" />
 <meta property="og:description" content="Managing database migrations with sqitch" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://insightsforaction.uk/tech/2021_02-16_sqitch/" />
+<meta property="og:url" content="https://insightsforaction.uk/tech/2021_02-16_sqitch/" /><meta property="article:section" content="tech" />
 <meta property="article:published_time" content="2021-02-15T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-02-15T00:00:00+00:00" />
+
 
 
 	<meta property="og:locale" content="en" />
@@ -170,24 +171,24 @@
       <p><img src="/en/tech/2021-02-16_sqitch/pexels-wendy-wei-3000260.jpg" alt="Migrating birds">
 <em>From Pexels Wendy Wei</em></p>
 <p>I do have one little problem with <code>sqitch</code>.   I am so used to typing a letter <code>u</code> after a letter <code>q</code> that I regularly mistype the command as <code>squitch</code>, and then end up staring at the terminal for so long I wonder if I should have typed <code>sqint</code>. Very minor naming issues aside, the project has a website at <a href="https://www.sqitch.org">www.sqitch.org</a>.  I&rsquo;ve found it a simple and specific database migration tool which does as much as I want and no more.  It&rsquo;s written in Perl and available directly from Ubuntu repositories with</p>
-<pre><code>sudo apt-get install sqitch
+<pre tabindex="0"><code>sudo apt-get install sqitch
 </code></pre><p><code>sqitch</code> is designed to work very closely with <code>git</code>.   Indeed, as with using <code>git init</code> to create a new repository, executing <code>sqitch init</code> in a git repository will initialize a data managed migration project.  This blog post documents a couple of departures I made from the <a href="https://sqitch.org/docs/manual/sqitchtutorial/">official tutorial</a>.  Optional arguments to the <code>init</code> call give the name of the project, a remote git repository address and the database engine of choice.  A full call to <code>init</code> would therefore contain the following information:</p>
-<pre><code>sqitch init &lt;MY PROJECT&gt; --uri &lt;MY REMOTE GIT REPO&gt; --engine pg
+<pre tabindex="0"><code>sqitch init &lt;MY PROJECT&gt; --uri &lt;MY REMOTE GIT REPO&gt; --engine pg
 </code></pre><p>This will generate two local files, <code>sqitch.conf</code> and <code>sqitch.plan</code>. These files need to be kept under version control, along with the <code>sql</code> files that will be generated under three folders, <code>deploy</code>, <code>revert</code> and <code>verify</code>.   The manual recommends adding information on the location of the local <code>psql</code> as well as a user name and email address.</p>
-<pre><code>sqitch config --user engine.pg.client /usr/bin/psql
+<pre tabindex="0"><code>sqitch config --user engine.pg.client /usr/bin/psql
 sqitch config --user.name 'Paul Hewson'
 sqitch config --user.email '&lt;MY EMAIL ADDRESS&gt;
 </code></pre><p>However, this has the effect of adding a &ldquo;global&rdquo; config file in <code>~/.sqitch/sqitch.conf</code>. I find this annoying partly because I like the idea of keeping dotfiles under <code>~/.config</code>.  More importantly, I prefer keeping all config files for a specific project under the folders for that project and hence under the version control for that project.  I would rather my project git history knew if I had swapped <code>psql</code> locations at some stage.   One change I found I had to make manually was to specify the target databases.  This means adding a section to the local <code>sqitch.conf</code> file.  The name &ldquo;official_surveys&rdquo; becomes a proxy for the full database server specification.  The preamble db:pg indicates that this is a PostgreSQL database. This makes is simple to specify test and production databases as necessary.  Currently, my project is a research project working with nationally commissioned surveys and I only have one working database.  I may in due course decide to run a &ldquo;production&rdquo; database in a container.</p>
-<pre><code>[target &quot;official_surveys&quot;]
+<pre tabindex="0"><code>[target &quot;official_surveys&quot;]
         uri = db:pg://USERNAME@HOSTNAME:PORTNUMBER/DATABASE_NAME
 </code></pre><p>Having set up the project, the first step is to add files locally specifying the DDL required for the first migration.  <code>sqitch add</code> with an optional (short) comment sets up the required <code>sql</code> files locally and makes an adjustment to the <code>sqitch.plan</code>.</p>
-<pre><code>sqitch add first_migration -n 'My first migration'
+<pre tabindex="0"><code>sqitch add first_migration -n 'My first migration'
 </code></pre><p>This generates files in three folders, namely</p>
-<pre><code>deploy/first_migration.sql
+<pre tabindex="0"><code>deploy/first_migration.sql
 revert/first_migration.sql
 verify/first_migration.sql
 </code></pre><p>Here&rsquo;s where the fun starts.  The next task is to write into these files all the DDL necessary to set up schema, tables, views and functions in the  deploy script, all the corresponding DDL to remove these objects in the revert script. The verify script is intended to provide tests that the database structure is correct. In a complex migration scheme on a live database there are lots of ways this could go wrong.  In my case, I am somewhat misusing this by writing anonymous scripts to ensure that data has been loaded correctly into the tables.  This is an illustration from the National Travel Survey.   Data is supplied in a tab separated value, with the column name <code>HomeIUse_B01ID</code> and the responses are coded as integers, including -8, -9 for missing data values.  This is manipulated into an <code>enum</code> in the target table.  There are therefore several steps where something could go wrong, and so a number of variables are chosen at random and checks are made that the data has been transformed correctly.</p>
-<pre><code>DO $$
+<pre tabindex="0"><code>DO $$
 DECLARE
     home_internet int;
 BEGIN
@@ -199,19 +200,19 @@ BEGIN
    ASSERT home_internet = 25388;
 END $$;
 </code></pre><p>Running the command</p>
-<pre><code>sqitch verify official_surveys
+<pre tabindex="0"><code>sqitch verify official_surveys
 </code></pre><p>will execute these functions on the target database.  As noted, this is an abuse of the design intentions of <code>sqitch</code> as the command could be executed along with the deploy script as</p>
-<pre><code>sqitch deploy --verify official_surveys
+<pre tabindex="0"><code>sqitch deploy --verify official_surveys
 </code></pre><p>would both deploy a migration and verify the subsequent database structure.  However, this slight misuse of <code>sqitch</code> serves a purpose at present until I find a way to more closely link data import steps to data verification steps.</p>
 <p>Developing a new migration consists of repeatedly cyling through</p>
-<pre><code>sqitch deploy official_surveys
+<pre tabindex="0"><code>sqitch deploy official_surveys
 </code></pre><p>and</p>
-<pre><code>sqitch revert official_surveys --to @HEAD^ -y
+<pre tabindex="0"><code>sqitch revert official_surveys --to @HEAD^ -y
 </code></pre><p>until the migration looks acceptable, fixing any errors which arise.   At that stage, I can import the data and verify the migration and data transformation.   One point of note is that the <code>--to @HEAD^</code> reverts the last migration only (i.e., the migration currently being worked on).  It is possible to use alternatives such as <code>@HEAD^^</code> and <code>@HEAD^3</code> which remove all migrations up to the immediately previous one, and two migrations previous.   <code>@ROOT</code> may be a great England cricketer, but reverting <code>--to @ROOT</code> will remove <strong>all</strong> migrations.  It is possible to be more precise; by issuing:</p>
-<pre><code>sqitch log official_surveys
+<pre tabindex="0"><code>sqitch log official_surveys
 </code></pre><p>we obtain a log of all migrations applied to the target database, with the SHA for each migration and can use the SHA codes to limit the reversion.</p>
 <p>Finally, two features I haven&rsquo;t used yet. At a certain point, it is possible to tag a migration using</p>
-<pre><code>sqitch tag v1.0.0 -n 'A useful comment'
+<pre tabindex="0"><code>sqitch tag v1.0.0 -n 'A useful comment'
 </code></pre><p>and there is also a <code>sqitch bundle</code> command which bundles all the migrations in a <code>bundle</code> folder ready for zipping and distributing.   I can&rsquo;t see my self every using this, as I can only imagine using <code>sqitch</code> from a git repository.</p>
 <p>Anyway, I&rsquo;m finding this an extremely useful utility when developing databases to handle official surveys which are large scale and messy. It is only by working through the surveys you discover features such as a survey boost and then have to make a decision whether to break the table into a main and boost table (because only a smaller sub-sample answered the boost questions and to include these in the main table would include a <strong>lot</strong> of empty rows).  One example of this is the Health Survey for England where there is a specific battery of questions which require input from a nurse and are applied to a smaller subset of the whole.  For this reason, the database migration is closely linked to the data import and verification steps.  I would really like to split them out, partly to increase my skill level is using <a href="https://greatexpectations.io/">Great Expectations</a> a suite of &ldquo;unit&rdquo; style tests intended for data rather than code.</p>
 
@@ -401,7 +402,7 @@ text-align: center;
 
     <div class="copy">
         
-        <p>© 2021 - Insights for Action</p>
+        <p>© 2024 - Insights for Action</p>
         
     </div>
 
@@ -410,7 +411,7 @@ text-align: center;
 
 
 
-<script src="https://insightsforaction.uk/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
+<script src="https://insightsforaction.uk/js/bundle.min.58209fc971cd5bd08cd889189ae476bf3c16736fd03234aeb7580bc6c504f5adc6797c906cb341a98099719e32801c5d3d1d3abd1ecded9433aedc2d34c7bc8d.js"></script>
 
 
 
