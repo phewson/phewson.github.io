@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 23 May 2024 08:04:34 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Corporate governance</title>
+      <link>https://insightsforaction.uk/tags/corporate-governance/</link>
+      <pubDate>Thu, 23 May 2024 08:04:34 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tags/corporate-governance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data ethics and governance</title>
       <link>https://insightsforaction.uk/tags/data-ethics-and-governance/</link>
       <pubDate>Thu, 23 May 2024 08:04:34 +0000</pubDate>
@@ -21,6 +30,24 @@
       <pubDate>Thu, 23 May 2024 08:04:34 +0000</pubDate>
       
       <guid>https://insightsforaction.uk/tags/key-performance-indicators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://insightsforaction.uk/tags/docker/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://insightsforaction.uk/tags/r/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tags/r/</guid>
       <description></description>
     </item>
     
@@ -318,15 +345,6 @@
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://insightsforaction.uk/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://insightsforaction.uk/tags/r/</link>
-      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tags/r/</guid>
       <description></description>
     </item>
     

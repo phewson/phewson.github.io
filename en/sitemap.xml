@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://insightsforaction.uk/tech/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -89,6 +89,9 @@
                 href="https://insightsforaction.uk/sections/modern/"
                 />
   </url><url>
+    <loc>https://insightsforaction.uk/tags/corporate-governance/</loc>
+    <lastmod>2024-05-23T08:04:34+00:00</lastmod>
+  </url><url>
     <loc>https://insightsforaction.uk/tags/data-ethics-and-governance/</loc>
     <lastmod>2024-05-23T08:04:34+00:00</lastmod>
   </url><url>
@@ -110,6 +113,25 @@
                 hreflang="en"
                 href="https://insightsforaction.uk/tags/"
                 />
+  </url><url>
+    <loc>https://insightsforaction.uk/tags/docker/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://insightsforaction.uk/tags/r/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://insightsforaction.uk/es/tags/r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://insightsforaction.uk/tags/r/"
+                />
+  </url><url>
+    <loc>https://insightsforaction.uk/tech/2024-05-19-rocker/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://insightsforaction.uk/posts/2021-08-05-disclosure_control_privacy/</loc>
     <lastmod>2021-08-04T20:34:51+00:00</lastmod>
@@ -270,19 +292,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://insightsforaction.uk/tags/hugo/"
-                />
-  </url><url>
-    <loc>https://insightsforaction.uk/tags/r/</loc>
-    <lastmod>2020-08-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://insightsforaction.uk/es/tags/r/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://insightsforaction.uk/tags/r/"
                 />
   </url><url>
     <loc>https://insightsforaction.uk/tags/static-website/</loc>
