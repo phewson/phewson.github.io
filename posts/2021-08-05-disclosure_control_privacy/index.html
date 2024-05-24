@@ -5,12 +5,12 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="googlebot" content="index, follow, noarchive" />
 	<title>Insights for Action - Data Privacy; Disclosure control and differential privacy</title>
-	<link rel="icon" href="https://insightsforaction.uk//images/branding/favicon.ico" />
+	<link rel="icon" href="https://insightsforaction.uk/images/branding/favicon.ico" />
 	<meta name="description" content="" />
 
 	
 
-	<meta name="generator" content="Hugo 0.74.3" />
+	<meta name="generator" content="Hugo 0.92.2" />
 
 	
 
@@ -21,9 +21,10 @@
 	<meta property="og:title" content="Data Privacy; Disclosure control and differential privacy" />
 <meta property="og:description" content="The role of disclosure control and differential privacy in data privacy and statistical analysis" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://insightsforaction.uk/posts/2021-08-05-disclosure_control_privacy/" />
+<meta property="og:url" content="https://insightsforaction.uk/posts/2021-08-05-disclosure_control_privacy/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-08-04T20:34:51+00:00" />
 <meta property="article:modified_time" content="2021-08-04T20:34:51+00:00" />
+
 
 
 	<meta property="og:locale" content="en" />
@@ -180,16 +181,16 @@
 <p>Anyway, life moves on and of course state of the art in ensuring data privacy when releasing data nowadays seems to be Differential Privacy.  <a href="https://cran.r-project.org/web/packages/diffpriv/index.html">DiffPriv</a> provides differential privacy methods in to complement the more traditional disclosure control methods. Despite being the current fashion, it is an old and widely used technique. Just add some random noise. For researchers with simple univariate analyses to conduct, the Data Privacy modified data should have an average value should be close to the true value. Unlike data swapping however, noise is typically added to the final value rather than to the raw data.   Also, unlike traditional disclosure control methods, queries are run repeatedly on the source data and different perturbations may be applied each time. With more conventional disclosure control, a perturbed set of results is created once and then released to the public.  Moreover, under Differential Privacy, a perturbation method must be developed for every statistical method. With more traditional disclosure control, once the data had been perturbed they can be used for any kind of analysis.</p>
 <h2 id="differential-privacy-is-defined-in-probabilistic-terms">Differential Privacy is defined in probabilistic terms:</h2>
 <ul>
-<li>Consider two datasets \(DF\) and \(DF&rsquo;\)</li>
+<li>Consider two datasets \(DF\) and \(DF'\)</li>
 <li>Both have the same variables \(j=1, \ldots, P\) and the same number of row \(i=1, \ldots,  n\)</li>
 <li>However, they differ in the contents of one row</li>
-<li>Denote the response to applying a query \(Q\) to these datasets as \(Q(DF)\) and \(Q(DF&rsquo;)\).</li>
+<li>Denote the response to applying a query \(Q\) to these datasets as \(Q(DF)\) and \(Q(DF')\).</li>
 </ul>
 <p>For any set \(\Omega\) that can be created by applying \(Q()\) to any such dataset,</p>
-<p>$$P(Q(DF) \in \Omega) &lt; \exp(\epsilon) \times P(Q(DF&rsquo;) \in \Omega)$$</p>
+<p>$$P(Q(DF) \in \Omega) &lt; \exp(\epsilon) \times P(Q(DF') \in \Omega)$$</p>
 <p>The smaller we set \(\epsilon\) the more we assure privacy.</p>
 <p>An example (taken from the excellent <a href="https://privacytools.seas.harvard.edu/files/privacytools/files/pedagogical-document-dp_new.pdf">Differential Privacy: A Primer for a non-Technical Audience</a> is as follows:</p>
-<pre><code>Consider computing an estimate of the number of HIV-positive individuals in a sample, where the sample contains $n= 10,000$ individuals of whom $m= 38$ are HIV-positive.  In a differentially private version of the computation, random noise $Y$ is introduced into the count so as to hide the contribution of a single individual.   That is, the result of the computation would be
+<pre tabindex="0"><code>Consider computing an estimate of the number of HIV-positive individuals in a sample, where the sample contains $n= 10,000$ individuals of whom $m= 38$ are HIV-positive.  In a differentially private version of the computation, random noise $Y$ is introduced into the count so as to hide the contribution of a single individual.   That is, the result of the computation would be
 $m′= m+Y= 38 +Y$ instead of $m= 38$.
 </code></pre><p>To me, it seems we have several remaining problems.   These include the use of Laplacian errors to perturb count values.  This means if your Laplacian noise makes a count negative you then need to set that equal to zero which adds an additional step and hence further noise.   But I also note that we are talking about univariate analyses. I&rsquo;ve been almost entirely concerned about the associations between categorical variables (using a variety of log-Linear, graphical models or recently graphical causal inference models to provide analytic output).  This kind of noise addition is going to <strong>reduce the apparent association</strong> between categorical variables in published tables.  Given my interests tend to be on the lines of &ldquo;what is the association between ethnicity and Covid-19 mortality, conditional on a number of important other factors such as age, sex, occupation and so on&rdquo;, I really don&rsquo;t want to be given data subject to a Differential Privacy technique which reduces the strength of that association. And ideally, I would like to be able to estimate the epistemic uncertainty associated with the data privacy perturbations.  We accept random sampling in statistics; and quantify the associated errors. Why aren&rsquo;t we looking for privacy preserving methods that help us quantify the uncertainty we&rsquo;ve added to an analysis in doing this?</p>
 <p>In summary, I still think I like the idea of being supplied multiple tables of results in a way that preserves privacy but lets me quantify the uncertainty associated with these kinds of procedures. This gets talked about constantly in statistical circles.  I have to say, I&rsquo;m not convinced Differential Privacy is the last word on the matter.</p>
@@ -259,28 +260,28 @@ text-align: center;
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/Disclosure%20control/" class="tag__link" alt="Disclosure control.">
+        <a href="https://insightsforaction.uktags/Disclosure%20control/" class="tag__link" alt="Disclosure control.">
             #Disclosure control
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/Differential%20privacy/" class="tag__link" alt="Differential privacy.">
+        <a href="https://insightsforaction.uktags/Differential%20privacy/" class="tag__link" alt="Differential privacy.">
             #Differential privacy
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/Data%20ethics%20and%20governance/" class="tag__link" alt="Data ethics and governance.">
+        <a href="https://insightsforaction.uktags/Data%20ethics%20and%20governance/" class="tag__link" alt="Data ethics and governance.">
             #Data ethics and governance
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/Public%20data/" class="tag__link" alt="Public data.">
+        <a href="https://insightsforaction.uktags/Public%20data/" class="tag__link" alt="Public data.">
             #Public data
         </a>
     </li>
@@ -380,7 +381,7 @@ text-align: center;
 
     <div class="copy">
         
-        <p>© 2021 - Insights for Action</p>
+        <p>© 2024 - Insights for Action</p>
         
     </div>
 
@@ -389,7 +390,7 @@ text-align: center;
 
 
 
-<script src="https://insightsforaction.uk/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
+<script src="https://insightsforaction.uk/js/bundle.min.58209fc971cd5bd08cd889189ae476bf3c16736fd03234aeb7580bc6c504f5adc6797c906cb341a98099719e32801c5d3d1d3abd1ecded9433aedc2d34c7bc8d.js"></script>
 
 
 

@@ -5,11 +5,7 @@
     <link>https://insightsforaction.uk/tags/insights/</link>
     <description>Recent content in insights on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Jan 2021 20:34:51 +0000</lastBuildDate>
-    
-	<atom:link href="https://insightsforaction.uk/tags/insights/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 20 Jan 2021 20:34:51 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/tags/insights/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interactive time series plots</title>
       <link>https://insightsforaction.uk/posts/2021-01-21_interactive_time_series/</link>

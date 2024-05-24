@@ -5,11 +5,7 @@
     <link>https://insightsforaction.uk/es/tech/</link>
     <description>Recent content in Pila de tecnología on Procesable conocimientos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://insightsforaction.uk/es/tech/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/es/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sitios web estáticos con Hugo y R-Blogdown</title>
       <link>https://insightsforaction.uk/es/tech/2020-08-18-hugo_blogdown/</link>

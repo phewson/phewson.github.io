@@ -5,7 +5,7 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="googlebot" content="index, follow, noarchive" />
 	<title>Insights for Action - Tech Stack</title>
-	<link rel="icon" href="https://insightsforaction.uk//images/branding/favicon.ico" />
+	<link rel="icon" href="https://insightsforaction.uk/images/branding/favicon.ico" />
 	<meta name="description" content="" />
 
 	
@@ -16,7 +16,7 @@
 	
 	
 
-	<meta name="generator" content="Hugo 0.74.3" />
+	<meta name="generator" content="Hugo 0.92.2" />
 
 	
 
@@ -28,7 +28,7 @@
 <meta property="og:description" content="Tech Stack" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://insightsforaction.uk/tech/" />
-<meta property="og:updated_time" content="2021-02-15T00:00:00+00:00" />
+
 
 
 	<meta property="og:locale" content="en" />
@@ -167,6 +167,57 @@
 	<article class="card">
     <header class="card__header">
         <h1 class="card__header__title">
+            <a href="https://insightsforaction.uk/tech/2024-05-19-rocker/" class="card__header__link" alt="Using Docker for R.">
+                Using Docker for R
+            </a>
+        </h1>
+        
+        
+        <p class="card__header__date date">
+            Sunday, 19 May, 2024 By Paul Hewson.
+        </p>
+        
+        
+    </header>
+
+    <main class="card__body">
+        <p>I had partitioned my development environment such that I had virtual machines providing:</p>
+<ul>
+<li>R and R-studio</li>
+<li>A PostgreSQL server</li>
+<li>A development machine</li>
+</ul>
+<p>This basically avoided some package clashes when &ldquo;tinkering&rdquo;. There is however some clumsiness (I need lots of PostgreSQL clients all over the place).  So the current cunning plan is to run some of this inside Docker.</p>
+<p>The first step was adding a GPG key and the docker repositories.  I seemed to faff around a bit but I …</p>
+    </main>
+
+    <footer class="card__footer">
+        
+<ul class="tags">
+    
+    
+    <li class="tags__tag">
+        <a href="https://insightsforaction.uktags/R/" class="tag__link" alt="R.">
+            #R
+        </a>
+    </li>
+    
+    
+    <li class="tags__tag">
+        <a href="https://insightsforaction.uktags/Docker/" class="tag__link" alt="Docker.">
+            #Docker
+        </a>
+    </li>
+    
+</ul>
+
+
+    </footer>
+</article>
+	
+	<article class="card">
+    <header class="card__header">
+        <h1 class="card__header__title">
             <a href="https://insightsforaction.uk/tech/2021_02-16_sqitch/" class="card__header__link" alt="Managing migrations with sqitch.">
                 Managing migrations with sqitch
             </a>
@@ -192,28 +243,28 @@
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/postgresql/" class="tag__link" alt="postgresql.">
+        <a href="https://insightsforaction.uktags/postgresql/" class="tag__link" alt="postgresql.">
             #postgresql
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/sqitch/" class="tag__link" alt="sqitch.">
+        <a href="https://insightsforaction.uktags/sqitch/" class="tag__link" alt="sqitch.">
             #sqitch
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/migration/" class="tag__link" alt="migration.">
+        <a href="https://insightsforaction.uktags/migration/" class="tag__link" alt="migration.">
             #migration
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/version%20control/" class="tag__link" alt="version control.">
+        <a href="https://insightsforaction.uktags/version%20control/" class="tag__link" alt="version control.">
             #version control
         </a>
     </li>
@@ -252,28 +303,28 @@
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/org-mode/" class="tag__link" alt="org-mode.">
+        <a href="https://insightsforaction.uktags/org-mode/" class="tag__link" alt="org-mode.">
             #org-mode
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/Emacs/" class="tag__link" alt="Emacs.">
+        <a href="https://insightsforaction.uktags/Emacs/" class="tag__link" alt="Emacs.">
             #Emacs
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/Getting%20Things%20Done/" class="tag__link" alt="Getting Things Done.">
+        <a href="https://insightsforaction.uktags/Getting%20Things%20Done/" class="tag__link" alt="Getting Things Done.">
             #Getting Things Done
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/Project%20Management/" class="tag__link" alt="Project Management.">
+        <a href="https://insightsforaction.uktags/Project%20Management/" class="tag__link" alt="Project Management.">
             #Project Management
         </a>
     </li>
@@ -340,62 +391,28 @@
     </footer>
 </article>
 	
-	<article class="card">
-    <header class="card__header">
-        <h1 class="card__header__title">
-            <a href="https://insightsforaction.uk/tech/2020-12_01_api_contracts/" class="card__header__link" alt="Software capital.">
-                Software capital
-            </a>
-        </h1>
-        
-        
-        <p class="card__header__date date">
-            Tuesday, 1 Dec, 2020 By Paul Hewson.
-        </p>
-        
-        
-    </header>
-
-    <main class="card__body">
-        <p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/ta3S8CRN2TM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<em>David Sankel CppCon 2016 presentation &ldquo;Building Software Capital&rdquo;</em></p>
-<p>Recently, I&rsquo;ve been updating my C++ skills. In the far past, I&rsquo;ve used it to speed up algorithms in scripted languages.  However, I have never used it as a standalone programming language.  And when I say C++ I think I really mean C, I just happen to compile it with g++.   Currently, I have a couple of problems which might change my limited exposure and get me much deeper in C++ …</p>
-    </main>
-
-    <footer class="card__footer">
-        
-
-    </footer>
-</article>
-	
 
 	
-<ul class="pagination">
-  <li class="page-item">
-    <a href="/tech/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-  </li>
-  <li class="page-item disabled">
-    <a  class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-  </li>
-  <li class="page-item active">
-    <a class="page-link" href="/tech/">1</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/tech/page/2/">2</a>
-  </li>
-  <li class="page-item">
-    <a href="/tech/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/tech/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-  </li>
-</ul>
-
-
+    <ul class="pagination pagination-default">
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/tech/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/tech/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/tech/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
 </main>
 <footer class="footer">
     
@@ -486,7 +503,7 @@
 
     <div class="copy">
         
-        <p>© 2021 - Insights for Action</p>
+        <p>© 2024 - Insights for Action</p>
         
     </div>
 
@@ -495,7 +512,7 @@
 
 
 
-<script src="https://insightsforaction.uk/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
+<script src="https://insightsforaction.uk/js/bundle.min.58209fc971cd5bd08cd889189ae476bf3c16736fd03234aeb7580bc6c504f5adc6797c906cb341a98099719e32801c5d3d1d3abd1ecded9433aedc2d34c7bc8d.js"></script>
 
 
 

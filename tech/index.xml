@@ -5,10 +5,17 @@
     <link>https://insightsforaction.uk/tech/</link>
     <description>Recent content in Tech Stack on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://insightsforaction.uk/tech/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Docker for R</title>
+      <link>https://insightsforaction.uk/tech/2024-05-19-rocker/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tech/2024-05-19-rocker/</guid>
+      <description>I had partitioned my development environment such that I had virtual machines providing:
+ R and R-studio A PostgreSQL server A development machine  This basically avoided some package clashes when &amp;ldquo;tinkering&amp;rdquo;. There is however some clumsiness (I need lots of PostgreSQL clients all over the place). So the current cunning plan is to run some of this inside Docker.
+The first step was adding a GPG key and the docker repositories.</description>
+    </item>
     
     <item>
       <title>Managing migrations with sqitch</title>

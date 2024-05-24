@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://insightsforaction.uk/es/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/chalar/</loc>
     <lastmod>2020-08-06T20:34:51+00:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/chalar/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/tech/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -45,9 +40,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/tech/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/nosotros/</loc>
     <xhtml:link
                 rel="alternate"
@@ -59,9 +52,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/nosotros/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/contacto/</loc>
     <xhtml:link
                 rel="alternate"
@@ -73,9 +64,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/contacto/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/sections/insight/</loc>
     <xhtml:link
                 rel="alternate"
@@ -87,9 +76,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/sections/insight/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/sections/modern/</loc>
     <xhtml:link
                 rel="alternate"
@@ -101,9 +88,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/sections/modern/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/tags/blogdown/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -116,9 +101,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/tags/blogdown/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/tags/hugo/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -131,9 +114,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/tags/hugo/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/tags/r/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -146,9 +127,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/tags/r/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/tech/2020-08-18-hugo_blogdown/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -161,9 +140,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/tech/2020-08-18-hugo_blogdown/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/tags/static-website/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -176,9 +153,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/tags/static-website/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/tags/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -191,29 +166,19 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/tags/albacete/</loc>
     <lastmod>2020-08-06T20:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/tags/alcala-del-jucar/</loc>
     <lastmod>2020-08-06T20:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/posts/2020-08-07-alcala_del_jucar/</loc>
     <lastmod>2020-08-06T20:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/tags/turismo/</loc>
     <lastmod>2020-08-06T20:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -225,9 +190,7 @@
                 hreflang="es"
                 href="https://insightsforaction.uk/es/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://insightsforaction.uk/es/sections/</loc>
     <xhtml:link
                 rel="alternate"
@@ -240,5 +203,4 @@
                 href="https://insightsforaction.uk/es/sections/"
                 />
   </url>
-  
 </urlset>

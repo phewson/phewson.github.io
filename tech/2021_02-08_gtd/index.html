@@ -5,12 +5,12 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="googlebot" content="index, follow, noarchive" />
 	<title>Insights for Action - GTD (Getting things done)</title>
-	<link rel="icon" href="https://insightsforaction.uk//images/branding/favicon.ico" />
+	<link rel="icon" href="https://insightsforaction.uk/images/branding/favicon.ico" />
 	<meta name="description" content="" />
 
 	
 
-	<meta name="generator" content="Hugo 0.74.3" />
+	<meta name="generator" content="Hugo 0.92.2" />
 
 	
 
@@ -21,9 +21,10 @@
 	<meta property="og:title" content="GTD (Getting things done)" />
 <meta property="og:description" content="Emacs, org-mode and getting things done" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://insightsforaction.uk/tech/2021_02-08_gtd/" />
+<meta property="og:url" content="https://insightsforaction.uk/tech/2021_02-08_gtd/" /><meta property="article:section" content="tech" />
 <meta property="article:published_time" content="2020-09-03T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-02-08T00:00:00+00:00" />
+
 
 
 	<meta property="og:locale" content="en" />
@@ -172,7 +173,7 @@
 <p>David Allen the consultant and author (sadly not Dave Allen the comedian) promotes a management system in his book <a href="https://www.davidco.com">&ldquo;Getting Things Done: The Art of Stress Free Productivity&rdquo;</a>. In my opinion, there are two key features to this system. The first is learning to use a tracking system rather than carrying things in your head. The second is taking the time to review, prioritize and delete actions from this tracking system. So it isn&rsquo;t just writing to-do lists because, because once you trust the process you don&rsquo;t look at the to-do list - you only need to look at your schedule for a day. Less stress and worry, focus on finding flow for what is in front of you.  If you trust your scheduling abilities, the only stress comes when you do your regular review, and delete, reschedule or add work to the system.   There are some obvious overlaps with Agile and Waterfall, and it is no accident that Emacs has back-ends that allow org-mode to integrate with GitHub, BitBucket and GitLab to support a &ldquo;Getting Things Done&rdquo; workflow.  And indeed, &ldquo;Getting Things Done&rdquo; encourages you in the review sessions to focus on what get a task done rather than adding tasks because you wish to enter a Stakhanovite competition for the world&rsquo;s longest to-do list.  &ldquo;Getting Things Done&rdquo; is sufficiently well established that there are numerous smartphone apps, such as &ldquo;Don&rsquo;t Forget the Milk&rdquo; which go some way towards implementing it.</p>
 <p>However, to my mind there are some real bonus features you get when using Emacs org-mode to manage &ldquo;Getting Things Done&rdquo;.  The first is time tracking.  You can estimate the effort needed to complete a task, and clocking into a task is as simple as <code>ctrl-x-i</code> while clocking out is <code>ctrl-x-o</code>.  This means as well as effort estimates, you can actually record the time spent on a task.  I haven&rsquo;t been quite so particular about this, but it is noticeable that the time tracking element certainly translated from Emacs to BitBucket if using Emacs org-mode to manage BitBucket tickets locally.  I still find accurate time estimation difficult, and find it useful to be able to have a reasonably accurate measure of the time I have spent on tasks.</p>
 <p>The one aspect I&rsquo;m currently finding more difficult in &ldquo;Getting Things Done&rdquo; is that  <em>ad hoc</em> tasks are now a more substantial part of my job.  So this blog post will be rewritten over time as I get more comfortable developing a set of useful capture templates.  The first things with any <em>ad hoc</em> activity I hit <code>ctrl-c c</code> which automatically clocks me into the capture task until I hit <code>ctrl-c ctrl-c</code> which takes the clock back to whatever I was doing before.  So I have minimal administrative (time recording) interruptions to my original task, I just beam back when finished.  The entry that I generate for this spontaneous <em>ad hoc</em> activity is stored in a dedicated file.</p>
-<pre><code>setq org-default-notes-file &quot;~/.gtd/refile.org&quot;)
+<pre tabindex="0"><code>setq org-default-notes-file &quot;~/.gtd/refile.org&quot;)
 (setq org-capture-templates
       (quote ((&quot;r&quot; &quot;respond&quot; entry (file &quot;~/git/org/refile.org&quot;)
                &quot;* NEXT Respond to %:from on %:subject\nSCHEDULED: %t\n%U\n%a\n&quot; :clock-in t :clock-resume t :immediate-finish t)
@@ -247,28 +248,28 @@ text-align: center;
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/org-mode/" class="tag__link" alt="org-mode.">
+        <a href="https://insightsforaction.uktags/org-mode/" class="tag__link" alt="org-mode.">
             #org-mode
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/Emacs/" class="tag__link" alt="Emacs.">
+        <a href="https://insightsforaction.uktags/Emacs/" class="tag__link" alt="Emacs.">
             #Emacs
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/Getting%20Things%20Done/" class="tag__link" alt="Getting Things Done.">
+        <a href="https://insightsforaction.uktags/Getting%20Things%20Done/" class="tag__link" alt="Getting Things Done.">
             #Getting Things Done
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uk/tags/Project%20Management/" class="tag__link" alt="Project Management.">
+        <a href="https://insightsforaction.uktags/Project%20Management/" class="tag__link" alt="Project Management.">
             #Project Management
         </a>
     </li>
@@ -368,7 +369,7 @@ text-align: center;
 
     <div class="copy">
         
-        <p>© 2021 - Insights for Action</p>
+        <p>© 2024 - Insights for Action</p>
         
     </div>
 
@@ -377,7 +378,7 @@ text-align: center;
 
 
 
-<script src="https://insightsforaction.uk/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
+<script src="https://insightsforaction.uk/js/bundle.min.58209fc971cd5bd08cd889189ae476bf3c16736fd03234aeb7580bc6c504f5adc6797c906cb341a98099719e32801c5d3d1d3abd1ecded9433aedc2d34c7bc8d.js"></script>
 
 
 
