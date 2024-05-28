@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="robots" content="index, follow" />
 	<meta name="googlebot" content="index, follow, noarchive" />
-	<title>Insights for Action - Reflections on the Post Office Horizon Enquiry</title>
+	<title>Insights for Action - Enhancing emacs: vertico and marginalia packages</title>
 	<link rel="icon" href="https://insightsforaction.uk/images/branding/favicon.ico" />
 	<meta name="description" content="" />
 
@@ -15,15 +15,15 @@
 	
 
 	<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Reflections on the Post Office Horizon Enquiry"/>
-<meta name="twitter:description" content="The role of data in governance"/>
+<meta name="twitter:title" content="Enhancing emacs: vertico and marginalia packages"/>
+<meta name="twitter:description" content="emacs: vertico and marginalia packages"/>
 
-	<meta property="og:title" content="Reflections on the Post Office Horizon Enquiry" />
-<meta property="og:description" content="The role of data in governance" />
+	<meta property="og:title" content="Enhancing emacs: vertico and marginalia packages" />
+<meta property="og:description" content="emacs: vertico and marginalia packages" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://insightsforaction.uk/posts/2024-05-23-post_office_horizon/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-05-23T08:04:34+00:00" />
-<meta property="article:modified_time" content="2024-05-23T08:04:34+00:00" />
+<meta property="og:url" content="https://insightsforaction.uk/tech/2024-05-28-emacs_vertico_marginalia/" /><meta property="article:section" content="tech" />
+<meta property="article:published_time" content="2024-05-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-05-28T00:00:00+00:00" />
 
 
 
@@ -150,14 +150,14 @@
 
 <article class="post">
     <header class="post__header">
-        <h1 class="post__title">Reflections on the Post Office Horizon Enquiry</h1>
+        <h1 class="post__title">Enhancing emacs: vertico and marginalia packages</h1>
         
-        <p class="post__subtitle">The role of data in governance</p>
+        <p class="post__subtitle">emacs: vertico and marginalia packages</p>
         
         
         
         <p class="post__date date">
-            Thursday, 23 May, 2024 By Paul Hewson.
+            Tuesday, 28 May, 2024 By Paul Hewson.
         </p>
         
         
@@ -168,13 +168,18 @@
 
     
     <main class="post__body">
-      <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><img src="/en/posts/2024-05-23-post_office_horizon/pexels-cameron-readius-2648348-4223084.jpg" alt="Shadows with no people">
-<em>Photo by Cameron Readius from Pexels</em></p>
-<p>I can&rsquo;t pretend I had read  Rebecca Thomson&rsquo;s article &ldquo;Bankruptcy, prosecution and disrupted livelihoods – postmasters tell their story&rdquo; in May 2009 in Computer Weekly, but certainly through journalism such as Private Eye I was aware well before the ITV drama screened in 2024.</p>
-<p>Therefore, I&rsquo;m most surprised by the evidence presented by Paula Vennells at the Statuary Inquiry on May 22nd. I don&rsquo;t want to get into an appraisal of her credibility or her competence, other than to wonder how much media coverage you can dismiss and still do your job.  I merely wanted to pick up on the fact she claimed she didn&rsquo;t have the management information to make her aware of the problem. I would like to take that at face value; I can appreciate running a large and complex business means that you can&rsquo;t be over all the minutiae. Paula Vennells claimed she couldn&rsquo;t be expected to be aware of single postmaster disputes. Which implies, on reflection, she thinks there should have been performance indicators such as &ldquo;the number of postmasters in dispute&rdquo;, &ldquo;the value of money disputed&rdquo; and so on. The trouble with this suggestion, is that we now know, with the benefit of hindsight, that these are the kinds of indicators that need monitoring. If we were going to have indicators covering &ldquo;everything a CEO might need to know&rdquo;, wouldn&rsquo;t we end up in the same place; too many indicators for a CEO to monitor. Much as I love the idea of building lots of dashboards to give better visibility to the functioning of a business, I do wonder if the K in KPI is important. It&rsquo;s a <strong>Key</strong> Performance Indicator.</p>
-<p>I will be following the outcomes of the Enquiry with a lot of interest now, to see what is made of this suggestion. One of the other reflections I have is that Data Analysis is moving away from Dashboarding and more into Data Stories. That seems to encourage the kind of information filtering that Paula Vennells claims was the problem here. Data Stories means you tell the top tier what they want to hear, and don&rsquo;t bog them down with irrelevant details (like bugs in software).</p>
+      <p><img src="/en/tech//2024-05-28-emacs_vertico_marginalia/pexels-karolina-grabowska-6958542.jpg" alt="Book annotations">
+<em>From Pexels Karolina Grabowska</em></p>
+<p>I&rsquo;ve been using emacs for a long time.  OK, I&rsquo;ve probably been using emacs for over 30 years. However, I&rsquo;ve never really taken a huge amount of time to learn emacs. I&rsquo;ve picked up a few packages along the way</p>
+<ul>
+<li>ESS (Emacs Speaks Statistics) and various *-polymode packages</li>
+<li>magit</li>
+<li>org-mode and more recently org-roam</li>
+</ul>
+<p>I&rsquo;ve also spent time adjusting a development environment as necessary, which most recently has included compiling from source so that I can look at the tree-sitter parser. But it was really recent attempts to find accessible settings for emacs that lead me to the inspired <a href="https://systemcrafters.net/emacs-tips/" title="Systemcrafters">System Crafters</a> website and [YouTube](<a href="https://www.youtube.com/c/systemcrafters">https://www.youtube.com/c/systemcrafters</a> &ldquo;System Crafters YouTube channel) channel.</p>
+<p>I have at times experimented with different completion frameworks in emacs, but never found them easy to use, they got in the way more often than they helped.  They may or may not save a few keystrokes, but I am not able to type faster than my brain can parse information.   Anyway, I&rsquo;m delighted to find a new completion framework in <em>vertico</em> which as far as I can see works for me because it&rsquo;s so well integrated into the basic emacs auto-completion, so it doesn&rsquo;t add a new and distracting layer on top of your work. From what I understand, the UI I&rsquo;m seeing also reflects some elegant coding to build it into emacs core.  I&rsquo;m using a fairly vanilla configuration; for example no cycling and no memory (recent completions first).  Again, the tradeoff between the convenience where you want to do what you did last time versus looking for something obscure means I&rsquo;d rather have a little bit more scrolling over the familiar than a brain freeze over wondering why I can&rsquo;t see anything to do with the really old work.</p>
+<p>What impressed me most though was <em>marginalia</em>, the addition I didn&rsquo;t realise I needed.  It adds some meta-data to the auto-completion (e.g., file size, last opened for files) which is surprisingly helpful. Especially when I&rsquo;m hunting for old files.</p>
+<p>There&rsquo;s way more on the System Crafters website,</p>
 
         
   
@@ -210,23 +215,23 @@ text-align: center;
 
 <span style="color: silver;">Share on: </span><div id="share-buttons">
 
-  <div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https:\/\/insightsforaction.uk\/posts\/2024-05-23-post_office_horizon\/');">
+  <div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https:\/\/insightsforaction.uk\/tech\/2024-05-28-emacs_vertico_marginalia\/');">
      <svg class="widget-social__link-icon icon icon-facebook" width="24" height="24" viewBox="0 0 352 352"><path d="m0 32v288c0 17.5 14.5 32 32 32h288c17.5 0 32-14.5 32-32v-288c0-17.5-14.5-32-32-32h-288c-17.5 0-32 14.5-32 32zm320 0v288h-83v-108h41.5l6-48h-47.5v-31c0-14 3.5-23.5 23.5-23.5h26v-43.5c-4.4-.6-19.8-1.5-37.5-1.5-36.9 0-62 22.2-62 63.5v36h-42v48h42v108h-155v-288z"/></svg>
 
   </div>
-  <div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/intent/tweet?url=https:\/\/insightsforaction.uk\/posts\/2024-05-23-post_office_horizon\/&amp;text=Reflections on the Post Office Horizon Enquiry');">
+  <div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/intent/tweet?url=https:\/\/insightsforaction.uk\/tech\/2024-05-28-emacs_vertico_marginalia\/&amp;text=Enhancing emacs: vertico and marginalia packages');">
      <svg class="widget-social__link-icon icon icon-twitter" width="24" height="24" viewBox="0 0 384 312"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
 
   </div>
-  <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/sharing/share-offsite?url=https:\/\/insightsforaction.uk\/posts\/2024-05-23-post_office_horizon\/');">
+  <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/sharing/share-offsite?url=https:\/\/insightsforaction.uk\/tech\/2024-05-28-emacs_vertico_marginalia\/');">
     <svg class="widget-social__link-icon icon icon-linkedin" width="24" height="24" viewBox="0 0 352 352"><path d="M0,40v272c0,21.9,18.1,40,40,40h272c21.9,0,40-18.1,40-40V40c0-21.9-18.1-40-40-40H40C18.1,0,0,18.1,0,40z M312,32 c4.6,0,8,3.4,8,8v272c0,4.6-3.4,8-8,8H40c-4.6,0-8-3.4-8-8V40c0-4.6,3.4-8,8-8H312z M59.5,87c0,15.2,12.3,27.5,27.5,27.5 c15.2,0,27.5-12.3,27.5-27.5c0-15.2-12.3-27.5-27.5-27.5C71.8,59.5,59.5,71.8,59.5,87z M187,157h-1v-21h-45v152h47v-75 c0-19.8,3.9-39,28.5-39c24.2,0,24.5,22.4,24.5,40v74h47v-83.5c0-40.9-8.7-72-56.5-72C208.5,132.5,193.3,145.1,187,157z M64,288h47.5 V136H64V288z"/></svg>
 
   </div>
-  <div class="mail" title="Share this through Email" onclick="window.open('mailto:?subject=Insights for Action - Reflections on the Post Office Horizon Enquiry.&amp;body=Reflections on the Post Office Horizon Enquiry, by Insights for Action\nThe role of data in governance\n\nhttps:\/\/insightsforaction.uk\/posts\/2024-05-23-post_office_horizon\/\n');">
+  <div class="mail" title="Share this through Email" onclick="window.open('mailto:?subject=Insights for Action - Enhancing emacs: vertico and marginalia packages.&amp;body=Enhancing emacs: vertico and marginalia packages, by Insights for Action\nemacs: vertico and marginalia packages\n\nhttps:\/\/insightsforaction.uk\/tech\/2024-05-28-emacs_vertico_marginalia\/\n');">
      <svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 416 288"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
 
   </div>
-  <div class="whatsapp" title="Share this through Whatsapp" onclick="window.open('whatsapp://send?text=Reflections on the Post Office Horizon Enquiry, by Insights for Action\nThe role of data in governance\n\nhttps:\/\/insightsforaction.uk\/posts\/2024-05-23-post_office_horizon\/\n');">
+  <div class="whatsapp" title="Share this through Whatsapp" onclick="window.open('whatsapp://send?text=Enhancing emacs: vertico and marginalia packages, by Insights for Action\nemacs: vertico and marginalia packages\n\nhttps:\/\/insightsforaction.uk\/tech\/2024-05-28-emacs_vertico_marginalia\/\n');">
      <svg class="widget-social__link-icon icon icon-whatsapp" width="24" height="24" viewBox="0 0 24 24"><path d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z"/></svg>
 
 </div>
@@ -241,22 +246,22 @@ text-align: center;
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uktags/Key%20Performance%20Indicators/" class="tag__link" alt="Key Performance Indicators.">
-            #Key Performance Indicators
+        <a href="https://insightsforaction.uktags/emacs/" class="tag__link" alt="emacs.">
+            #emacs
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uktags/Data%20ethics%20and%20governance/" class="tag__link" alt="Data ethics and governance.">
-            #Data ethics and governance
+        <a href="https://insightsforaction.uktags/autocomplete/" class="tag__link" alt="autocomplete.">
+            #autocomplete
         </a>
     </li>
     
     
     <li class="tags__tag">
-        <a href="https://insightsforaction.uktags/Corporate%20governance/" class="tag__link" alt="Corporate governance.">
-            #Corporate governance
+        <a href="https://insightsforaction.uktags/configuration/" class="tag__link" alt="configuration.">
+            #configuration
         </a>
     </li>
     

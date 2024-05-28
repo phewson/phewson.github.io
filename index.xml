@@ -5,7 +5,7 @@
     <link>https://insightsforaction.uk/</link>
     <description>Recent content in Home on Insights for Action</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 May 2024 08:04:34 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://insightsforaction.uk/about/</link>
@@ -35,13 +35,23 @@ Continuous Improvement / Continuous Delivery The first concerns &amp;ldquo;Conti
     </item>
     
     <item>
+      <title>Enhancing emacs: vertico and marginalia packages</title>
+      <link>https://insightsforaction.uk/tech/2024-05-28-emacs_vertico_marginalia/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://insightsforaction.uk/tech/2024-05-28-emacs_vertico_marginalia/</guid>
+      <description>From Pexels Karolina Grabowska
+I&amp;rsquo;ve been using emacs for a long time. OK, I&amp;rsquo;ve probably been using emacs for over 30 years. However, I&amp;rsquo;ve never really taken a huge amount of time to learn emacs. I&amp;rsquo;ve picked up a few packages along the way
+ ESS (Emacs Speaks Statistics) and various *-polymode packages magit org-mode and more recently org-roam  I&amp;rsquo;ve also spent time adjusting a development environment as necessary, which most recently has included compiling from source so that I can look at the tree-sitter parser.</description>
+    </item>
+    
+    <item>
       <title>Reflections on the Post Office Horizon Enquiry</title>
       <link>https://insightsforaction.uk/posts/2024-05-23-post_office_horizon/</link>
       <pubDate>Thu, 23 May 2024 08:04:34 +0000</pubDate>
       
       <guid>https://insightsforaction.uk/posts/2024-05-23-post_office_horizon/</guid>
-      <description>/home/phewson/Documents/blog_source/static/en/posts/2024-05-23-post_office_horizon/pexels-cameron-readius-2648348-4223084.jpg
-Photo by Cameron Readius from Pexels
+      <description>Photo by Cameron Readius from Pexels
 I can&amp;rsquo;t pretend I had read Rebecca Thomson&amp;rsquo;s article &amp;ldquo;Bankruptcy, prosecution and disrupted livelihoods – postmasters tell their story&amp;rdquo; in May 2009 in Computer Weekly, but certainly through journalism such as Private Eye I was aware well before the ITV drama screened in 2024.
 Therefore, I&amp;rsquo;m most surprised by the evidence presented by Paula Vennells at the Statuary Inquiry on May 22nd. I don&amp;rsquo;t want to get into an appraisal of her credibility or her competence, other than to wonder how much media coverage you can dismiss and still do your job.</description>
     </item>
