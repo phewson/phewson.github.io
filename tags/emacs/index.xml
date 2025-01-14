@@ -14,7 +14,7 @@
       <guid>https://insightsforaction.uk/tech/2024-05-28-emacs_vertico_marginalia/</guid>
       <description>From Pexels Karolina Grabowska
 I&amp;rsquo;ve been using emacs for a long time. OK, I&amp;rsquo;ve probably been using emacs for over 30 years. However, I&amp;rsquo;ve never really taken a huge amount of time to learn emacs. I&amp;rsquo;ve picked up a few packages along the way
- ESS (Emacs Speaks Statistics) and various *-polymode packages magit org-mode and more recently org-roam  I&amp;rsquo;ve also spent time adjusting a development environment as necessary, which most recently has included compiling from source so that I can look at the tree-sitter parser.</description>
+ESS (Emacs Speaks Statistics) and various *-polymode packages magit org-mode and more recently org-roam I&amp;rsquo;ve also spent time adjusting a development environment as necessary, which most recently has included compiling from source so that I can look at the tree-sitter parser.</description>
     </item>
     
     <item>

@@ -13,8 +13,8 @@
       
       <guid>https://insightsforaction.uk/tech/2024-05-19-rocker/</guid>
       <description>I had partitioned my development environment such that I had virtual machines providing:
- R and R-studio A PostgreSQL server A development machine  This basically avoided some package clashes when &amp;ldquo;tinkering&amp;rdquo;. There is however some clumsiness (I need lots of PostgreSQL clients all over the place). So the current cunning plan is to run some of this inside Docker.
-The first step was adding a GPG key and the docker repositories.</description>
+R and R-studio A PostgreSQL server A development machine This basically avoided some package clashes when &amp;ldquo;tinkering&amp;rdquo;. There is however some clumsiness (I need lots of PostgreSQL clients all over the place). So the current cunning plan is to run some of this inside Docker.
+The first step was adding a GPG key and the docker repositories. I seemed to faff around a bit but I think you just sudo apt-get install docker-ce (I think I tried to install too many small parts, and had to add facilities to enable docker compose up and could have avoided all this if I&amp;rsquo;d just installed docker-ce).</description>
     </item>
     
     <item>

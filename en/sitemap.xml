@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://insightsforaction.uk/</loc>
-    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-14T11:01:32+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://insightsforaction.uk/posts/</loc>
-    <lastmod>2024-05-23T08:04:34+00:00</lastmod>
+    <lastmod>2025-01-14T11:01:32+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -89,6 +89,31 @@
                 href="https://insightsforaction.uk/sections/modern/"
                 />
   </url><url>
+    <loc>https://insightsforaction.uk/tags/carbon-footprint/</loc>
+    <lastmod>2025-01-14T11:01:32+00:00</lastmod>
+  </url><url>
+    <loc>https://insightsforaction.uk/tags/energy/</loc>
+    <lastmod>2025-01-14T11:01:32+00:00</lastmod>
+  </url><url>
+    <loc>https://insightsforaction.uk/posts/2025-01-14_energy_usage_england_wales/</loc>
+    <lastmod>2025-01-14T11:01:32+00:00</lastmod>
+  </url><url>
+    <loc>https://insightsforaction.uk/tags/</loc>
+    <lastmod>2025-01-14T11:01:32+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://insightsforaction.uk/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://insightsforaction.uk/tags/"
+                />
+  </url><url>
+    <loc>https://insightsforaction.uk/tags/transition/</loc>
+    <lastmod>2025-01-14T11:01:32+00:00</lastmod>
+  </url><url>
     <loc>https://insightsforaction.uk/tags/autocomplete/</loc>
     <lastmod>2024-05-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -101,26 +126,16 @@
     <loc>https://insightsforaction.uk/tech/2024-05-28-emacs_vertico_marginalia/</loc>
     <lastmod>2024-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://insightsforaction.uk/tags/</loc>
-    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://insightsforaction.uk/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://insightsforaction.uk/tags/"
-                />
-  </url><url>
     <loc>https://insightsforaction.uk/tags/corporate-governance/</loc>
     <lastmod>2024-05-23T08:04:34+00:00</lastmod>
   </url><url>
     <loc>https://insightsforaction.uk/tags/data-ethics-and-governance/</loc>
     <lastmod>2024-05-23T08:04:34+00:00</lastmod>
   </url><url>
-    <loc>https://insightsforaction.uk/tags/key-performance-indicators/</loc>
+    <loc>https://insightsforaction.uk/tags/key_performance_indicators/</loc>
+    <lastmod>2024-05-23T08:04:34+00:00</lastmod>
+  </url><url>
+    <loc>https://insightsforaction.uk/tags/kpi/</loc>
     <lastmod>2024-05-23T08:04:34+00:00</lastmod>
   </url><url>
     <loc>https://insightsforaction.uk/posts/2024-05-23-post_office_horizon/</loc>
@@ -241,10 +256,10 @@
     <loc>https://insightsforaction.uk/tags/ansible/</loc>
     <lastmod>2020-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://insightsforaction.uk/tags/configuration-management/</loc>
+    <loc>https://insightsforaction.uk/tech/2020_09-03_ansible/</loc>
     <lastmod>2020-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://insightsforaction.uk/tech/2020_09-03_ansible/</loc>
+    <loc>https://insightsforaction.uk/tags/configuration-management/</loc>
     <lastmod>2020-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://insightsforaction.uk/tags/cycling/</loc>

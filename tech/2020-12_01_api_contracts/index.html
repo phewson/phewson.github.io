@@ -5,12 +5,12 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="googlebot" content="index, follow, noarchive" />
 	<title>Insights for Action - Software capital</title>
-	<link rel="icon" href="https://insightsforaction.uk/images/branding/favicon.ico" />
+	<link rel="icon" href="https://insightsforaction.uk//images/branding/favicon.ico" />
 	<meta name="description" content="" />
 
 	
 
-	<meta name="generator" content="Hugo 0.92.2" />
+	<meta name="generator" content="Hugo 0.111.3">
 
 	
 
@@ -24,7 +24,6 @@
 <meta property="og:url" content="https://insightsforaction.uk/tech/2020-12_01_api_contracts/" /><meta property="article:section" content="tech" />
 <meta property="article:published_time" content="2020-12-01T11:26:43+00:00" />
 <meta property="article:modified_time" content="2020-12-01T11:26:43+00:00" />
-
 
 
 	<meta property="og:locale" content="en" />
@@ -175,7 +174,7 @@
 
 <em>David Sankel CppCon 2016 presentation &ldquo;Building Software Capital&rdquo;</em></p>
 <p>Recently, I&rsquo;ve been updating my C++ skills. In the far past, I&rsquo;ve used it to speed up algorithms in scripted languages.  However, I have never used it as a standalone programming language.  And when I say C++ I think I really mean C, I just happen to compile it with g++.   Currently, I have a couple of problems which might change my limited exposure and get me much deeper in C++ code.   It&rsquo;s been interesting to see how many &ldquo;problems&rdquo; have been solved by some of the recent major upgrades to C++.  Certainly last time I was using C++ I wasn&rsquo;t using unit testing, although I did some testing informally from the calling language.  However, I am now using Catch to do behaviour driven development.  As part of the upskilling, as the evening goes on and I&rsquo;m too tired to do any coding I&rsquo;ve been watching some videos.  The idea of the videos is to get a higher level picture of what has been going on in C++.</p>
-<p>David Sankel&rsquo;s conference presentation (in the video linked above) is interesting even though it&rsquo;s not that specifically tied to C++.  It does however deal with a development frustration - the problem with tech debt.  There is a powerful graph (which I&rsquo;ve now seen several times) that argues in the early days of a software project, incurring technical debt affords a quicker route to market.  It then does a great job of explaining why the compound interest on that debt accumulates exponentially fast.  The result is that later it is made far slower to ship a product than if you had been addressing tech debt all along.  And more constructively, it suggests what to do about this.  There is also discussion at the end where some experienced developers share their history, and perhaps it needs to be noted at the time of this presentation David Sankel was working a Bloomberg.  Many of the seven recommendations are widely accepted such as unit testing, code review and engineering infrastructure to enable building and system testing.  However, one thing it does call for is <em>documentation</em>.  This seems significant because many professionals claim that the &ldquo;code is the documentation&rdquo;.  The counter argument is that in a large and complex software project, it is not feasible to read all the way down to the basic functions to understand what is going on.  Well constructed and documented APIs should be all you need to work with.  David therefore emphasises the importance of documenting <em>contracts</em> and how they add value.  Firstly, to the developer of the underlying code, they serve as a specification for all the tests that are needed to ensure that code behaves as it should.  To the developer who is going to call that API, it tells them all they need to know; they don'&rsquo;t need to understand all the implementation details.</p>
+<p>David Sankel&rsquo;s conference presentation (in the video linked above) is interesting even though it&rsquo;s not that specifically tied to C++.  It does however deal with a development frustration - the problem with tech debt.  There is a powerful graph (which I&rsquo;ve now seen several times) that argues in the early days of a software project, incurring technical debt affords a quicker route to market.  It then does a great job of explaining why the compound interest on that debt accumulates exponentially fast.  The result is that later it is made far slower to ship a product than if you had been addressing tech debt all along.  And more constructively, it suggests what to do about this.  There is also discussion at the end where some experienced developers share their history, and perhaps it needs to be noted at the time of this presentation David Sankel was working a Bloomberg.  Many of the seven recommendations are widely accepted such as unit testing, code review and engineering infrastructure to enable building and system testing.  However, one thing it does call for is <em>documentation</em>.  This seems significant because many professionals claim that the &ldquo;code is the documentation&rdquo;.  The counter argument is that in a large and complex software project, it is not feasible to read all the way down to the basic functions to understand what is going on.  Well constructed and documented APIs should be all you need to work with.  David therefore emphasises the importance of documenting <em>contracts</em> and how they add value.  Firstly, to the developer of the underlying code, they serve as a specification for all the tests that are needed to ensure that code behaves as it should.  To the developer who is going to call that API, it tells them all they need to know; they don&rsquo;&rsquo;t need to understand all the implementation details.</p>
 <p><img src="/en/tech/2020_12_01_api_contracts/orly_documentation.jpg" alt="Data Modelling">
 <em>O&rsquo;Rly satire: R software has been exceptionally well documented from its launch</em></p>
 <p>What was so profoundly interesting to me is that I don&rsquo;t think anyone would suggest that you learn <a href="https://www.r-project.org">R</a> as a means of learning computer science.  It lets you do amazing stuff with data, advanced models and visualisation.  But it has many peculiarities which would rule it out as a place to study computational structures.  However, in building R packages you are forced to write documentation for any public functions or datasets.  So for all that might be quirky about R, developers are forced to document their contracts, and all users get to read the contracts.  That doesn&rsquo;t mean the software quality is universally high across all the R packages that exist.  It&rsquo;s just interesting that from the offset, R, which has always placed an importance on good scholarly documentation is a case study of how clearly documented contracts can be valued.</p>
@@ -282,17 +281,17 @@ text-align: center;
         
         
         
-        
-        
-        
-        
-        
-        
-        <a href="https://twitter.com/texhewson" class="footer__social__link" alt="twitter" target="_blank" aria-label="https://twitter.com/texhewson" rel="noopener">
+        <a href="https://datasci.social/@texhewson" class="footer__social__link" alt="mastodon" target="_blank" aria-label="https://datasci.social/@texhewson" rel="noopener">
             <span>
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-mastodon"></i>
             </span>
         </a>
+        
+        
+        
+        
+        
+        
         
         
         
@@ -334,7 +333,7 @@ text-align: center;
 
     <div class="copy">
         
-        <p>© 2024 - Insights for Action</p>
+        <p>© 2025 - Insights for Action</p>
         
     </div>
 
