@@ -1,20 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>version control on Insights for Action</title>
-    <link>https://insightsforaction.uk/tags/version-control/</link>
-    <description>Recent content in version control on Insights for Action</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/tags/version-control/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Managing migrations with sqitch</title>
-      <link>https://insightsforaction.uk/tech/2021_02-16_sqitch/</link>
-      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2021_02-16_sqitch/</guid>
-      <description>From Pexels Wendy Wei
-I do have one little problem with sqitch. I am so used to typing a letter u after a letter q that I regularly mistype the command as squitch, and then end up staring at the terminal for so long I wonder if I should have typed sqint. Very minor naming issues aside, the project has a website at www.sqitch.org. I&amp;rsquo;ve found it a simple and specific database migration tool which does as much as I want and no more.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Version-Control on Insights for Action</title><link>/tags/version-control/</link><description>Recent content in Version-Control on Insights for Action</description><generator>Hugo</generator><language>en</language><managingEditor>paul@insightsforaction.uk (Paul Hewson)</managingEditor><webMaster>paul@insightsforaction.uk (Paul Hewson)</webMaster><lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/version-control/index.xml" rel="self" type="application/rss+xml"/><item><title>Managing migrations with sqitch</title><link>/tech/2021_02-16_sqitch/</link><pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2021_02-16_sqitch/</guid><description>&lt;p>&lt;img src="/en/tech/2021-02-16_sqitch/pexels-wendy-wei-3000260.jpg" alt="Migrating birds">
+&lt;em>From Pexels Wendy Wei&lt;/em>&lt;/p>
+&lt;p>I do have one little problem with &lt;code>sqitch&lt;/code>. I am so used to typing a letter &lt;code>u&lt;/code> after a letter &lt;code>q&lt;/code> that I regularly mistype the command as &lt;code>squitch&lt;/code>, and then end up staring at the terminal for so long I wonder if I should have typed &lt;code>sqint&lt;/code>. Very minor naming issues aside, the project has a website at &lt;a href="https://www.sqitch.org">www.sqitch.org&lt;/a>. I&amp;rsquo;ve found it a simple and specific database migration tool which does as much as I want and no more. It&amp;rsquo;s written in Perl and available directly from Ubuntu repositories with&lt;/p></description></item></channel></rss>

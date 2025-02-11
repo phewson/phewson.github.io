@@ -1,56 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on Procesable conocimientos</title>
-    <link>https://insightsforaction.uk/es/</link>
-    <description>Recent content in Home on Procesable conocimientos</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/es/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cerca de nosotros</title>
-      <link>https://insightsforaction.uk/es/nosotros/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/es/nosotros/</guid>
-      <description>Dr Paul Hewson PhD CStat CSci Paul ha trabajado en los sectores público y privado. Como académico, fue galardonado con una muy prestigiosa &amp;ldquo;National Teaching Fellowship&amp;rdquo; como resultado del trabajo en la comunicación del pensamiento estadístico. Tiene mucha experiencia en consultoría. Recientemente trabajó como científico de datos sénior en un inicio, y actualmente trabaja como especialista en inteligencia de negocios. Le apasiona obtener información * procesable * a partir de los datos.</description>
-    </item>
-    
-    <item>
-      <title>Procesable conocimientos de los datos</title>
-      <link>https://insightsforaction.uk/es/sections/insight/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/es/sections/insight/</guid>
-      <description>La pregunta hoy en día no es &amp;ldquo;¿tenemos datos&amp;rdquo;. A menudo, la primera pregunta es &amp;ldquo;¿tenemos los datos correctos?&amp;rdquo; Incluso si la respuesta a esta pregunta es &amp;ldquo;NO&amp;rdquo;, a menudo necesitamos ser capaces de hacer lo mejor que podamos para responder la pregunta &amp;ldquo;¿qué ideas podemos obtener de esta respuesta&amp;rdquo;?</description>
-    </item>
-    
-    <item>
-      <title>Ciencia de datos moderna</title>
-      <link>https://insightsforaction.uk/es/sections/modern/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/es/sections/modern/</guid>
-      <description>La ciencia de datos moderna requiere un entorno de TI moderno. Sin embargo, también requiere un conocimiento actualizado de lo que es posible en la ciencia estadística. El campo de la ciencia estadística avanza tan rápidamente como cualquier otra ciencia. Muchos cursos de estadística se basan en técnicas que se inventaron antes de 1930, y la capacitación no se ha actualizado. Dada la disponibilidad de computadoras potentes, ya no se necesitan métodos analíticos convenientes para aproximar una solución.</description>
-    </item>
-    
-    <item>
-      <title>Sitios web estáticos con Hugo y R-Blogdown</title>
-      <link>https://insightsforaction.uk/es/tech/2020-08-18-hugo_blogdown/</link>
-      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/es/tech/2020-08-18-hugo_blogdown/</guid>
-      <description>La versión actual de este sitio web es un sitio web estático está construido con Hugo. En mi opinión, hay muchas cosas que me gustan de los sitios web estáticos. Anteriormente he usado Jekyll y una vez codifiqué html manualmente. Sin embargo, los generadores de sitios web estáticos modernos permiten una presentación maravillosa. El estilo actual se basa en el tema Terrassa; para mí, lo mas importantes son accesibilidad y compatibilidad con dispositivos móviles.</description>
-    </item>
-    
-    <item>
-      <title>Alcala del Jucar</title>
-      <link>https://insightsforaction.uk/es/posts/2020-08-07-alcala_del_jucar/</link>
-      <pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/es/posts/2020-08-07-alcala_del_jucar/</guid>
-      <description>Este es uno de los lugares más increíbles del mundo. El pueblo es realmente interesante. Hay un castillo y muchas cuevas. Algún día, espero llevar a mi esposa aquí. Escribiré más, pero esta es una publicación temporal, así que no lo olvido.
-Hay un restaurante maravilloso aquí Mirador</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Conocimientos de los datos</title><link>/es/</link><description>Recent content on Conocimientos de los datos</description><generator>Hugo</generator><language>es</language><managingEditor>paul@insightsforaction.uk (Paul Hewson)</managingEditor><webMaster>paul@insightsforaction.uk (Paul Hewson)</webMaster><lastBuildDate>Sat, 08 Feb 2025 10:00:24 +0100</lastBuildDate><atom:link href="/es/index.xml" rel="self" type="application/rss+xml"/><item><title>Drakes Island and beyond Penlee Point</title><link>/es/kayaking/2025-02_08_outside_penlee/</link><pubDate>Sat, 08 Feb 2025 10:00:24 +0100</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/es/kayaking/2025-02_08_outside_penlee/</guid><description>&lt;p>&lt;img src="/en/kayaking/2025-02-08_outside_penlee/seal.jpg" alt="Data Controller image">
+&lt;em>Photo Credit: Terry Calcott&lt;/em>&lt;/p>
+&lt;p>Fue una remada &lt;strong>fría&lt;/strong>, con un poco de viento del norte. Empezamos como un solo grupo con dos remeros en su primera remada de sábado. En Fort Picklecombe, el líder decidió dividirnos en dos grupos; uno iba a Mount Edgcumbe para almorzar y el otro a Cawsand. Resultó que fuimos un poco más allá de Penlee Point y almorzamos en una playa (¿Sandway&amp;rsquo;s beach?) antes de volver a casa.&lt;/p></description></item><item><title>Penlee Point y Cawsand</title><link>/es/kayaking/2025-01-25_penlee_cawsand/</link><pubDate>Sat, 25 Jan 2025 10:00:24 +0100</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/es/kayaking/2025-01-25_penlee_cawsand/</guid><description>&lt;p>&lt;img src="/en/kayaking/2025-01-25_penlee_cawsand/PENLEE.jpg" alt="Data Controller image">
+&lt;em>Photo Credit: Paul Hewson&lt;/em>&lt;/p>
+&lt;p>Este fue un día interesante, intercalado entre las ráfagas de tormenta Éowyn vio muy poco viento, pero algunas grandes marejadas de baja frecuencia. Mi API meteorológica indicaba 2 m; era difícil creer que fuera tan grande. Sin embargo, era de baja frecuencia y no me alejé lo suficiente de nadie como para «calibrar» mi decisión al respecto. De hecho, conseguimos remar a través del sonido fuera del rompeolas.&lt;/p></description></item><item><title>Totnes to Kingswear</title><link>/es/kayaking/2025-01-04_totnes_kingswear/</link><pubDate>Sat, 04 Jan 2025 10:00:24 +0100</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/es/kayaking/2025-01-04_totnes_kingswear/</guid><description>&lt;p>&lt;img src="/en/kayaking/2025-01-04_totnes_kingswear/map.jpg" alt="Data Controller image">
+&lt;em>Photo Credit: Fiona Hiscox Tracker&lt;/em>&lt;/p>
+&lt;p>&lt;img src="/en/kayaking/2025-01-04_totnes_kingswear/start.jpg" alt="Data Controller image">
+&lt;em>Photo Credit: Paul Hewson&lt;/em>&lt;/p>
+&lt;p>&lt;img src="/en/kayaking/2025-01-04_totnes_kingswear/seal.jpg" alt="Data Controller image">
+&lt;em>Photo Credit: Paul Hewson&lt;/em>&lt;/p>
+&lt;p>&lt;img src="/en/kayaking/2025-01-04_totnes_kingswear/one.jpg" alt="Data Controller image">
+&lt;em>Photo Credit: Paul Hewson&lt;/em>&lt;/p>
+&lt;p>Tardamos unos 90 minutos en organizar la recogida de coches; la mayoría aparcaron en Kingswear y el mínimo regresó a Totnes. Embarcamos en el aparcamiento de Longmarsh y seguimos la marea río abajo. El tiempo era extremadamente frío y hacía un poco de viento, sobre todo al girar después de Dittisham, donde el Dart se ensancha.&lt;/p></description></item><item><title>Mountbatten to Wembury</title><link>/es/kayaking/2024-12-28_mb_wembury/</link><pubDate>Sat, 28 Dec 2024 10:00:24 +0100</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/es/kayaking/2024-12-28_mb_wembury/</guid><description>&lt;p>&lt;img src="/es/kayaking/2024-12-28_mb_wembury/group.jpg" alt="Data Controller image">
+&lt;em>Photo Credit: Helga Pinn Facebook&lt;/em>&lt;/p>
+&lt;p>Fue un día frío, oscuro y muy llano. Sin embargo, la remada fue agradable. Más de 12 millas. Hice algunos saltos de roca en condiciones poco desafiantes.&lt;/p></description></item><item><title>Meadfoot Guinea Pig</title><link>/es/kayaking/2024-11-02_meadfoot_guinea_pig/</link><pubDate>Sat, 02 Nov 2024 10:00:24 +0100</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/es/kayaking/2024-11-02_meadfoot_guinea_pig/</guid><description>&lt;p>&lt;img src="/en/kayaking/2024-11-02_meadfoot_guinea_pig/floating.jpg" alt="Data Controller image">
+&lt;em>Photo Credit: Lindsey McPhee Facebook&lt;/em>&lt;/p>
+&lt;p>Me ofrecí voluntario para hacer de «conejillo de indias» para un joven instructor que se estaba sacando el título de líder de kayak de mar. Lo bueno es que &lt;em>tengo&lt;/em> que caerme al agua, así que no me avergüenzo si me pasa. El plan era remar desde Salcombe, pero se cambió.&lt;/p></description></item><item><title>Maidencombe Paddle</title><link>/es/kayaking/2024-10-12_maidencombe/</link><pubDate>Sat, 12 Oct 2024 10:00:24 +0100</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/es/kayaking/2024-10-12_maidencombe/</guid><description>&lt;p>&lt;img src="/en/kayaking/2024-10-12_maidencombe/screenshot.jpg" alt="Data Controller image">
+&lt;em>Photo Credit: Paul Hewson screenshot&lt;/em>&lt;/p>
+&lt;p>Fue una remada corta pero desafiante de Teignmouth a Maidencombe. Creo que el plan había sido parar a tomar un café y luego pasar a Babbacombe para el almuerzo, pero había un poco de oleaje. Andy Benham sugirió que estaba más cerca de 1m que los 0,8 que aparecían en mi pronóstico.&lt;/p></description></item><item><title>Sitios web estáticos con Hugo y R-Blogdown</title><link>/es/tech/2020-08-18-hugo_blogdown/</link><pubDate>Wed, 19 Aug 2020 12:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/es/tech/2020-08-18-hugo_blogdown/</guid><description>&lt;p>La versión actual de este sitio web es un sitio web estático está construido con &lt;a href="https://gohugo.io">Hugo&lt;/a>. En mi opinión, hay muchas cosas que me gustan de los sitios web estáticos. Anteriormente he usado &lt;strong>Jekyll&lt;/strong> y una vez codifiqué &lt;em>html&lt;/em> manualmente. Sin embargo, los generadores de sitios web estáticos modernos permiten una presentación maravillosa. El estilo actual se basa en el tema &lt;a href="https://themes.gohugo.io/hugo-terrassa-theme/">Terrassa&lt;/a>; para mí, lo mas importantes son accesibilidad y compatibilidad con dispositivos móviles. Sin embargo, el problema más importante para mí es controlar los datos y las versiones. Con un sitio web dinámico, no necesariamente conoce los datos a los que está accediendo alguien; se extraen de una base de datos en vivo que, por diseño, puede actualizarse independientemente del sitio web. Con un sitio web estático, la versión de los datos se controla junto con el sitio web. Para algunos sitios web, esa es una mala elección de diseño. Pero quería poder demostrar el análisis de datos sobre datos que podría volver a visitar (porque se han actualizado) o utilizando nuevos métodos. Todo esto puede ser controlado por versiones.&lt;/p></description></item><item><title>Alcala del Jucar</title><link>/es/posts/2020-08-07-alcala_del_jucar/</link><pubDate>Thu, 06 Aug 2020 20:34:51 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/es/posts/2020-08-07-alcala_del_jucar/</guid><description>&lt;p>Este es uno de los lugares más increíbles del mundo. El pueblo es realmente interesante. Hay un castillo y muchas cuevas. Algún día, espero llevar a mi esposa aquí. Escribiré más, pero esta es una publicación temporal, así que no lo olvido.&lt;/p></description></item></channel></rss>

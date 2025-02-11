@@ -1,121 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tech Stack on Insights for Action</title>
-    <link>https://insightsforaction.uk/tech/</link>
-    <description>Recent content in Tech Stack on Insights for Action</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/tech/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Enhancing emacs: vertico and marginalia packages</title>
-      <link>https://insightsforaction.uk/tech/2024-05-28-emacs_vertico_marginalia/</link>
-      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2024-05-28-emacs_vertico_marginalia/</guid>
-      <description>From Pexels Karolina Grabowska
-I&amp;rsquo;ve been using emacs for a long time. OK, I&amp;rsquo;ve probably been using emacs for over 30 years. However, I&amp;rsquo;ve never really taken a huge amount of time to learn emacs. I&amp;rsquo;ve picked up a few packages along the way
-ESS (Emacs Speaks Statistics) and various *-polymode packages magit org-mode and more recently org-roam I&amp;rsquo;ve also spent time adjusting a development environment as necessary, which most recently has included compiling from source so that I can look at the tree-sitter parser.</description>
-    </item>
-    
-    <item>
-      <title>Using Docker for R</title>
-      <link>https://insightsforaction.uk/tech/2024-05-19-rocker/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2024-05-19-rocker/</guid>
-      <description>I had partitioned my development environment such that I had virtual machines providing:
-R and R-studio A PostgreSQL server A development machine This basically avoided some package clashes when &amp;ldquo;tinkering&amp;rdquo;. There is however some clumsiness (I need lots of PostgreSQL clients all over the place). So the current cunning plan is to run some of this inside Docker.
-The first step was adding a GPG key and the docker repositories. I seemed to faff around a bit but I think you just sudo apt-get install docker-ce (I think I tried to install too many small parts, and had to add facilities to enable docker compose up and could have avoided all this if I&amp;rsquo;d just installed docker-ce).</description>
-    </item>
-    
-    <item>
-      <title>Managing migrations with sqitch</title>
-      <link>https://insightsforaction.uk/tech/2021_02-16_sqitch/</link>
-      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2021_02-16_sqitch/</guid>
-      <description>From Pexels Wendy Wei
-I do have one little problem with sqitch. I am so used to typing a letter u after a letter q that I regularly mistype the command as squitch, and then end up staring at the terminal for so long I wonder if I should have typed sqint. Very minor naming issues aside, the project has a website at www.sqitch.org. I&amp;rsquo;ve found it a simple and specific database migration tool which does as much as I want and no more.</description>
-    </item>
-    
-    <item>
-      <title>GTD (Getting things done)</title>
-      <link>https://insightsforaction.uk/tech/2021_02-08_gtd/</link>
-      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2021_02-08_gtd/</guid>
-      <description>From Pexels
-David Allen the consultant and author (sadly not Dave Allen the comedian) promotes a management system in his book &amp;ldquo;Getting Things Done: The Art of Stress Free Productivity&amp;rdquo;. In my opinion, there are two key features to this system. The first is learning to use a tracking system rather than carrying things in your head. The second is taking the time to review, prioritize and delete actions from this tracking system.</description>
-    </item>
-    
-    <item>
-      <title>Some ansible woes</title>
-      <link>https://insightsforaction.uk/tech/2020-12-18_ansible_woes/</link>
-      <pubDate>Fri, 18 Dec 2020 15:36:55 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2020-12-18_ansible_woes/</guid>
-      <description>Anonymous from Pinterest
-After some 12 years, I had to set up a new machine for my own use. I bought a reconditioned HP with around 16Gb RAM, 500Gb SSD. It came with a Windows OS, which I was going to wipe out. However, for various reasons (mainly some wonderful animation apps I use in teaching which require Mac or Windows only and need access to the sound system) I decided to keep the Windows host.</description>
-    </item>
-    
-    <item>
-      <title>Github actions</title>
-      <link>https://insightsforaction.uk/tech/2020-12-14_github_actions/</link>
-      <pubDate>Mon, 14 Dec 2020 15:22:41 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2020-12-14_github_actions/</guid>
-      <description>Photo by Oleg Magni from Pexels
-I know this seems like a tiny problem compared to everything else that has happened in 2020. But I started the year having learnt how to use Travis CI. This meant I could put my hobby projects under some kind of continuous testing. Now, whatever the merits of various workflows that can used for CI, Travis was supported by the R community. It was well integrated into R package development.</description>
-    </item>
-    
-    <item>
-      <title>Software capital</title>
-      <link>https://insightsforaction.uk/tech/2020-12_01_api_contracts/</link>
-      <pubDate>Tue, 01 Dec 2020 11:26:43 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2020-12_01_api_contracts/</guid>
-      <description>David Sankel CppCon 2016 presentation &amp;ldquo;Building Software Capital&amp;rdquo;
-Recently, I&amp;rsquo;ve been updating my C++ skills. In the far past, I&amp;rsquo;ve used it to speed up algorithms in scripted languages. However, I have never used it as a standalone programming language. And when I say C++ I think I really mean C, I just happen to compile it with g++. Currently, I have a couple of problems which might change my limited exposure and get me much deeper in C++ code.</description>
-    </item>
-    
-    <item>
-      <title>Conflicts between Agile and Data Modelling</title>
-      <link>https://insightsforaction.uk/tech/2020-11-25_agile_and_data_modelling/</link>
-      <pubDate>Tue, 24 Nov 2020 10:52:13 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2020-11-25_agile_and_data_modelling/</guid>
-      <description>Photo by Christina Morillo from Pexels
-Having worked in various Agile and Waterfall environments I have become fascinated by the potential mismatch between Data Modelling and Agile. Searching for some discussion pieces on this, I found an interesting post that reviews a conference discussion. Ultimately, this dates from Enterprise Data World 2015, but does seem to draw on a lot of expertise from enterprise level people who have had to reconcile Data Modelling and Agile.</description>
-    </item>
-    
-    <item>
-      <title>Configuration management</title>
-      <link>https://insightsforaction.uk/tech/2020_09-03_ansible/</link>
-      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2020_09-03_ansible/</guid>
-      <description>One thing I have learnt is configuration management. It&amp;rsquo;s an under-rated aspect of reproducible research. I was quickly experimenting with an R package, but needed to install the sf package on my tinkering machine. That in turn required another R package units. And in turn, units needed some header files, as did sf. As it turns out, units package failed with a very nice error message telling me exactly what I had to do.</description>
-    </item>
-    
-    <item>
-      <title>Static Websites with Hugo and R-Blogdown</title>
-      <link>https://insightsforaction.uk/tech/2020-08-18-hugo_blogdown/</link>
-      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2020-08-18-hugo_blogdown/</guid>
-      <description>The current iteration of this website is a static website based on Hugo. In my opinion, there is a lot to like about static websites. I have previously used Jekyll and once upon a time coded html manually. However, modern static website generators allow a wonderful presentation. The currently styling is based upon the Terrassa theme; for me it scored highly for accessibility and mobile friendliness. The bigger issue for me though is to do data and version controlling.</description>
-    </item>
-    
-    <item>
-      <title>The right tech for the job</title>
-      <link>https://insightsforaction.uk/tech/2020-07-05_the_right_tech/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2020-07-05_the_right_tech/</guid>
-      <description>A small trebuchet in action
-This Trebuchet is a bit puny compared to the one at Warwick Castle. But it&amp;rsquo;s a fascinating piece of engineering, and certainly makes a bit of a difference from doing bisections with a compass. Here&amp;rsquo;s why I selected this as &amp;ldquo;the right tech&amp;rdquo; to use in school outreach work.
-This is old work now, but I learnt a lot getting involved in it. We seem to have designed a school curriculum with the sole intended outcome of putting students off statistics for life.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Insights for Action</title><link>/tech/</link><description>Recent content on Insights for Action</description><generator>Hugo</generator><language>en</language><managingEditor>paul@insightsforaction.uk (Paul Hewson)</managingEditor><webMaster>paul@insightsforaction.uk (Paul Hewson)</webMaster><lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Enhancing emacs: vertico and marginalia packages</title><link>/tech/2024-05-28-emacs_vertico_marginalia/</link><pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2024-05-28-emacs_vertico_marginalia/</guid><description>&lt;p>&lt;img src="/en/tech//2024-05-28-emacs_vertico_marginalia/pexels-karolina-grabowska-6958542.jpg" alt="Book annotations">
+&lt;em>From Pexels Karolina Grabowska&lt;/em>&lt;/p>
+&lt;p>I&amp;rsquo;ve been using emacs for a long time. OK, I&amp;rsquo;ve probably been using emacs for over 30 years. However, I&amp;rsquo;ve never really taken a huge amount of time to learn emacs. I&amp;rsquo;ve picked up a few packages along the way&lt;/p></description></item><item><title>Using Docker for R</title><link>/tech/2024-05-19-rocker/</link><pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2024-05-19-rocker/</guid><description>&lt;p>I had partitioned my development environment such that I had virtual machines providing:&lt;/p>
+&lt;ul>
+&lt;li>R and R-studio&lt;/li>
+&lt;li>A PostgreSQL server&lt;/li>
+&lt;li>A development machine&lt;/li>
+&lt;/ul>
+&lt;p>This basically avoided some package clashes when &amp;ldquo;tinkering&amp;rdquo;. There is however some clumsiness (I need lots of PostgreSQL clients all over the place). So the current cunning plan is to run some of this inside Docker.&lt;/p></description></item><item><title>Managing migrations with sqitch</title><link>/tech/2021_02-16_sqitch/</link><pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2021_02-16_sqitch/</guid><description>&lt;p>&lt;img src="/en/tech/2021-02-16_sqitch/pexels-wendy-wei-3000260.jpg" alt="Migrating birds">
+&lt;em>From Pexels Wendy Wei&lt;/em>&lt;/p>
+&lt;p>I do have one little problem with &lt;code>sqitch&lt;/code>. I am so used to typing a letter &lt;code>u&lt;/code> after a letter &lt;code>q&lt;/code> that I regularly mistype the command as &lt;code>squitch&lt;/code>, and then end up staring at the terminal for so long I wonder if I should have typed &lt;code>sqint&lt;/code>. Very minor naming issues aside, the project has a website at &lt;a href="https://www.sqitch.org">www.sqitch.org&lt;/a>. I&amp;rsquo;ve found it a simple and specific database migration tool which does as much as I want and no more. It&amp;rsquo;s written in Perl and available directly from Ubuntu repositories with&lt;/p></description></item><item><title>GTD (Getting things done)</title><link>/tech/2021_02-08_gtd/</link><pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2021_02-08_gtd/</guid><description>&lt;p>&lt;img src="/en/tech/2021-02-08_gtd/pexels-startup-stock-photos-7376.jpg" alt="Time management">
+&lt;em>From Pexels&lt;/em>&lt;/p>
+&lt;p>David Allen the consultant and author (sadly not Dave Allen the comedian) promotes a management system in his book &lt;a href="https://www.davidco.com">&amp;ldquo;Getting Things Done: The Art of Stress Free Productivity&amp;rdquo;&lt;/a>. In my opinion, there are two key features to this system. The first is learning to use a tracking system rather than carrying things in your head. The second is taking the time to review, prioritize and delete actions from this tracking system. So it isn&amp;rsquo;t just writing to-do lists because, because once you trust the process you don&amp;rsquo;t look at the to-do list - you only need to look at your schedule for a day. Less stress and worry, focus on finding flow for what is in front of you. If you trust your scheduling abilities, the only stress comes when you do your regular review, and delete, reschedule or add work to the system. There are some obvious overlaps with Agile and Waterfall, and it is no accident that Emacs has back-ends that allow org-mode to integrate with GitHub, BitBucket and GitLab to support a &amp;ldquo;Getting Things Done&amp;rdquo; workflow. And indeed, &amp;ldquo;Getting Things Done&amp;rdquo; encourages you in the review sessions to focus on what get a task done rather than adding tasks because you wish to enter a Stakhanovite competition for the world&amp;rsquo;s longest to-do list. &amp;ldquo;Getting Things Done&amp;rdquo; is sufficiently well established that there are numerous smartphone apps, such as &amp;ldquo;Don&amp;rsquo;t Forget the Milk&amp;rdquo; which go some way towards implementing it.&lt;/p></description></item><item><title>Some ansible woes</title><link>/tech/2020-12-18_ansible_woes/</link><pubDate>Fri, 18 Dec 2020 15:36:55 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2020-12-18_ansible_woes/</guid><description>&lt;p>&lt;img src="/en/tech/2020-12-18_ansible_woes/gorilla.jpeg" alt="Grumpy Gorilla">
+&lt;em>Anonymous from Pinterest&lt;/em>&lt;/p>
+&lt;p>After some 12 years, I had to set up a new machine for my own use. I bought a reconditioned HP with around 16Gb RAM, 500Gb SSD. It came with a Windows OS, which I was going to wipe out. However, for various reasons (mainly some wonderful animation apps I use in teaching which require Mac or Windows only and need access to the sound system) I decided to keep the Windows host. First off, I decided to install my development machine under Vagrant/VirtualBox. I&amp;rsquo;m still fighting with VirtualBox (can&amp;rsquo;t get USB ext3 drives recognised, can&amp;rsquo;t get the sound working) and may end up having to dual boot. But apart from that, everything is wonderful. I suppose there&amp;rsquo;s a very minor inconvenience in having to logon to two computers (one real, one virtual) but that&amp;rsquo;s less hassle than dual booting.&lt;/p></description></item><item><title>Github actions</title><link>/tech/2020-12-14_github_actions/</link><pubDate>Mon, 14 Dec 2020 15:22:41 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2020-12-14_github_actions/</guid><description>&lt;p>&lt;img src="/en/tech/2020-12-16_github_actions/pexels-oleg-magni-1781622.jpg" alt="Continuous Testing">
+&lt;em>Photo by Oleg Magni from Pexels&lt;/em>&lt;/p>
+&lt;p>I know this seems like a tiny problem compared to everything else that has happened in 2020. But I started the year having learnt how to use Travis CI. This meant I could put my hobby projects under some kind of continuous testing. Now, whatever the merits of various workflows that can used for CI, Travis was supported by the R community. It was well integrated into R package development. Unfortunately, after an acquisition and a restructure, Travis have recently announced that they are dropping the free tier for open source projects. I have no objection to paying for a service, and certainly suspect had I been using tools like Travis for the last 15 years I would have saved myself huge amounts of time and stress. It&amp;rsquo;s possibly even more important to have CI given my development habits, which go in fits and starts depending on other commitments. I can certainly remember needing to give a live demonstration and finding out that a package upgrade had broken all my code (and to make things worse, there was no question of using an earlier version of the software on the presentation machines). That said, there are plenty of developers who feel Travis have gone back on earlier promises regarding a free tier. Whatever the rights and wrongs, the bigger issue for me is that the R package building integration will likely move away from supporting Travis as thoroughly as it does just now.&lt;/p></description></item><item><title>Software capital</title><link>/tech/2020-12_01_api_contracts/</link><pubDate>Tue, 01 Dec 2020 11:26:43 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2020-12_01_api_contracts/</guid><description>&lt;p>
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ta3S8CRN2TM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+ &lt;/div>
+
+&lt;em>David Sankel CppCon 2016 presentation &amp;ldquo;Building Software Capital&amp;rdquo;&lt;/em>&lt;/p></description></item><item><title>Conflicts between Agile and Data Modelling</title><link>/tech/2020-11-25_agile_and_data_modelling/</link><pubDate>Tue, 24 Nov 2020 10:52:13 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2020-11-25_agile_and_data_modelling/</guid><description>&lt;p>&lt;img src="/en/tech/2020-11-25_agile_and_data_modelling/pexels-christina-morillo-1181345.jpg" alt="Data Modelling">
+&lt;em>Photo by Christina Morillo from Pexels&lt;/em>&lt;/p>
+&lt;p>Having worked in various Agile and Waterfall environments I have become fascinated by the potential mismatch between Data Modelling and Agile. Searching for some discussion pieces on this, I found an interesting post that reviews a conference discussion. Ultimately, this dates from &lt;a href="https://www.dataversity.net/fundamentals-of-data-modeling-in-agile-environments/">Enterprise Data World 2015&lt;/a>, but does seem to draw on a lot of expertise from enterprise level people who have had to reconcile Data Modelling and Agile. One of the statements made was that under Agile development: &amp;ldquo;There are numerous distinctions between the objectives, approaches, and needs of developers and data modelers that provide various points of conflict&amp;rdquo;. There is some exploration of the experience of various speakers with these conflicts.&lt;/p></description></item><item><title>Configuration management</title><link>/tech/2020_09-03_ansible/</link><pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2020_09-03_ansible/</guid><description>&lt;p>One thing I have learnt is configuration management. It&amp;rsquo;s an under-rated aspect of reproducible research. I was quickly experimenting with an &lt;strong>R&lt;/strong> package, but needed to install the &lt;code>sf&lt;/code> package on my tinkering machine. That in turn required another &lt;strong>R&lt;/strong> package &lt;code>units&lt;/code>. And in turn, &lt;code>units&lt;/code> needed some header files, as did &lt;code>sf&lt;/code>. As it turns out, &lt;code>units&lt;/code> package failed with a very nice error message telling me exactly what I had to do. And I had very had &lt;em>deja vu&lt;/em> dealing with &lt;code>sf&lt;/code> because I know I&amp;rsquo;ve handed that before.&lt;/p></description></item><item><title>Static Websites with Hugo and R-Blogdown</title><link>/tech/2020-08-18-hugo_blogdown/</link><pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2020-08-18-hugo_blogdown/</guid><description>&lt;p>The current iteration of this website is a static website based on &lt;a href="https://gohugo.io">Hugo&lt;/a>. In my opinion, there is a lot to like about static websites. I have previously used &lt;strong>Jekyll&lt;/strong> and once upon a time coded &lt;em>html&lt;/em> manually. However, modern static website generators allow a wonderful presentation. The currently styling is based upon the &lt;a href="https://themes.gohugo.io/hugo-terrassa-theme/">Terrassa&lt;/a> theme; for me it scored highly for accessibility and mobile friendliness. The bigger issue for me though is to do data and version controlling. With a dynamic website, you don&amp;rsquo;t necessarily know the data someone is accessing - it is drawn from a live database which by design can be updated independently of the website. With a static website, the data become version controlled along with the website. For some websites, that is a bad design choice. But I wanted to be able to demonstrate data analysis on data that I might revisit (because it has been updated) or using new methods. All this can be version controlled.&lt;/p></description></item><item><title>The right tech for the job</title><link>/tech/2020-07-05_the_right_tech/</link><pubDate>Sat, 18 Jul 2020 12:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2020-07-05_the_right_tech/</guid><description>&lt;p>
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4p_gr1c32SE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+ &lt;/div>
+
+&lt;em>A small trebuchet in action&lt;/em>&lt;/p>
+&lt;p>This Trebuchet is a bit puny compared to the one at Warwick Castle. But it&amp;rsquo;s a fascinating piece of engineering, and certainly makes a bit of a difference from doing bisections with a compass. Here&amp;rsquo;s why I selected this as &amp;ldquo;the right tech&amp;rdquo; to use in school outreach work.&lt;/p></description></item></channel></rss>

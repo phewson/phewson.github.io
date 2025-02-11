@@ -1,30 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>R on Insights for Action</title>
-    <link>https://insightsforaction.uk/tags/r/</link>
-    <description>Recent content in R on Insights for Action</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/tags/r/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Using Docker for R</title>
-      <link>https://insightsforaction.uk/tech/2024-05-19-rocker/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2024-05-19-rocker/</guid>
-      <description>I had partitioned my development environment such that I had virtual machines providing:
-R and R-studio A PostgreSQL server A development machine This basically avoided some package clashes when &amp;ldquo;tinkering&amp;rdquo;. There is however some clumsiness (I need lots of PostgreSQL clients all over the place). So the current cunning plan is to run some of this inside Docker.
-The first step was adding a GPG key and the docker repositories. I seemed to faff around a bit but I think you just sudo apt-get install docker-ce (I think I tried to install too many small parts, and had to add facilities to enable docker compose up and could have avoided all this if I&amp;rsquo;d just installed docker-ce).</description>
-    </item>
-    
-    <item>
-      <title>Static Websites with Hugo and R-Blogdown</title>
-      <link>https://insightsforaction.uk/tech/2020-08-18-hugo_blogdown/</link>
-      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2020-08-18-hugo_blogdown/</guid>
-      <description>The current iteration of this website is a static website based on Hugo. In my opinion, there is a lot to like about static websites. I have previously used Jekyll and once upon a time coded html manually. However, modern static website generators allow a wonderful presentation. The currently styling is based upon the Terrassa theme; for me it scored highly for accessibility and mobile friendliness. The bigger issue for me though is to do data and version controlling.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>R on Insights for Action</title><link>/tags/r/</link><description>Recent content in R on Insights for Action</description><generator>Hugo</generator><language>en</language><managingEditor>paul@insightsforaction.uk (Paul Hewson)</managingEditor><webMaster>paul@insightsforaction.uk (Paul Hewson)</webMaster><lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Docker for R</title><link>/tech/2024-05-19-rocker/</link><pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2024-05-19-rocker/</guid><description>&lt;p>I had partitioned my development environment such that I had virtual machines providing:&lt;/p>
+&lt;ul>
+&lt;li>R and R-studio&lt;/li>
+&lt;li>A PostgreSQL server&lt;/li>
+&lt;li>A development machine&lt;/li>
+&lt;/ul>
+&lt;p>This basically avoided some package clashes when &amp;ldquo;tinkering&amp;rdquo;. There is however some clumsiness (I need lots of PostgreSQL clients all over the place). So the current cunning plan is to run some of this inside Docker.&lt;/p></description></item><item><title>Static Websites with Hugo and R-Blogdown</title><link>/tech/2020-08-18-hugo_blogdown/</link><pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2020-08-18-hugo_blogdown/</guid><description>&lt;p>The current iteration of this website is a static website based on &lt;a href="https://gohugo.io">Hugo&lt;/a>. In my opinion, there is a lot to like about static websites. I have previously used &lt;strong>Jekyll&lt;/strong> and once upon a time coded &lt;em>html&lt;/em> manually. However, modern static website generators allow a wonderful presentation. The currently styling is based upon the &lt;a href="https://themes.gohugo.io/hugo-terrassa-theme/">Terrassa&lt;/a> theme; for me it scored highly for accessibility and mobile friendliness. The bigger issue for me though is to do data and version controlling. With a dynamic website, you don&amp;rsquo;t necessarily know the data someone is accessing - it is drawn from a live database which by design can be updated independently of the website. With a static website, the data become version controlled along with the website. For some websites, that is a bad design choice. But I wanted to be able to demonstrate data analysis on data that I might revisit (because it has been updated) or using new methods. All this can be version controlled.&lt;/p></description></item></channel></rss>

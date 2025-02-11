@@ -1,20 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bias on Insights for Action</title>
-    <link>https://insightsforaction.uk/tags/bias/</link>
-    <description>Recent content in Bias on Insights for Action</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 14 Nov 2020 10:37:24 +0100</lastBuildDate><atom:link href="https://insightsforaction.uk/tags/bias/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Unreasonable effectiveness of data</title>
-      <link>https://insightsforaction.uk/posts/2020-11-16_unreasonable_effectiveness_of_data/</link>
-      <pubDate>Sat, 14 Nov 2020 10:37:24 +0100</pubDate>
-      
-      <guid>https://insightsforaction.uk/posts/2020-11-16_unreasonable_effectiveness_of_data/</guid>
-      <description>Photo by Christina Morillo from Pexels
-In 1960, Eugene Wigner published &amp;ldquo;The unreasonable effectiveness of mathematics in the natural sciences&amp;rdquo;. Many commentators have indeed agreed it is surprising how relatively simple maths can indeed model so much of the natural world. Wigner argued that modelling a given scientific theory can lead to further advances in the theory. He also claimed success in that a mathematical model can make predictions which allow the theory to be empirically tested.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bias on Insights for Action</title><link>/tags/bias/</link><description>Recent content in Bias on Insights for Action</description><generator>Hugo</generator><language>en</language><managingEditor>paul@insightsforaction.uk (Paul Hewson)</managingEditor><webMaster>paul@insightsforaction.uk (Paul Hewson)</webMaster><lastBuildDate>Sat, 14 Nov 2020 10:37:24 +0100</lastBuildDate><atom:link href="/tags/bias/index.xml" rel="self" type="application/rss+xml"/><item><title>Unreasonable effectiveness of data</title><link>/posts/2020-11-16_unreasonable_effectiveness_of_data/</link><pubDate>Sat, 14 Nov 2020 10:37:24 +0100</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/posts/2020-11-16_unreasonable_effectiveness_of_data/</guid><description>&lt;p>&lt;img src="/en/posts/2020-11-16_unreasonable_effectiveness_of_data/christina-morillo.jpg" alt="Data Controller image">
+&lt;em>Photo by Christina Morillo from Pexels&lt;/em>&lt;/p>
+&lt;p>In 1960, &lt;a href="https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf">Eugene Wigner&lt;/a> published &amp;ldquo;The unreasonable effectiveness of mathematics in the natural sciences&amp;rdquo;. Many commentators have indeed agreed it is surprising how relatively simple maths can indeed model so much of the natural world. Wigner argued that modelling a given scientific theory can lead to further advances in the theory. He also claimed success in that a mathematical model can make predictions which allow the theory to be empirically tested. Playing on the title of this paper, in 2009, researchers at
+&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf">Google&lt;/a>
+presented &amp;ldquo;The unreasonable effectiveness of data&amp;rdquo;. This is often quoted by tech-evangelists and used to support the idea that &amp;ldquo;building models is expensive, training data is cheap&amp;rdquo;. I would argue it is not quite that simple.&lt;/p></description></item></channel></rss>
