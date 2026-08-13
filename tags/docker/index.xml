@@ -1,21 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Docker on Insights for Action</title>
-    <link>https://insightsforaction.uk/tags/docker/</link>
-    <description>Recent content in Docker on Insights for Action</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/tags/docker/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Using Docker for R</title>
-      <link>https://insightsforaction.uk/tech/2024-05-19-rocker/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2024-05-19-rocker/</guid>
-      <description>I had partitioned my development environment such that I had virtual machines providing:
-R and R-studio A PostgreSQL server A development machine This basically avoided some package clashes when &amp;ldquo;tinkering&amp;rdquo;. There is however some clumsiness (I need lots of PostgreSQL clients all over the place). So the current cunning plan is to run some of this inside Docker.
-The first step was adding a GPG key and the docker repositories. I seemed to faff around a bit but I think you just sudo apt-get install docker-ce (I think I tried to install too many small parts, and had to add facilities to enable docker compose up and could have avoided all this if I&amp;rsquo;d just installed docker-ce).</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on Insights for Action</title><link>/tags/docker/</link><description>Recent content in Docker on Insights for Action</description><generator>Hugo</generator><language>en</language><managingEditor>paul@insightsforaction.uk (Paul Hewson)</managingEditor><webMaster>paul@insightsforaction.uk (Paul Hewson)</webMaster><lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Docker for R</title><link>/tech/2024-05-19-rocker/</link><pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2024-05-19-rocker/</guid><description>&lt;p>I had partitioned my development environment such that I had virtual machines providing:&lt;/p>
+&lt;ul>
+&lt;li>R and R-studio&lt;/li>
+&lt;li>A PostgreSQL server&lt;/li>
+&lt;li>A development machine&lt;/li>
+&lt;/ul>
+&lt;p>This basically avoided some package clashes when &amp;ldquo;tinkering&amp;rdquo;. There is however some clumsiness (I need lots of PostgreSQL clients all over the place). So the current cunning plan is to run some of this inside Docker.&lt;/p></description></item></channel></rss>

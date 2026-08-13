@@ -1,20 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Getting Things Done on Insights for Action</title>
-    <link>https://insightsforaction.uk/tags/getting-things-done/</link>
-    <description>Recent content in Getting Things Done on Insights for Action</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 08 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/tags/getting-things-done/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>GTD (Getting things done)</title>
-      <link>https://insightsforaction.uk/tech/2021_02-08_gtd/</link>
-      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/tech/2021_02-08_gtd/</guid>
-      <description>From Pexels
-David Allen the consultant and author (sadly not Dave Allen the comedian) promotes a management system in his book &amp;ldquo;Getting Things Done: The Art of Stress Free Productivity&amp;rdquo;. In my opinion, there are two key features to this system. The first is learning to use a tracking system rather than carrying things in your head. The second is taking the time to review, prioritize and delete actions from this tracking system.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Getting-Things-Done on Insights for Action</title><link>/tags/getting-things-done/</link><description>Recent content in Getting-Things-Done on Insights for Action</description><generator>Hugo</generator><language>en</language><managingEditor>paul@insightsforaction.uk (Paul Hewson)</managingEditor><webMaster>paul@insightsforaction.uk (Paul Hewson)</webMaster><lastBuildDate>Mon, 08 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/getting-things-done/index.xml" rel="self" type="application/rss+xml"/><item><title>GTD (Getting things done)</title><link>/tech/2021_02-08_gtd/</link><pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/tech/2021_02-08_gtd/</guid><description>&lt;p>&lt;img src="/en/tech/2021-02-08_gtd/pexels-startup-stock-photos-7376.jpg" alt="Time management">
+&lt;em>From Pexels&lt;/em>&lt;/p>
+&lt;p>David Allen the consultant and author (sadly not Dave Allen the comedian) promotes a management system in his book &lt;a href="https://www.davidco.com">&amp;ldquo;Getting Things Done: The Art of Stress Free Productivity&amp;rdquo;&lt;/a>. In my opinion, there are two key features to this system. The first is learning to use a tracking system rather than carrying things in your head. The second is taking the time to review, prioritize and delete actions from this tracking system. So it isn&amp;rsquo;t just writing to-do lists because, because once you trust the process you don&amp;rsquo;t look at the to-do list - you only need to look at your schedule for a day. Less stress and worry, focus on finding flow for what is in front of you. If you trust your scheduling abilities, the only stress comes when you do your regular review, and delete, reschedule or add work to the system. There are some obvious overlaps with Agile and Waterfall, and it is no accident that Emacs has back-ends that allow org-mode to integrate with GitHub, BitBucket and GitLab to support a &amp;ldquo;Getting Things Done&amp;rdquo; workflow. And indeed, &amp;ldquo;Getting Things Done&amp;rdquo; encourages you in the review sessions to focus on what get a task done rather than adding tasks because you wish to enter a Stakhanovite competition for the world&amp;rsquo;s longest to-do list. &amp;ldquo;Getting Things Done&amp;rdquo; is sufficiently well established that there are numerous smartphone apps, such as &amp;ldquo;Don&amp;rsquo;t Forget the Milk&amp;rdquo; which go some way towards implementing it.&lt;/p></description></item></channel></rss>

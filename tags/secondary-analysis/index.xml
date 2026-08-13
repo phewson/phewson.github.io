@@ -1,20 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Secondary Analysis on Insights for Action</title>
-    <link>https://insightsforaction.uk/tags/secondary-analysis/</link>
-    <description>Recent content in Secondary Analysis on Insights for Action</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://insightsforaction.uk/tags/secondary-analysis/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Data Sources and Cycling</title>
-      <link>https://insightsforaction.uk/posts/2020-09-03_data_sources_on_cyling/</link>
-      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insightsforaction.uk/posts/2020-09-03_data_sources_on_cyling/</guid>
-      <description>Something I&amp;rsquo;ve been droning on about for a few years concerns our reluctance to use datasets that already exist.
-Specifically in relation to cycling, we have a lot of data on cycling that is rarely used, and that&amp;rsquo;s without worrying about data that aren&amp;rsquo;t disseminated in a way that lets us use it. Here are some high quality UK based data sources. These come from surveys that are very expensive to conduct:</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Secondary-Analysis on Insights for Action</title><link>/tags/secondary-analysis/</link><description>Recent content in Secondary-Analysis on Insights for Action</description><generator>Hugo</generator><language>en</language><managingEditor>paul@insightsforaction.uk (Paul Hewson)</managingEditor><webMaster>paul@insightsforaction.uk (Paul Hewson)</webMaster><lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/secondary-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Sources and Cycling</title><link>/posts/2020-09-03_data_sources_on_cyling/</link><pubDate>Thu, 03 Sep 2020 12:00:00 +0000</pubDate><author>paul@insightsforaction.uk (Paul Hewson)</author><guid>/posts/2020-09-03_data_sources_on_cyling/</guid><description>&lt;p>Something I&amp;rsquo;ve been droning on about for a few years concerns our reluctance to use datasets that already exist.&lt;/p>
+
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/oMAk89KcvY4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+ &lt;/div>
+
+&lt;p>Specifically in relation to cycling, we have a &lt;em>lot&lt;/em> of data on cycling that is rarely used, and that&amp;rsquo;s without worrying about data that aren&amp;rsquo;t disseminated in a way that lets us use it. Here are some high quality UK based data sources. These come from surveys that are &lt;strong>very&lt;/strong> expensive to conduct:&lt;/p></description></item></channel></rss>
